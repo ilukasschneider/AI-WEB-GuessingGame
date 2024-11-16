@@ -1,0 +1,338 @@
+{
+  "carnivores": [
+    {
+      "name": "Lion",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+      "characteristics": {
+        "prey": "Zebras, Wildebeests, Antelope",
+        "name_of_young": "Cub",
+        "group_behavior": "Pride",
+        "estimated_population_size": "23,000",
+        "biggest_threat": "Habitat loss and conflict with humans",
+        "most_distinctive_feature": "Mane (males)",
+        "gestation_period": "110 days",
+        "habitat": "Grasslands, savannahs, and woodlands",
+        "diet": "Carnivore"
+      }
+    },
+    {
+      "name": "Tiger",
+      "image": "https://en.wikipedia.org/wiki/Tiger#/media/File:Tiger_in_Ranthambhore.jpg",
+      "characteristics": {
+        "prey": "Deer, Wild Boar, Buffalo",
+        "name_of_young": "Cub",
+        "group_behavior": "Solitary",
+        "estimated_population_size": "3,900",
+        "biggest_threat": "Poaching and habitat loss",
+        "most_distinctive_feature": "Stripes",
+        "gestation_period": "93-112 days",
+        "habitat": "Forests, grasslands, and wetlands",
+        "diet": "Carnivore"
+      }
+    },
+    {
+      "name": "Gray Wolf",
+      "image": "https://en.wikipedia.org/wiki/Wolf#/media/File:Eurasian_wolf_2.jpg",
+      "characteristics": {
+        "prey": "Deer, Elk, Moose",
+        "name_of_young": "Pup",
+        "group_behavior": "Pack",
+        "estimated_population_size": "300,000",
+        "biggest_threat": "Habitat loss and hunting",
+        "most_distinctive_feature": "Howl",
+        "gestation_period": "63 days",
+        "habitat": "Forests, deserts, tundra",
+        "diet": "Carnivore"
+      }
+    },
+    {
+      "name": "Polar Bear",
+      "image": "https://en.wikipedia.org/wiki/Polar_bear#/media/File:Polar_Bear_-_Alaska_(cropped).jpg",
+      "characteristics": {
+        "prey": "Seal, Fish, Caribou",
+        "name_of_young": "Cub",
+        "group_behavior": "Solitary",
+        "estimated_population_size": "22,000-31,000",
+        "biggest_threat": "Climate change",
+        "most_distinctive_feature": "Thick white fur",
+        "gestation_period": "195-265 days",
+        "habitat": "Arctic region",
+        "diet": "Carnivore"
+      }
+    },
+    {
+      "name": "Cheetah",
+      "image": "https://en.wikipedia.org/wiki/Cheetah#/media/File:Male_cheetah_facing_left_in_South_Africa.jpg",
+      "characteristics": {
+        "prey": "Gazelles, Impalas",
+        "name_of_young": "Cub",
+        "group_behavior": "Solitary or small groups",
+        "estimated_population_size": "7,100",
+        "biggest_threat": "Habitat loss and poaching",
+        "most_distinctive_feature": "Speed",
+        "gestation_period": "90-95 days",
+        "habitat": "Savannahs and grasslands",
+        "diet": "Carnivore"
+      }
+    }
+  ],
+  "herbivores": [
+    {
+      "name": "African Bush Elephant",
+      "image": "https://en.wikipedia.org/wiki/African_bush_elephant#/media/File:African_Bush_Elephant.jpg",
+      "characteristics": {
+        "prey": "Grass, Fruits",
+        "name_of_young": "Calf",
+        "group_behavior": "Herd",
+        "estimated_population_size": "300,000",
+        "biggest_threat": "Poaching and habitat loss",
+        "most_distinctive_feature": "Large ears",
+        "gestation_period": "20 months",
+        "habitat": "Savannah",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Giraffe",
+      "image": "https://en.wikipedia.org/wiki/Giraffe#/media/File:Giraffe_Mikumi_National_Park.jpg",
+      "characteristics": {
+        "prey": "Leaves, Fruits",
+        "name_of_young": "Calf",
+        "group_behavior": "Tower",
+        "estimated_population_size": "68,000",
+        "biggest_threat": "Habitat loss and poaching",
+        "most_distinctive_feature": "Long neck",
+        "gestation_period": "15 months",
+        "habitat": "Savannahs and open woodlands",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Kangaroo",
+      "image": "https://en.wikipedia.org/wiki/Kangaroo#/media/File:Kangaroo_Australia_01_11_2008_-_retouch.JPG",
+      "characteristics": {
+        "prey": "Grass, Leaves, Shoots",
+        "name_of_young": "Joey",
+        "group_behavior": "Mob",
+        "estimated_population_size": "55 million",
+        "biggest_threat": "Hunting and habitat destruction",
+        "most_distinctive_feature": "Strong hind legs",
+        "gestation_period": "30-36 days",
+        "habitat": "Grasslands, bushland, and forests",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Panda",
+      "image": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Panda#/media/Datei:Grosser_Panda.JPG",
+      "characteristics": {
+        "prey": "Bamboo, Fruits",
+        "name_of_young": "Cub",
+        "group_behavior": "Solitary",
+        "estimated_population_size": "1,864",
+        "biggest_threat": "Habitat loss",
+        "most_distinctive_feature": "Black and white fur",
+        "gestation_period": "95-160 days",
+        "habitat": "Mountain forests in China",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Horse",
+      "image": "https://en.wikipedia.org/wiki/Horse#/media/File:Nokota_Horses_cropped.jpg",
+      "characteristics": {
+        "prey": "Grass, Hay, Grains",
+        "name_of_young": "Foal",
+        "group_behavior": "Herd",
+        "estimated_population_size": "200,000",
+        "biggest_threat": "Habitat loss and domestication",
+        "most_distinctive_feature": "Strong legs",
+        "gestation_period": "11 months",
+        "habitat": "Grasslands, open fields",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Rabbit",
+      "image": "https://en.wikipedia.org/wiki/Rabbit#/media/File:Oryctolagus_cuniculus_Rcdo.jpg",
+      "characteristics": {
+        "prey": "Grass, Vegetables, Fruits",
+        "name_of_young": "Kitten",
+        "group_behavior": "Warren",
+        "estimated_population_size": "More than 300 million",
+        "biggest_threat": "Predators and habitat loss",
+        "most_distinctive_feature": "Long ears",
+        "gestation_period": "30-33 days",
+        "habitat": "Forests, meadows, grasslands",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Sheep",
+      "image": "https://en.wikipedia.org/wiki/Sheep#/media/File:Flock_of_sheep.jpg",
+      "characteristics": {
+        "prey": "Grass, Hay, Fodder",
+        "name_of_young": "Lamb",
+        "group_behavior": "Flock",
+        "estimated_population_size": "1 billion",
+        "biggest_threat": "Predation and disease",
+        "most_distinctive_feature": "Woolly coat",
+        "gestation_period": "5 months",
+        "habitat": "Pastures",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Goat",
+      "image": "https://en.wikipedia.org/wiki/Goat#/media/File:Hausziege_04.jpg",
+      "characteristics": {
+        "prey": "Grass, Leaves, Shrubs",
+        "name_of_young": "Kid",
+        "group_behavior": "Herd",
+        "estimated_population_size": "900 million",
+        "biggest_threat": "Predation and disease",
+        "most_distinctive_feature": "Beard and horns",
+        "gestation_period": "5 months",
+        "habitat": "Mountainous regions and valleys",
+        "diet": "Herbivore"
+      }
+    },
+    {
+      "name": "Cow",
+      "image": "https://en.wikipedia.org/wiki/Cattle#/media/File:Cow_(Fleckvieh_breed)_Oeschinensee_Slaunger_2009-07-07.jpg",
+      "characteristics": {
+        "prey": "Grass, Grain",
+        "name_of_young": "Calf",
+        "group_behavior": "Herd",
+        "estimated_population_size": "1.5 billion",
+        "biggest_threat": "Predation and diseases",
+        "most_distinctive_feature": "Large size",
+        "gestation_period": "9 months",
+        "habitat": "Pastures, grasslands",
+        "diet": "Herbivore"
+      }
+    }
+  ],
+  "omnivores": [
+    {
+      "name": "Raccoon",
+      "image": "https://en.wikipedia.org/wiki/Raccoon#/media/File:Raccoon_in_Central_Park_(35264).jpg",
+      "characteristics": {
+        "prey": "Fruits, Nuts, Insects",
+        "name_of_young": "Kit",
+        "group_behavior": "Solitary or small groups",
+        "estimated_population_size": "15 million",
+        "biggest_threat": "Habitat loss and hunting",
+        "most_distinctive_feature": "Mask-like facial markings",
+        "gestation_period": "63 days",
+        "habitat": "Forests and urban areas",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Human",
+      "image": "https://en.wikipedia.org/wiki/Human#/media/File:Akha_cropped_hires.JPG",
+      "characteristics": {
+        "prey": "Varied (cooked food, vegetables, meat)",
+        "name_of_young": "Infant",
+        "group_behavior": "Social groups",
+        "estimated_population_size": "7.9 billion",
+        "biggest_threat": "Climate change, war",
+        "most_distinctive_feature": "Highly developed brain",
+        "gestation_period": "9 months",
+        "habitat": "Worldwide",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Chimpanzee",
+      "image": "https://en.wikipedia.org/wiki/Chimpanzee#/media/File:015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+      "characteristics": {
+        "prey": "Fruits, Leaves, Insects",
+        "name_of_young": "Infant",
+        "group_behavior": "Troop",
+        "estimated_population_size": "170,000",
+        "biggest_threat": "Habitat loss and poaching",
+        "most_distinctive_feature": "Strong social bonds",
+        "gestation_period": "8 months",
+        "habitat": "Tropical forests",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Cockroach",
+      "image": "https://en.wikipedia.org/wiki/Cockroach#/media/File:Snodgrass_common_household_roaches.png",
+      "characteristics": {
+        "prey": "Leftover food, Decomposing material",
+        "name_of_young": "Nymph",
+        "group_behavior": "Social",
+        "estimated_population_size": "Varies widely",
+        "biggest_threat": "Pesticides",
+        "most_distinctive_feature": "Resilient and adaptable",
+        "gestation_period": "N/A",
+        "habitat": "Global (not in extreme climates)",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Opossum",
+      "image": "https://en.wikipedia.org/wiki/Opossum#/media/File:Didelphis_virginiana_with_young.JPG",
+      "characteristics": {
+        "prey": "Fruits, Insects, Small animals",
+        "name_of_young": "Joey",
+        "group_behavior": "Solitary",
+        "estimated_population_size": "Varies",
+        "biggest_threat": "Predators",
+        "most_distinctive_feature": "Plays dead when threatened",
+        "gestation_period": "12-13 days",
+        "habitat": "Woodlands, urban areas",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Pigs",
+      "image": "https://en.wikipedia.org/wiki/Pig#/media/File:Pig_farm_Vampula_1.jpg",
+      "characteristics": {
+        "prey": "Roots, Fruits, Small animals",
+        "name_of_young": "Piglet",
+        "group_behavior": "Herd",
+        "estimated_population_size": "1 billion",
+        "biggest_threat": "Hunting and habitat loss",
+        "most_distinctive_feature": "Intelligent and social",
+        "gestation_period": "3-4 months",
+        "habitat": "Farms and forests",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Bear",
+      "image": "https://en.wikipedia.org/wiki/Bear#/media/File:Ours_brun_parcanimalierpyrenees_1.jpg",
+      "characteristics": {
+        "prey": "Berries, Fish, Small mammals",
+        "name_of_young": "Cub",
+        "group_behavior": "Solitary",
+        "estimated_population_size": "Varies by species",
+        "biggest_threat": "Habitat loss",
+        "most_distinctive_feature": "Sharp claws",
+        "gestation_period": "8 months",
+        "habitat": "Forests, mountains",
+        "diet": "Omnivore"
+      }
+    },
+    {
+      "name": "Sea Otter",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sea_Otter_-_Enhydra_lutris.jpg",
+      "characteristics": {
+        "prey": "Sea Urchins, Crabs, Fish",
+        "name_of_young": "Pup",
+        "group_behavior": "Raft",
+        "estimated_population_size": "106,000",
+        "biggest_threat": "Oil spills, predation",
+        "most_distinctive_feature": "Dense fur",
+        "gestation_period": "6 months",
+        "habitat": "Coastal areas",
+        "diet": "Omnivore"
+      }
+    }
+  ]
+}

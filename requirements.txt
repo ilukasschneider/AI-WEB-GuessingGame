@@ -1,0 +1,4 @@
+streamlit
+streamlit_space
+streamlit_shadcn_ui
+python-dotenv
