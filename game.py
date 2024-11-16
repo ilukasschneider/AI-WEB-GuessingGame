@@ -1,20 +1,37 @@
+import json
+import os
+import random
+import time
+
+# Streamlit-specific imports
 import streamlit as st
 import streamlit_shadcn_ui as ui
 from streamlit_space import space
-import random
-import time
+
+# API-specific imports
 from dotenv import load_dotenv
-import os
 from openai import OpenAI
 
-# loads the .env file
+
+# ------------- GLOBAL VARIABLES ------------- #
+
+
+# loads the .env file -> API-KEYS
 load_dotenv()
-# counts the number of current clues
+# counts the number of current clues // should be set by cookie variable
 clueCount = 3
 # stores the comments for each clue // should be later used to safe GPT-generated answers as cookies so they dont get lost when refreshing the page
 clueComments = []
-# stores shared traits for each clue
+# stores shared traits for each clue // should be saved in cookie variable
 sharedTraits = [["water", "wings", "2", "4"],["-", "-", "5", "-"],["flying", "wings", "-", "4"]]
+# Parsed animal data
+animal_data = json.load(open('animals.json', 'r'))
+# List of all animal names for the guessing input
+animal_names = sorted([animal['name'] for group in animal_data.values() for animal in group])
+
+
+# ------------- HELPER FUNCTIONS ------------- #
+
 
 # returns a generated comment for a clue via openai-api
 def generateClueComment(clueNumber, guess, correctAnswer):
@@ -32,37 +49,46 @@ def generateClueComment(clueNumber, guess, correctAnswer):
     return(chat_completion.choices[0].message.content)
 
 
-# returns a generated comment for a clue via openai-api and also saves the comment inside clueComments array
+# returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
 def streamAndSafeClueComment(clueNumber):
+    # appends the GPT-generated comment to the gobal clueComments array
     clueComments.append(generateClueComment(clueNumber, "chicken", "tiger"))
+    # this is how this text streming is done in streamlit
     for word in clueComments[clueNumber].split(" "):
         yield word + " "
+        # change time of text writing effect
         time.sleep(0.01)
 
 
+# ------------- RENDERING THE GAME ------------- #
+
+
+# Streamlit app layout
+st.title("Animal Guessing Game")
+
+# dropdown for the user to select an animal name for guessing
+user_guess = st.selectbox("What animal do you think this is?", [''] + animal_names)
+
 # renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
 for i in range(clueCount):
-    commonTraitCount = 0
-    for item in sharedTraits[i]:
-        if item != "-":
-            commonTraitCount += 1
     with st.container(border=True):
-        st.title(f"clue {i+1}")
-        if commonTraitCount > 1:
-            st.header("your guess was: :orange[chicken]")
-        else:
-            st.header("your guess was: :red[chicken]")
+        st.title(f"clue {clueCount-i}")
+        st.header("your guess was: :red[chicken]")
         space()
         space()
         topCols = st.columns(2)
         buttonCols = st.columns(2)
         with topCols[0]:
+            # content for card1
             ui.metric_card(title="shared x", content=sharedTraits[i][0], key=f"card{random.randint(0, 20000)}")
         with topCols[1]:
+            # content for card2
             ui.metric_card(title="shared x", content=sharedTraits[i][1], key=f"card{random.randint(0, 20000)}")
         with buttonCols[0]:
+            # content for card3
             ui.metric_card(title="shared x", content=sharedTraits[i][2], key=f"card{random.randint(0, 20000)}")
         with buttonCols[1]:
+            # content for card4
             ui.metric_card(title="shared x", content=sharedTraits[i][3], key=f"card{random.randint(0, 20000)}")
         space()
         space()

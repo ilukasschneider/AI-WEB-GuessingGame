@@ -4,7 +4,8 @@ import streamlit as st
 pages = {
     "CreatureClues": [
         st.Page("game.py", title="random quiz"),
-        st.Page("stats.py", title="stats"),
+        st.Page("stats.py", title="my stats"),
+        st.Page("timer.py", title="timer"),
     ],
 }
 
