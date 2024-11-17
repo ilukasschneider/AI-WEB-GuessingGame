@@ -1,19 +1,19 @@
 import time
 import streamlit as st
-# Setze die Timer-Dauer in Sekunden
+# set the time limit
 timer_duration = 30
 
 if st.button("Start Timer"):
-    placeholder = st.empty()  # Platzhalter für die dynamische Timer-Anzeige
+    placeholder = st.empty()  # placeholder to display some info
     for remaining in range(timer_duration, 0, -1):
-        # Zeige den verbleibenden Timerwert
-        placeholder.write(f"Zeit verbleibend: {remaining} Sekunden")
+        # show the remaining time
+        placeholder.write(f"Time remaining: {remaining} seconds")
 
-        # Warte eine Sekunde, bevor der Timer runterzählt
+        # wait a second until continuing
         time.sleep(1)
 
 
 
-    # Zeige eine Nachricht, wenn der Timer endet
-    placeholder.write("Zeit abgelaufen!")
+    # display a message when the timer has ended
+    placeholder.write("Time is up!")
     st.markdown("<h1 style='text-align: center; color: red; '>GAME OVER</h1>", unsafe_allow_html=True)

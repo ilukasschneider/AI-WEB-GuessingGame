@@ -4,6 +4,10 @@ import matplotlib.pyplot as plt
 
 import altair as alt
 import numpy as np
+#Todo:
+# restarts
+# link with actual game data
+
 
 # Sample data for demonstration
 # You can replace this with actual data from your game logic
