@@ -10,6 +10,7 @@ from utils import uncover_card
 import streamlit as st
 import streamlit_shadcn_ui as ui
 from streamlit_space import space
+from streamlit_js_eval import streamlit_js_eval
 
 # API-specific imports
 from dotenv import load_dotenv
@@ -71,12 +72,14 @@ def generateClueComment(clueNumber, guess, correctAnswer):
 # returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
 def streamAndSafeClueComment(clueNumber):
     # appends the GPT-generated comment to the gobal clueComments array
-    clueComments.append(generateClueComment(clueNumber, "chicken", "tiger"))
-    # this is how this text streming is done in streamlit
+    clueComments.append(generateClueComment(clueNumber, f"{st.session_state['user_guess']}", f"{st.session_state['winner']}"))
+    # this is how this text streaming is done in streamlit
     for word in clueComments[clueNumber].split(" "):
         yield word + " "
         # change time of text writing effect
         time.sleep(0.01)
+
+
 
 
 # ------------- RENDERING THE GAME ------------- #
@@ -87,7 +90,7 @@ st.title("Animal Guessing Game")
 
 # dropdown for the user to select an animal name for guessing
 st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
-st.write(st.session_state['user_guess'])
+
 # the user made a correct guess
 if st.session_state['user_guess'] == st.session_state['winner']:
     st.write("Congratulations! You won the game!")
@@ -102,7 +105,7 @@ if st.session_state['user_guess']:
 # renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
     if st.session_state['counter'] <= clueCount:
 
-        #i = st.session_state['counter'] - 1
+        i = st.session_state['counter'] - 1
 
 
 
@@ -120,17 +123,18 @@ if st.session_state['user_guess']:
 
             space()
             space()
-            #with st.chat_message("ai"):
-             #   if i >= len(clueComments):
-              #      st.write_stream(streamAndSafeClueComment(i))
-               # else:
-                #    st.write(clueComments[i])
+            with st.chat_message("ai"):
+                if st.session_state['counter'] >= len(clueComments):
+                    st.write_stream(streamAndSafeClueComment(i))
+                else:
+                    st.write(clueComments[i])
             space()
             space()
     if st.session_state['counter'] >= guessCount:
         st.header(f"You lost! The correct animal was {st.session_state['winner']}")
 
-if st.button("Replay"):
-    st.session_state.clear()
-    st.session_state['user_guess'] = ''
-    st.rerun(scope='app')
+    if st.button("Replay"):
+        st.session_state.clear()
+
+        streamlit_js_eval(js_expressions="parent.window.location.reload()")
+

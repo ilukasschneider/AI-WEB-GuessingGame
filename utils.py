@@ -7,8 +7,7 @@ import random
 animals = json.load(open(r'betterAnimalDB\animals.json', 'r'))
 
 #Todo:
-# - deal with cases where None is returned
-# - deal with locations
+# - ADD PREY
 
 def get_traits(animal1, animal2):
 
@@ -16,15 +15,15 @@ def get_traits(animal1, animal2):
     for animal in animals:
         if animal['name'] == animal1:
 
-            trait1 = {'class': animal['taxonomy']['class'],
-              'location': animal['locations'],
-              'diet': animal['characteristics']['diet']}
+            trait1 = {'Class': animal['taxonomy']['class'],
+              'Location': animal['locations'],
+              'Diet': animal['characteristics']['diet']}
 
         elif animal['name'] == animal2:
 
-            trait2 = {'class': animal['taxonomy']['class'],
-              'location': animal['locations'],
-              'diet': animal['characteristics']['diet']
+            trait2 = {'Class': animal['taxonomy']['class'],
+              'Location': animal['locations'],
+              'Diet': animal['characteristics']['diet']
                 }
 
     return trait1, trait2
@@ -33,9 +32,18 @@ def compare_traits(animal1, animal2):
     traits1, traits2 = get_traits(animal1, animal2)
 
     shared = {}
-    for trait in traits1:
+    for trait in ['Class', 'Diet']:
         if traits1[trait] == traits2[trait]:
             shared[trait] = traits1[trait]
+
+        # Compare 'location' as a special case
+    locations1 = set(traits1['Location'])
+    locations2 = set(traits2['Location'])
+    common_locations = locations1.intersection(locations2)
+
+    # Add shared locations to shared traits
+    if common_locations:
+        shared['Location'] = ", ".join(common_locations)
 
     return shared
 
