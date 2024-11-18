@@ -6,8 +6,6 @@ import random
 
 animals = json.load(open(r'betterAnimalDB\animals.json', 'r'))
 
-#Todo:
-# - ADD PREY
 
 def get_traits(animal1, animal2):
 
@@ -17,13 +15,16 @@ def get_traits(animal1, animal2):
 
             trait1 = {'Class': animal['taxonomy']['class'],
               'Location': animal['locations'],
-              'Diet': animal['characteristics']['diet']}
+              'Diet': animal['characteristics']['diet'],
+                'Prey': animal['characteristics']['main_prey']
+                      }
 
         elif animal['name'] == animal2:
 
             trait2 = {'Class': animal['taxonomy']['class'],
               'Location': animal['locations'],
-              'Diet': animal['characteristics']['diet']
+              'Diet': animal['characteristics']['diet'],
+                'Prey': animal['characteristics']['main_prey']
                 }
 
     return trait1, trait2
@@ -32,7 +33,7 @@ def compare_traits(animal1, animal2):
     traits1, traits2 = get_traits(animal1, animal2)
 
     shared = {}
-    for trait in ['Class', 'Diet']:
+    for trait in ['Class', 'Diet', 'Prey']:
         if traits1[trait] == traits2[trait]:
             shared[trait] = traits1[trait]
 

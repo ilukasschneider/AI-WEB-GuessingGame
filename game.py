@@ -20,7 +20,7 @@ from openai import OpenAI
 # ------------- GLOBAL VARIABLES ------------- #
 
 #Todo:
-# fix replay
+# improve ending of the game
 
 # loads the .env file -> API-KEYS
 load_dotenv()
