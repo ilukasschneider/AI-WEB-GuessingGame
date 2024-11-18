@@ -18,6 +18,8 @@ from openai import OpenAI
 
 # ------------- GLOBAL VARIABLES ------------- #
 
+#Todo:
+# fix replay
 
 # loads the .env file -> API-KEYS
 load_dotenv()
@@ -29,16 +31,24 @@ guessCount = 4
 clueComments = []
 # stores shared traits for each clue // should be saved in cookie variable
 sharedTraits = [["water", "wings", "2", "4"],["-", "-", "5", "-"],["flying", "wings", "-", "4"]]
-traits = []
+
 # Parsed animal data
-animal_data = json.load(open('animals.json', 'r'))
+animal_data = json.load(open(r'betterAnimalDB\animals.json', 'r'))
 # List of all animal names for the guessing input
-animal_names = sorted([animal['name'] for group in animal_data.values() for animal in group])
+#animal_names = sorted([animal['name'] for group in animal_data.values() for animal in group])
+animal_names = sorted([animal['name'] for animal in animal_data])
 # solution of the game
-winner = animal_names[random.randint(0, len(animal_names) - 1)]
+if 'winner' not in st.session_state:
+    st.session_state['winner'] = animal_names[random.randint(0, len(animal_names) - 1)]
 # count how many clues already have been used
 if 'counter' not in st.session_state:
     st.session_state['counter'] = 0
+
+if 'traits' not in st.session_state:
+    st.session_state['traits'] = []
+
+if 'user_guess' not in st.session_state:
+    st.session_state['user_guess'] = ''
 # ------------- HELPER FUNCTIONS ------------- #
 
 
@@ -76,45 +86,38 @@ def streamAndSafeClueComment(clueNumber):
 st.title("Animal Guessing Game")
 
 # dropdown for the user to select an animal name for guessing
-user_guess = st.selectbox("What animal do you think this is?", [''] + animal_names)
-
+st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
+st.write(st.session_state['user_guess'])
 # the user made a correct guess
-if user_guess == winner:
+if st.session_state['user_guess'] == st.session_state['winner']:
     st.write("Congratulations! You won the game!")
     user_guess = False
 #if the selection box has been pressed
-if user_guess:
+
+# get the traits the guessed animal shares with the winner animal
+
+if st.session_state['user_guess']:
     st.session_state['counter'] += 1
+    shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
 # renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
     if st.session_state['counter'] <= clueCount:
 
-        i = st.session_state['counter'] - 1
+        #i = st.session_state['counter'] - 1
 
-        # get the traits the guessed animal shares with the winner animal
-        shared = [compare_traits(winner, user_guess)]
-        st.write(shared)
-        traits.append(shared)
+
+
+
+        #traits.append(shared)
         with st.container(border=True):
             st.title(f"Clue {st.session_state['counter']}")
-            st.header(f"Your guess was: :red[{user_guess}]")
+            st.header(f"Your guess was: :red[{st.session_state['user_guess']}]")
             space()
+            space()
+            st.write("Shared traits are: ")
             space()
 
-            uncover_card(shared, i)
-            #topCols = st.columns(2)
-            #buttonCols = st.columns(2)
-            #with topCols[0]:
-                # content for card1
-             #   ui.metric_card(title="shared x", content=shared[i], key=f"card{random.randint(0, 20000)}")
-            #with topCols[1]:
-                # content for card2
-             #   ui.metric_card(title="shared x", content=sharedTraits[i][1], key=f"card{random.randint(0, 20000)}")
-            #with buttonCols[0]:
-                # content for card3
-             #   ui.metric_card(title="shared x", content=sharedTraits[i][2], key=f"card{random.randint(0, 20000)}")
-            #with buttonCols[1]:
-                # content for card4
-             #   ui.metric_card(title="shared x", content=sharedTraits[i][3], key=f"card{random.randint(0, 20000)}")
+            uncover_card(shared, 0)
+
             space()
             space()
             #with st.chat_message("ai"):
@@ -125,4 +128,9 @@ if user_guess:
             space()
             space()
     if st.session_state['counter'] >= guessCount:
-        st.header(f"You lost! The correct animal was {winner}")
+        st.header(f"You lost! The correct animal was {st.session_state['winner']}")
+
+if st.button("Replay"):
+    st.session_state.clear()
+    st.session_state['user_guess'] = ''
+    st.rerun(scope='app')
