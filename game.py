@@ -31,7 +31,7 @@ guessCount = 4
 # stores the comments for each clue // should be later used to safe GPT-generated answers as cookies so they dont get lost when refreshing the page
 clueComments = []
 # stores shared traits for each clue // should be saved in cookie variable
-sharedTraits = [["water", "wings", "2", "4"],["-", "-", "5", "-"],["flying", "wings", "-", "4"]]
+#sharedTraits = [["water", "wings", "2", "4"],["-", "-", "5", "-"],["flying", "wings", "-", "4"]]
 
 # Parsed animal data
 animal_data = json.load(open(r'betterAnimalDB\animals.json', 'r'))
@@ -50,6 +50,9 @@ if 'traits' not in st.session_state:
 
 if 'user_guess' not in st.session_state:
     st.session_state['user_guess'] = ''
+
+if 'game_over' not in st.session_state:
+    st.session_state['game_over'] = False
 # ------------- HELPER FUNCTIONS ------------- #
 
 
@@ -88,53 +91,81 @@ def streamAndSafeClueComment(clueNumber):
 # Streamlit app layout
 st.title("Animal Guessing Game")
 
-# dropdown for the user to select an animal name for guessing
-st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
+if 'winner' not in st.session_state:
+    st.session_state['winner'] = animal_names[random.randint(0, len(animal_names) - 1)]
+# count how many clues already have been used
+if 'counter' not in st.session_state:
+    st.session_state['counter'] = 0
 
-# the user made a correct guess
-if st.session_state['user_guess'] == st.session_state['winner']:
-    st.write("Congratulations! You won the game!")
-    user_guess = False
-#if the selection box has been pressed
+if 'traits' not in st.session_state:
+    st.session_state['traits'] = []
 
-# get the traits the guessed animal shares with the winner animal
+if 'user_guess' not in st.session_state:
+    st.session_state['user_guess'] = ''
 
-if st.session_state['user_guess']:
-    st.session_state['counter'] += 1
-    shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
-# renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
-    if st.session_state['counter'] <= clueCount:
+if 'game_over' not in st.session_state:
+    st.session_state['game_over'] = False
 
-        i = st.session_state['counter'] - 1
-
-
+if not st.session_state['game_over']:
+    # dropdown for the user to select an animal name for guessing
+    st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
 
 
-        #traits.append(shared)
-        with st.container(border=True):
-            st.title(f"Clue {st.session_state['counter']}")
-            st.header(f"Your guess was: :red[{st.session_state['user_guess']}]")
-            space()
-            space()
-            st.write("Shared traits are: ")
-            space()
+    # if the selection box has been pressed
+    if st.session_state['user_guess']:
+        # the user made a correct guess
+        if st.session_state['user_guess'] == st.session_state['winner']:
+            st.write("Congratulations! You won the game!")
+            st.session_state['game_over'] = True
 
-            uncover_card(shared, 0)
 
-            space()
-            space()
-            with st.chat_message("ai"):
-                if st.session_state['counter'] >= len(clueComments):
-                    st.write_stream(streamAndSafeClueComment(i))
-                else:
-                    st.write(clueComments[i])
-            space()
-            space()
-    if st.session_state['counter'] >= guessCount:
-        st.header(f"You lost! The correct animal was {st.session_state['winner']}")
 
-    if st.button("Replay"):
-        st.session_state.clear()
 
-        streamlit_js_eval(js_expressions="parent.window.location.reload()")
+
+    # get the traits the guessed animal shares with the winner animal
+
+        elif st.session_state['user_guess'] :
+            st.session_state['counter'] += 1
+
+        # renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
+
+
+            if st.session_state['counter'] <= clueCount:
+                shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
+                i = st.session_state['counter'] - 1
+                if st.session_state['counter'] == clueCount:
+                    st.title("You have one last guess! Use it well")
+                #traits.append(shared)
+                with st.container(border=True):
+                    st.title(f"Clue {st.session_state['counter']}")
+                    st.header(f"Your guess was: :red[{st.session_state['user_guess']}]")
+                    space()
+                    space()
+                    st.write("Shared traits are: ")
+                    space()
+
+                    uncover_card(shared, 0)
+
+                    space()
+                    space()
+                    #with st.chat_message("ai"):
+                     #   if st.session_state['counter'] >= len(clueComments):
+                      #      st.write_stream(streamAndSafeClueComment(i))
+                       # else:
+                        #    st.write(clueComments[i])
+                    space()
+                    space()
+            if st.session_state['counter'] >= guessCount:
+                st.session_state['game_over'] = True
+                st.header(f"You lost! The correct animal was {st.session_state['winner']}")
+
+if st.session_state['game_over']:
+
+    st.title("You want to play again? Hit Replay")
+
+if st.button("Replay"):
+
+    st.session_state.clear()
+
+    streamlit_js_eval(js_expressions="parent.window.location.reload()")
 

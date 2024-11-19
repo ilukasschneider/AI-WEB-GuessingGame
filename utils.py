@@ -19,7 +19,7 @@ def get_traits(animal1, animal2):
                 'Prey': animal['characteristics']['main_prey']
                       }
 
-        elif animal['name'] == animal2:
+        if animal['name'] == animal2:
 
             trait2 = {'Class': animal['taxonomy']['class'],
               'Location': animal['locations'],
@@ -33,9 +33,10 @@ def compare_traits(animal1, animal2):
     traits1, traits2 = get_traits(animal1, animal2)
 
     shared = {}
-    for trait in ['Class', 'Diet', 'Prey']:
-        if traits1[trait] == traits2[trait]:
-            shared[trait] = traits1[trait]
+    if traits1 and traits2:
+        for trait in ['Class', 'Diet', 'Prey']:
+            if traits1[trait] == traits2[trait]:
+                shared[trait] = traits1[trait]
 
         # Compare 'location' as a special case
     locations1 = set(traits1['Location'])
