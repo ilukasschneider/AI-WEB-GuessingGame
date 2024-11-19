@@ -53,6 +53,9 @@ if 'user_guess' not in st.session_state:
 
 if 'game_over' not in st.session_state:
     st.session_state['game_over'] = False
+
+if 'hint_requested' not in st.session_state:
+    st.session_state['hint_requested'] = False
 # ------------- HELPER FUNCTIONS ------------- #
 
 
@@ -71,6 +74,23 @@ def generateClueComment(clueNumber, guess, correctAnswer):
 
     return(chat_completion.choices[0].message.content)
 
+def generateHint():
+    client = OpenAI(api_key=os.getenv("OPEN-AI-KEY"))
+    model = "gpt-4o-mini"
+    prompt = (f"We are playing an animal guessing game, the correct answer is {st.session_state['winner']}. The user guessed {st.session_state['user_guess']} . Give a hint to the solution without naming the solution {st.session_state['winner']}. You can e.g. tell them about their skin or colour or the first letter of the animal but remember it is very important that your answer does not include the word {st.session_state['winner']}.")
+
+    chat_completion = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "user", "content": prompt},
+        ],
+    )
+    answer = chat_completion.choices[0].message.content
+
+    for word in answer.split(" "):
+        yield word + " "
+        time.sleep(0.1)
+
 
 # returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
 def streamAndSafeClueComment(clueNumber):
@@ -81,6 +101,19 @@ def streamAndSafeClueComment(clueNumber):
         yield word + " "
         # change time of text writing effect
         time.sleep(0.01)
+
+
+def show_prompt():
+    code = """
+    let userResponse = prompt("Please enter your question about the animal:");
+    if (userResponse) {
+        Streamlit.setComponentValue(userResponse); // Send the response back to Streamlit
+    }
+    """
+    result = streamlit_js_eval(code)
+    return result
+
+
 
 
 
@@ -106,20 +139,25 @@ if 'user_guess' not in st.session_state:
 if 'game_over' not in st.session_state:
     st.session_state['game_over'] = False
 
-if not st.session_state['game_over']:
-    # dropdown for the user to select an animal name for guessing
-    st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
+if 'user_input' not in st.session_state:
+    st.session_state['user_input'] = None
 
+
+if not st.session_state['game_over']:
+
+    #if st.session_state['counter'] >= clueCount:
+
+    # dropdown for the user to select an animal name for guessing
+
+    st.session_state['user_guess'] = st.selectbox("What animal do you think this is?", [''] + animal_names)
 
     # if the selection box has been pressed
     if st.session_state['user_guess']:
         # the user made a correct guess
+        print("selectino pressed")
         if st.session_state['user_guess'] == st.session_state['winner']:
             st.write("Congratulations! You won the game!")
             st.session_state['game_over'] = True
-
-
-
 
 
     # get the traits the guessed animal shares with the winner animal
@@ -128,13 +166,15 @@ if not st.session_state['game_over']:
             st.session_state['counter'] += 1
 
         # renders clues based on clueCount and generates a new comment if a comment for a clue is missing/not yet generated yet
-
+            if st.session_state['counter'] == clueCount:
+                with st.chat_message("ai"):
+                    st.write(generateHint())
 
             if st.session_state['counter'] <= clueCount:
                 shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
                 i = st.session_state['counter'] - 1
-                if st.session_state['counter'] == clueCount:
-                    st.title("You have one last guess! Use it well")
+
+
                 #traits.append(shared)
                 with st.container(border=True):
                     st.title(f"Clue {st.session_state['counter']}")
@@ -155,6 +195,9 @@ if not st.session_state['game_over']:
                         #    st.write(clueComments[i])
                     space()
                     space()
+
+
+
             if st.session_state['counter'] >= guessCount:
                 st.session_state['game_over'] = True
                 st.header(f"You lost! The correct animal was {st.session_state['winner']}")
