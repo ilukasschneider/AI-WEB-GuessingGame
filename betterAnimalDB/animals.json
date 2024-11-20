@@ -1001,7 +1001,7 @@
       "South-America"
     ],
     "characteristics": {
-
+      "main_prey": "They will eat anything but love sugar and fatty foods.",
       "main_prey": "Decaying Organic Matter",
       "name_of_young": "eggs",
       "group_behavior": "Solitary/Group",
@@ -2266,7 +2266,28 @@
       "weight": "100-900g (3.5-32oz)"
     }
   },
-
+  {
+    "name": "Harrier",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis lupus"
+    },
+    "locations": ["Europe"],
+    "characteristics": {
+      "diet": "Omnivore",
+      "common_name": "Harrier",
+      "slogan": "Cheerful, tolerant and sweet-tempered!",
+      "group": "Hound",
+      "skin_type": "Hair",
+      "lifespan": "10 \u2013 12 years",
+      "weight": "27kg (60lbs)"
+    }
+  },
   {
     "name": "Hedgehog",
     "taxonomy": {
@@ -3105,7 +3126,33 @@
       "weight": "0.3-5kg (0.7-11lbs)"
     }
   },
-
+  {
+    "name": "Mongrel",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis Lupus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "diet": "Omnivore",
+      "slogan": "Has characteristics of two or more breeds!",
+      "skin_type": "Hair"
+    }
+  },
   {
     "name": "Monkey",
     "taxonomy": {
@@ -4118,7 +4165,24 @@
       "weight": "200-900g (0.4-2lbs)"
     }
   },
-
+  {
+    "name": "Rattlesnake",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Viperidae",
+      "genus": "Crotalus"
+    },
+    "locations": ["Central-America", "North-America", "South-America"],
+    "characteristics": {
+      "water_type": "Saltwater",
+      "diet": "Omnivore",
+      "slogan": "It's venom digests it's prey before it even swallows it!",
+      "skin_type": "Hair"
+    }
+  },
   {
     "name": "Reindeer",
     "taxonomy": {

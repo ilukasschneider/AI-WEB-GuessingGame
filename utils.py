@@ -5,7 +5,7 @@ from streamlit_space import space
 import random
 import os
 
-animals = json.load(open(r'betterAnimalDB\animals.json', 'r'))
+animals = json.load(open(r'betterAnimalDB/animals.json', 'r'))
 
 # Define the file path for storing game stats
 stats_file = 'game_stats.json'
@@ -79,7 +79,7 @@ def compare_traits(animal1, animal2):
 
     return shared
 
-def uncover_card(shared_traits, i):
+def uncover_card(shared_traits):
     if shared_traits:
         num = len(shared_traits)
         topCols_count = min(num, 2)
@@ -103,5 +103,3 @@ def uncover_card(shared_traits, i):
         space()
     else:
         st.title("Unfortunately no commonalities")
-
-
