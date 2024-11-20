@@ -3,9 +3,39 @@ import streamlit as st
 import streamlit_shadcn_ui as ui
 from streamlit_space import space
 import random
+import os
 
 animals = json.load(open(r'betterAnimalDB\animals.json', 'r'))
 
+# Define the file path for storing game stats
+stats_file = 'game_stats.json'
+
+# Function to load or create game stats from a file
+def load_game_stats():
+    if os.path.exists(stats_file):
+        print("if")
+        # If the file exists, load it
+        with open(stats_file, 'r') as file:
+            return json.load(file)
+    else:
+        # If the file does not exist, create it with default values
+        print("else")
+        default_stats = {'games': [] }
+        with open(stats_file, 'w') as file:
+            json.dump(default_stats, file)
+        return default_stats  # Return the default values
+
+# Function to save game stats to a file
+def save_game_stats(is_won):
+    print("in funciton", is_won)
+    stats = load_game_stats()  # Load current stats
+    if is_won:
+        stats['games'].append(True)  # Increment games won
+    else:
+        stats['games'].append(False) # Increment games lost
+        # Save updated stats back to the file
+    with open(stats_file, 'w') as file:
+        json.dump(stats, file)
 
 def get_traits(animal1, animal2):
 
