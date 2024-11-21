@@ -12,10 +12,10 @@ pages = {
 }
 
 
-if st.sidebar.button("give up current quiz and count as loss"):
-    save_game_stats(False)
-    # reload the page
-    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+# if st.sidebar.button("give up current quiz and count as loss"):
+#     save_game_stats(False)
+#     # reload the page
+#     streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
 pg = st.navigation(pages)
 

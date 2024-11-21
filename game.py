@@ -26,7 +26,7 @@ from openai import OpenAI
 # improve interaction with Chatgpt
 # dialog window when trying to replay - sort of done
 # fix the index out of range that happenes only sometimes (?) -> when user is too fast
-# fix the bug where when the user wins, he need to press the button twice to reload page
+# fix the bug where when the user wins, he need to press the button twice to reload page - done
 
 # loads the .env file -> API-KEYS
 load_dotenv()
@@ -260,3 +260,8 @@ if st.session_state['won']:
     if st.button("Play again"):
         #st.session_state.clear()
         streamlit_js_eval(js_expressions="parent.window.location.reload()")
+
+if st.sidebar.button("give up current quiz and count as loss"):
+    save_game_stats(False)
+    # reload the page
+    streamlit_js_eval(js_expressions="parent.window.location.reload()")
