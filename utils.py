@@ -37,6 +37,12 @@ def save_game_stats(is_won):
     with open(stats_file, 'w') as file:
         json.dump(stats, file)
 
+# delete the current stats file and create a new one filled with default values
+
+def delete_stats():
+    os.remove(stats_file)
+    load_game_stats()
+
 def get_traits(animal1, animal2):
 
     trait1, trait2 = None, None

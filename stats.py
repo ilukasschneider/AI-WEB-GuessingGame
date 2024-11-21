@@ -4,10 +4,14 @@ import matplotlib.pyplot as plt
 import json
 import os
 import altair as alt
-from utils import load_game_stats
+from utils import load_game_stats, delete_stats
 import numpy as np
+
+from streamlit_js_eval import streamlit_js_eval
 #Todo:
 # add point system
+# handle empty stats
+# fix give up button
 
 #binary_data = load_game_stats()
 # Sample data for demonstration
@@ -124,6 +128,12 @@ ax.set_ylabel('')  # Remove the y-axis label for a cleaner look
 
 # Display the pie chart in Streamlit
 st.pyplot(fig)
+
+
+# reset the stats by deleting the file
+if st.button("Reset"):
+    delete_stats()
+    streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
 
 # Additional Metrics

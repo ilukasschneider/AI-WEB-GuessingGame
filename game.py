@@ -77,6 +77,9 @@ if 'clue_cards' not in st.session_state:
 if 'clue_comments' not in st.session_state:
     st.session_state['clue_comments'] = []
 
+if 'won' not in st.session_state:
+    st.session_state['won'] = False
+
 
 # ------------- HELPER FUNCTIONS ------------- #
 
@@ -148,7 +151,7 @@ st.title("Animal Guessing Game")
 
 # Check if the game is over - won or lost
 if st.session_state['game_over']:
-    # if the right guess is made on the last try
+
     if st.session_state['user_guess'] == st.session_state['winner']:
         st.write("Congratulations! You won the game!")
         save_game_stats(True)
@@ -180,9 +183,13 @@ else:
                 # hides selectbox
                 selectbox_placeholder.empty()
                 st.write("Congratulations! You won the game!")
-                if st.button("Play again"):
-                    streamlit_js_eval(js_expressions="parent.window.location.reload()")
                 st.session_state['game_over'] = True
+                st.session_state['won'] = True
+                #st.session_state.clear()
+
+                # if st.button("Play again"):
+                #     st.session_state.clear()
+                #     streamlit_js_eval(js_expressions="parent.window.location.reload()")
             else:
                 # counter ++
                 st.session_state['counter'] += 1
@@ -191,7 +198,7 @@ else:
 
                 # ------------ User still guesses left
                 if guesses_left > 0:
-                    # ------------ User has more then 1 guess left
+                    # ------------ User has more than 1 guess left
                     if guesses_left > 1:
                         st.info(f"You have {guesses_left} guesses left.")
                     # ------------ User has only 1 guess left -> special hint
@@ -199,8 +206,8 @@ else:
                         st.info("This is your last guess! Use it well")
                         # Generate a hint
                         st.text("Here is a little hint for your last guess:")
-                        with st.chat_message("ai"):
-                            st.write(generateHint())
+                        # with st.chat_message("ai"):
+                        #     st.write(generateHint())
                 #  ------------ User has no more guesses left
                 else:
                     # hides selectbox
@@ -231,11 +238,11 @@ else:
                         space()
                         space()
                         # Get a cute comment by ChatGPT
-                        with st.chat_message("ai"):
-                            if len(st.session_state['clue_comments']) <= clue:
-                                st.write_stream(streamAndSafeClueComment(clue))
-                            else:
-                                st.write(st.session_state['clue_comments'][clue])
+                        # with st.chat_message("ai"):
+                        #     if len(st.session_state['clue_comments']) <= clue:
+                        #         st.write_stream(streamAndSafeClueComment(clue))
+                        #     else:
+                        #         st.write(st.session_state['clue_comments'][clue])
                         space()
                         space()
 
@@ -247,3 +254,9 @@ else:
         st.write("Game over! You lost!")
         if st.button("Try again"):
             streamlit_js_eval(js_expressions="parent.window.location.reload()")
+
+
+if st.session_state['won']:
+    if st.button("Play again"):
+        #st.session_state.clear()
+        streamlit_js_eval(js_expressions="parent.window.location.reload()")
