@@ -10,7 +10,11 @@
       "genus": "Alligator",
       "scientific_name": "Alligator mississippiensis"
     },
-    "locations": ["Asia", "North-America", "Ocean"],
+    "locations": [
+      "Asia",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Snakes, Turtles",
       "name_of_young": "Hatchling",
@@ -50,7 +54,9 @@
       "order": "Perciformes",
       "family": "Pomacanthidae"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Sponges, algae",
       "group_behavior": "Social",
@@ -84,7 +90,12 @@
       "order": "Artiodactyla",
       "family": "Bovidae"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "North-America"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Grass, Shoots, Seeds",
       "distinctive_feature": "Long legs and curved antlers",
@@ -114,7 +125,11 @@
       "genus": "Dasypus",
       "scientific_name": "Dasypodidae"
     },
-    "locations": ["Central-America", "North-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Insects, Ants, Termites",
       "distinctive_feature": "Armoured plated skin and can curl into a ball",
@@ -146,7 +161,9 @@
       "genus": "Taxidiinae",
       "scientific_name": "Taxidea Taxus"
     },
-    "locations": ["Europe"],
+    "locations": [
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Worms, Roots, Fruit",
       "distinctive_feature": "Flattened body and long claws",
@@ -177,7 +194,9 @@
       "genus": "Perameles",
       "scientific_name": "Perameles"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Insects, Fruit, Seeds",
       "name_of_young": "Joey",
@@ -239,30 +258,6 @@
     }
   },
   {
-    "name": "Beagle",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Canis",
-      "scientific_name": "Canis lupus"
-    },
-    "locations": ["Europe"],
-    "characteristics": {
-      "temperament": "Gentle and intelligent but stubborn",
-      "training": "Should be trained in obedience from an early age due to their stubborn nature",
-      "diet": "Omnivore",
-      "average_litter_size": "7",
-      "common_name": "Beagle Dog",
-      "slogan": "Have become popular family pets!",
-      "group": "Hound",
-      "color": "BrownRedBlackWhiteTan",
-      "skin_type": "Hair"
-    }
-  },
-  {
     "name": "Bear",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -310,7 +305,12 @@
       "family": "Castoridae",
       "genus": "Castor"
     },
-    "locations": ["Eurasia", "Europe", "North-America", "Ocean"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Tree bark, Willow, Water lilly",
       "distinctive_feature": "Transparent eyelids and big, flat tail",
@@ -328,46 +328,6 @@
       "lifespan": "15 - 20 years",
       "weight": "16kg - 27kg (35lbs - 60lbs)",
       "length": "80cm - 120cm (31in - 47in)"
-    }
-  },
-  {
-    "name": "Bee",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Arthropoda",
-      "class": "Insecta",
-      "order": "Hymenoptera",
-      "family": "Andrenidae",
-      "genus": "Apis",
-      "scientific_name": "Apis mellifera"
-    },
-    "locations": [
-      "Africa",
-      "Asia",
-      "Central-America",
-      "Eurasia",
-      "Europe",
-      "North-America",
-      "Oceania",
-      "South-America"
-    ],
-    "characteristics": {
-      "name_of_young": "Larva, grub",
-      "group_behavior": "Solitary/Colony",
-      "estimated_population_size": "at least two trillion",
-      "biggest_threat": "Disease, pesticides, habitat destruction",
-      "most_distinctive_feature": "Ability of some to make honey and beeswax",
-      "gestation_period": "three days",
-      "litter_size": "Six to 1000 per day",
-      "habitat": "Any habitat where there are flowering plants",
-      "predators": "Primates, wasps, dragonflies, birds, small mammals",
-      "diet": "Omnivore",
-      "type": "insect",
-      "common_name": "bee",
-      "location": "everywhere except Antarctica",
-      "color": "Multi-colored",
-      "skin_type": "Exoskeleton",
-      "top_speed": "20 mph"
     }
   },
   {
@@ -451,7 +411,9 @@
       "genus": "Bison",
       "scientific_name": "Bison Bison"
     },
-    "locations": ["North-America"],
+    "locations": [
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Grass, Acorns, Berries",
       "distinctive_feature": "Huge head and a shoulder hump",
@@ -482,7 +444,9 @@
       "genus": "Pan",
       "scientific_name": "Pan paniscus"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Small invertebrates and mammals",
       "name_of_young": "Baby / infant",
@@ -520,7 +484,9 @@
       "genus": "Syncerus",
       "scientific_name": "Syncerus caffer"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Grass, Shrubs, Leaves",
       "distinctive_feature": "Shoulder hump and large, curved horns",
@@ -541,30 +507,6 @@
     }
   },
   {
-    "name": "Bulldog",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Canis",
-      "scientific_name": "Canis lupus"
-    },
-    "locations": ["Europe"],
-    "characteristics": {
-      "temperament": "Gentle, calm and affectionate",
-      "training": "Should be trained from an early age due to their stubborn nature",
-      "diet": "Omnivore",
-      "average_litter_size": "10",
-      "common_name": "Bulldog",
-      "slogan": "Friendly, loving and docile!",
-      "group": "Mastiff",
-      "color": "BrownFawnBlackWhiteTan",
-      "skin_type": "Hair"
-    }
-  },
-  {
     "name": "Bullfrog",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -575,7 +517,11 @@
       "genus": "Lithobates",
       "scientific_name": "Lithobates catesbeianus"
     },
-    "locations": ["Central-America", "North-America", "Ocean"],
+    "locations": [
+      "Central-America",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Insects, Spiders, Small Fish",
       "distinctive_feature": "Powerful legs and cow-like call",
@@ -637,7 +583,12 @@
       "genus": "Camelus",
       "scientific_name": "Camelus dromedarius"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Oceania"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Thorny and Salty Plants, Grass, Grain",
       "name_of_young": "Calf",
@@ -678,7 +629,9 @@
       "genus": "Hydrochoerus",
       "scientific_name": "Hydrochoerus hydrochaeris"
     },
-    "locations": ["South-America"],
+    "locations": [
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Grasses, Aquatic Plants, Bark",
       "name_of_young": "Pup",
@@ -781,7 +734,10 @@
       "family": "Chamaeleonidae",
       "scientific_name": "Chamaeleonidae"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Insects, Snails, Leaves",
       "distinctive_feature": "Exceptional vision and ability to change skin colour",
@@ -811,7 +767,11 @@
       "genus": "Acinonyx",
       "scientific_name": "Acinonyx jubatus"
     },
-    "locations": ["Africa", "Asia", "Eurasia"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia"
+    ],
     "characteristics": {
       "main_prey": "Gazelle, Wildebeest, Hare",
       "name_of_young": "Cub",
@@ -891,7 +851,9 @@
       "genus": "Pan",
       "scientific_name": "Pan troglodytes"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Fruits, Seeds, Insects",
       "name_of_young": "Infant",
@@ -932,7 +894,9 @@
       "genus": "Chinchilla",
       "scientific_name": "Chinchilla Lanigera"
     },
-    "locations": ["South-America"],
+    "locations": [
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Nuts, Seeds",
       "distinctive_feature": "Dense fur and long back legs",
@@ -961,7 +925,10 @@
       "order": "Rodentia",
       "family": "Sciuridae"
     },
-    "locations": ["Eurasia", "North-America"],
+    "locations": [
+      "Eurasia",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Nuts, Fruit, Seeds, Berries",
       "distinctive_feature": "Stripes on fur and large front teeth",
@@ -1001,7 +968,6 @@
       "South-America"
     ],
     "characteristics": {
-      "main_prey": "They will eat anything but love sugar and fatty foods.",
       "main_prey": "Decaying Organic Matter",
       "name_of_young": "eggs",
       "group_behavior": "Solitary/Group",
@@ -1043,7 +1009,9 @@
       "genus": "Puma",
       "scientific_name": "Felis Concolor"
     },
-    "locations": ["North-America"],
+    "locations": [
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Deer, Elk, Beavers",
       "distinctive_feature": "Powerful forearms and paws and muscular jaw",
@@ -1113,7 +1081,10 @@
       "genus": "Canis",
       "scientific_name": "Canis latrans"
     },
-    "locations": ["Central-America", "North-America"],
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Rabbit, Mice, Deer",
       "distinctive_feature": "Pointed ears and nose and a long, bushy tail",
@@ -1220,7 +1191,9 @@
       "family": "Sepiida",
       "scientific_name": "Sepiida"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Crab, Shrimp, Fish",
       "distinctive_feature": "Long body shape and large eyes",
@@ -1249,7 +1222,12 @@
       "family": "Cervidae",
       "scientific_name": "Odocoileus virginiana"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Acorns, Fruit, Grass",
       "distinctive_feature": "Long ears and some male species have antlers",
@@ -1279,7 +1257,9 @@
       "genus": "Canis",
       "scientific_name": "Canis Lupus Dingo"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Rabbit, Lizards, Rodents",
       "distinctive_feature": "Pricked ears and a long bushy tail",
@@ -1310,7 +1290,9 @@
       "genus": "Raphus",
       "scientific_name": "Raphus cucullatus"
     },
-    "locations": ["Extinct"],
+    "locations": [
+      "Extinct"
+    ],
     "characteristics": {
       "main_prey": "Tambalacoque Fruit",
       "distinctive_feature": "Hooked beak and unable to fly",
@@ -1344,7 +1326,9 @@
       "order": "Cetacean",
       "family": "Delphinidae"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Squid, Crustaceans",
       "group_behavior": "Pod",
@@ -1605,7 +1589,10 @@
       "order": "Proboscidea",
       "family": "Elephantidae"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Grass, Fruit, Roots",
       "distinctive_feature": "Large body size and long trunk",
@@ -1635,7 +1622,9 @@
       "genus": "Dromaius",
       "scientific_name": "Dromaius novaehollandiae"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Seeds, Insects, Flowers",
       "distinctive_feature": "Enormous body size and large eyes",
@@ -1710,7 +1699,9 @@
       "genus": "Mustela",
       "scientific_name": "Mustela furo"
     },
-    "locations": ["Europe"],
+    "locations": [
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Mice, Rabbit, Gophers",
       "distinctive_feature": "Long thin body and large eyes",
@@ -1779,7 +1770,9 @@
       "genus": "Paralichthys",
       "scientific_name": "Paralichthys"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Shrimp, crabs, and other fish",
       "group_behavior": "Solitary",
@@ -1815,7 +1808,13 @@
       "genus": "Vulpes",
       "scientific_name": "Vulpes vulpes"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Rabbits, Birds, Lizards",
       "distinctive_feature": "Pointed ears and long bushy tail",
@@ -1912,7 +1911,11 @@
       "order": "Rodentia",
       "family": "Muridae"
     },
-    "locations": ["Africa", "Asia", "Eurasia"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia"
+    ],
     "characteristics": {
       "main_prey": "Insects, bird nestlings, other gerbils",
       "name_of_young": "Pup",
@@ -1956,7 +1959,9 @@
       "genus": "Hylobates",
       "scientific_name": "Hylobatidae"
     },
-    "locations": ["Asia"],
+    "locations": [
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Eggs, Insects",
       "habitat": "Dense forest and jungle",
@@ -1985,7 +1990,9 @@
       "genus": "Giraffa",
       "scientific_name": "Giraffa camelopardalis"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Leaves, Fruits, Seeds",
       "name_of_young": "Calf",
@@ -2023,7 +2030,12 @@
       "family": "Bovidae",
       "genus": "Capra"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Europe"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Grass, Fruit, Leaves",
       "habitat": "Dry woodland and mountainous regions",
@@ -2050,7 +2062,13 @@
       "order": "Anseriformes",
       "family": "Anatidae"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America", "Ocean"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Grass, Seeds, Berries",
       "distinctive_feature": "Long neck and noisy communication calls",
@@ -2085,7 +2103,10 @@
       "genus": "Geomys",
       "scientific_name": "Geomys bursarius"
     },
-    "locations": ["Central-America", "North-America"],
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Roots, Fruit, Leaves",
       "habitat": "Woodland and grass prairies",
@@ -2113,7 +2134,9 @@
       "family": "Hominidae",
       "genus": "Gorilla"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Leaves, Fruit, Flowers",
       "habitat": "Rainforest and dense jungle",
@@ -2176,7 +2199,9 @@
       "genus": "Ursus",
       "scientific_name": "Ursus Arctos Horriblis"
     },
-    "locations": ["North-America"],
+    "locations": [
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Salmon, Fruit, Fish",
       "distinctive_feature": "Strong, powerful shoulders and enormous claws",
@@ -2205,7 +2230,9 @@
       "order": "Galliformes",
       "family": "Numididae"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Insects, Worms, Berries",
       "distinctive_feature": "Large body size and bald neck",
@@ -2267,28 +2294,6 @@
     }
   },
   {
-    "name": "Harrier",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Canis",
-      "scientific_name": "Canis lupus"
-    },
-    "locations": ["Europe"],
-    "characteristics": {
-      "diet": "Omnivore",
-      "common_name": "Harrier",
-      "slogan": "Cheerful, tolerant and sweet-tempered!",
-      "group": "Hound",
-      "skin_type": "Hair",
-      "lifespan": "10 \u2013 12 years",
-      "weight": "27kg (60lbs)"
-    }
-  },
-  {
     "name": "Hedgehog",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -2297,7 +2302,12 @@
       "order": "Erinaceomorpha",
       "family": "Erinaceidae"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Europe"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Insects, Worms, Seeds",
       "habitat": "Dense vegetation and woodland",
@@ -2368,7 +2378,9 @@
       "genus": "Hippopotamus",
       "scientific_name": "Hippopotamus amphibius"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Grasses, Grain, Flowers",
       "name_of_young": "Calf",
@@ -2445,7 +2457,11 @@
       "family": "Trochilidae",
       "genus": "Trochilinae"
     },
-    "locations": ["Central-America", "North-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Nectar, Tree sap, Insects, Spiders",
       "distinctive_feature": "Long, thin beak and the ability to hover",
@@ -2481,7 +2497,11 @@
       "genus": "Crocuta",
       "scientific_name": "Crocuta Crocuta"
     },
-    "locations": ["Africa", "Asia", "Europe"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Wildebeest, Monkey, Birds",
       "habitat": "Open savanna plains and grassland",
@@ -2507,7 +2527,10 @@
       "order": "Squamata",
       "family": "Iguanidae"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Insects, Fruit, Leaves",
       "habitat": "Lowland tropical rainforest near water",
@@ -2536,7 +2559,11 @@
       "genus": "Canis",
       "scientific_name": "Canis Aureus"
     },
-    "locations": ["Africa", "Asia", "Europe"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Antelope, Reptiles, Insects",
       "habitat": "Grass plains and dry woodland",
@@ -2565,7 +2592,10 @@
       "genus": "Panthera",
       "scientific_name": "Panthera onca"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Deer, Capybara, Tapir",
       "name_of_young": "Cub",
@@ -2602,7 +2632,9 @@
       "order": "Semaeostomeae",
       "family": "Cyaneidae"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Small fish, plants, fish eggs, larvae, other small marine creatures",
       "group_behavior": "Group",
@@ -2636,7 +2668,9 @@
       "order": "Diprotodontia",
       "family": "Macropodidae"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Grass, Seeds, Flowers",
       "habitat": "Dry forests, desert and grassland",
@@ -2664,7 +2698,9 @@
       "family": "Apterygidae",
       "genus": "Apteryx"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Worms, Spiders, Insects, Fruit",
       "distinctive_feature": "Round body and long, sharp and straight beaks",
@@ -2699,7 +2735,9 @@
       "genus": "Phascolarctos",
       "scientific_name": "Phascolarctos cinereus"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Eucalyptus leaves",
       "name_of_young": "Joey",
@@ -2740,7 +2778,10 @@
       "genus": "Lemmus",
       "scientific_name": "Lemmus Lemmus"
     },
-    "locations": ["Europe", "North-America"],
+    "locations": [
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Seeds, Grass, Berries",
       "habitat": "Arctic tundra and woodland areas",
@@ -2768,7 +2809,9 @@
       "family": "Lemuridae",
       "scientific_name": "Lemur Catta"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Leaves, Insects",
       "habitat": "Dry forest and tropical jungle",
@@ -2797,7 +2840,10 @@
       "genus": "Panthera",
       "scientific_name": "Panthera pardus"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Deer, Warthog, Rodents",
       "name_of_young": "Cub",
@@ -2837,7 +2883,10 @@
       "genus": "Panthera",
       "scientific_name": "Panthera leo"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Antelope, Warthog, Zebra",
       "name_of_young": "Cub",
@@ -2877,7 +2926,9 @@
       "genus": "Pterois",
       "scientific_name": "Pterois volitans"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Shrimp, Crabs",
       "distinctive_feature": "Striped body markings with long spines",
@@ -2942,7 +2993,9 @@
       "genus": "Lama",
       "scientific_name": "Lama Glama"
     },
-    "locations": ["South-America"],
+    "locations": [
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Leaves, Grass, Shoots",
       "habitat": "Mountainous deserts and grasslands",
@@ -2971,7 +3024,11 @@
       "genus": "Lynx",
       "scientific_name": "Felis lynx"
     },
-    "locations": ["Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Hare, Birds, Deer",
       "habitat": "Secluded forests and mountainous regions",
@@ -3000,7 +3057,10 @@
       "genus": "Macaca",
       "scientific_name": "Macaca"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Fruits, seeds, leaves, flowers, bark, and insects",
       "name_of_young": "infant",
@@ -3038,7 +3098,10 @@
       "genus": "Arini",
       "scientific_name": "Arini"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Nuts, Seeds, Insects",
       "distinctive_feature": "Large colourful body and curved beak",
@@ -3109,7 +3172,10 @@
       "genus": "Herpestes",
       "scientific_name": "Helogale Parvula"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Rats, Eggs, Insects",
       "habitat": "Open forests and grass plains",
@@ -3124,33 +3190,6 @@
       "top_speed": "20 mph",
       "lifespan": "10-15 years",
       "weight": "0.3-5kg (0.7-11lbs)"
-    }
-  },
-  {
-    "name": "Mongrel",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Carnivora",
-      "family": "Canidae",
-      "genus": "Canis",
-      "scientific_name": "Canis Lupus"
-    },
-    "locations": [
-      "Africa",
-      "Asia",
-      "Central-America",
-      "Eurasia",
-      "Europe",
-      "North-America",
-      "Oceania",
-      "South-America"
-    ],
-    "characteristics": {
-      "diet": "Omnivore",
-      "slogan": "Has characteristics of two or more breeds!",
-      "skin_type": "Hair"
     }
   },
   {
@@ -3198,7 +3237,11 @@
       "genus": "Alces",
       "scientific_name": "Alces alces"
     },
-    "locations": ["Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Grass, Twigs, Pondweed",
       "habitat": "Forest areas close to the Arctic tundra",
@@ -3331,7 +3374,12 @@
       "order": "Caudata",
       "family": "Salamandridae"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Worms, Insects, Water snails",
       "habitat": "Temperate forests and river banks",
@@ -3358,7 +3406,12 @@
       "family": "Muscicapidae",
       "genus": "Luscinia"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Europe"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Nuts, Seeds, Insects",
       "distinctive_feature": "Small body size with no markings and thin beak",
@@ -3394,7 +3447,10 @@
       "genus": "Leopardus",
       "scientific_name": "Leopardus pardalis"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Rodents, Lizards, Deer",
       "name_of_young": "Kitten",
@@ -3434,7 +3490,9 @@
       "family": "Octopodidae",
       "scientific_name": "Octopus Vulgaris"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Crabs, Fish, Scallops",
       "habitat": "Tropical and temperate waters worldwide",
@@ -3463,7 +3521,9 @@
       "genus": "Didelphis",
       "scientific_name": "Didelphis Virginiana"
     },
-    "locations": ["North-America"],
+    "locations": [
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Insects, Frogs",
       "habitat": "Forest and farmland close to water",
@@ -3492,7 +3552,9 @@
       "genus": "Struthio",
       "scientific_name": "Struthio camelus"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Grass, Roots, Seeds, Flowers",
       "distinctive_feature": "Small wings and long neck and legs",
@@ -3605,7 +3667,9 @@
       "family": "Ostreidae",
       "scientific_name": "Ostreidae"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Algae and other food particles",
       "group_behavior": "Colony",
@@ -3642,7 +3706,11 @@
       "genus": "Panthera",
       "scientific_name": "Panthera pardus, Panthera onca"
     },
-    "locations": ["Central-America", "North-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Deer, Tapir, Wild Boar",
       "name_of_young": "Cub",
@@ -3718,7 +3786,10 @@
       "family": "Phasianidae",
       "genus": "Pavo"
     },
-    "locations": ["Africa", "Asia"],
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
     "characteristics": {
       "main_prey": "Grains, Seeds, Insects",
       "distinctive_feature": "Long tail feathers and colourful tail of males",
@@ -3752,7 +3823,9 @@
       "family": "Pelecanidae",
       "genus": "Pelecanus"
     },
-    "locations": ["Least Concern"],
+    "locations": [
+      "Least Concern"
+    ],
     "characteristics": {
       "main_prey": "Fish, Crabs, Turtles",
       "distinctive_feature": "Pouch hanging from underside of beak and keen eyesight",
@@ -3784,7 +3857,10 @@
       "family": "Spheniscidae",
       "scientific_name": "Aptenodytes Forsteri"
     },
-    "locations": ["Antarctica", "Ocean"],
+    "locations": [
+      "Antarctica",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Crabs, Squid",
       "distinctive_feature": "Short, sharp beak and slight webbed feet",
@@ -3857,7 +3933,12 @@
       "genus": "Sus",
       "scientific_name": "Sus scrofa scrofa"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Roots, Seeds, Leaves",
       "habitat": "Forests and grassland",
@@ -3883,7 +3964,9 @@
       "order": "Characiformes",
       "family": "Characidae"
     },
-    "locations": ["South-America"],
+    "locations": [
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Insects, carrion, fish, crustaceans, worms",
       "group_behavior": "School",
@@ -3922,7 +4005,9 @@
       "genus": "Ornithorhynchus",
       "scientific_name": "Ornithorhynchus anatinus"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Insect larvae, tadpoles, small fish",
       "name_of_young": "Baby Platypus",
@@ -3963,7 +4048,9 @@
       "genus": "Phalangeridae",
       "scientific_name": "Phalangeriforme"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Insects, Leaves, Flowers",
       "habitat": "Bushland and rainforest",
@@ -3992,7 +4079,12 @@
       "genus": "Fratercula",
       "scientific_name": "Fratercula arctica"
     },
-    "locations": ["Eurasia", "Europe", "North-America", "Ocean"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Sandeel, Herring, Sprat",
       "name_of_young": "Chick",
@@ -4034,7 +4126,11 @@
       "genus": "Puma",
       "scientific_name": "Felis concolor"
     },
-    "locations": ["Central-America", "North-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Rats, Deer, Sheep",
       "name_of_young": "Cub",
@@ -4074,7 +4170,13 @@
       "genus": "Oryctolagus",
       "scientific_name": "Oryctolagus cuniculus"
     },
-    "locations": ["Africa", "Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Clover, Grass, Crunchy vegetables",
       "habitat": "Forest thickets, meadows and woodland",
@@ -4166,24 +4268,6 @@
     }
   },
   {
-    "name": "Rattlesnake",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Squamata",
-      "family": "Viperidae",
-      "genus": "Crotalus"
-    },
-    "locations": ["Central-America", "North-America", "South-America"],
-    "characteristics": {
-      "water_type": "Saltwater",
-      "diet": "Omnivore",
-      "slogan": "It's venom digests it's prey before it even swallows it!",
-      "skin_type": "Hair"
-    }
-  },
-  {
     "name": "Reindeer",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -4194,7 +4278,12 @@
       "genus": "Rangifer",
       "scientific_name": "Rangifer Tarandus"
     },
-    "locations": ["Eurasia", "Europe", "North-America", "Ocean"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Grass, Herbs, Berries",
       "habitat": "Forests close to the Arctic tundra",
@@ -4373,7 +4462,9 @@
       "family": "Pinnipedia",
       "scientific_name": "Phoca vitulina"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Crabs, Squid",
       "habitat": "Coastal waters and rocky shores",
@@ -4398,7 +4489,9 @@
       "phylum": "Chordata",
       "class": "Chondrichthyes"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Sea lion, seals, humans, small fishes, and invertebrates",
       "biggest_threat": "Killer whales, sperm whales and humans",
@@ -4462,7 +4555,11 @@
       "order": "Carnivora",
       "family": "Mephitidae"
     },
-    "locations": ["Asia", "North-America", "South-America"],
+    "locations": [
+      "Asia",
+      "North-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Insects, Rodents, Rabbits",
       "habitat": "Open woodland and dense shrub",
@@ -4491,7 +4588,10 @@
       "genus": "Bradypus",
       "scientific_name": "Choloepus Hoffmani"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Leaves, Buds, Fruit",
       "habitat": "Tall trees in tropical rainforest",
@@ -4549,35 +4649,6 @@
     }
   },
   {
-    "name": "Snake",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Reptilia",
-      "order": "Squamata"
-    },
-    "locations": [
-      "Africa",
-      "Asia",
-      "Central-America",
-      "Eurasia",
-      "Europe",
-      "North-America",
-      "Oceania",
-      "South-America"
-    ],
-    "characteristics": {
-      "diet": "Carnivore",
-      "lifestyle": "Solitary",
-      "type": "Reptile",
-      "slogan": "There are around 3,000 known species worldwide",
-      "skin_type": "Scales",
-      "top_speed": "20 mph",
-      "lifespan": "30 years",
-      "weight": "150kg (330lbs)"
-    }
-  },
-  {
     "name": "Sparrow",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -4629,7 +4700,9 @@
       "family": "Oegopsina",
       "scientific_name": "Teuthida"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Fish, Crabs, Shrimp",
       "habitat": "Cooler and temperate waters",
@@ -4690,7 +4763,9 @@
       "class": "Chondrichthyes",
       "order": "Myliobatiformes"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Snails, clams, and squids",
       "group_behavior": "Solitary",
@@ -4727,7 +4802,12 @@
       "genus": "Mustela",
       "scientific_name": "Mustela Erminea"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Rabbits, Mice, Insects",
       "habitat": "Moorland and woodlands",
@@ -4787,47 +4867,6 @@
     }
   },
   {
-    "name": "Tapir",
-    "taxonomy": {
-      "kingdom": "Animalia",
-      "phylum": "Chordata",
-      "class": "Mammalia",
-      "order": "Perissodactyla",
-      "family": "Tapiridae",
-      "genus": "Tapirus"
-    },
-    "locations": ["Asia", "South-America"],
-    "characteristics": {
-      "name_of_young": "Calf",
-      "group_behavior": "Solitary",
-      "estimated_population_size": "Between 3,000 and 4,500 depending upon the species",
-      "biggest_threat": "Poaching for meat and hides / habitat loss.",
-      "most_distinctive_feature": "Elongated snout and upper lip that is reminiscent of an aardvark\u2019s nose.",
-      "other_name(s)": "Baird\u2019s Tapir, Little Black Tapir, Wooly Tapir, Asian / Indian Tapir",
-      "gestation_period": "13 months",
-      "litter_size": "1",
-      "habitat": "grasslands, swamps, mountains and forests.",
-      "predators": "Crocodiles, jaguars, tigers, cougars and other wild cats.",
-      "diet": "Herbivore",
-      "average_litter_size": "1",
-      "lifestyle": "Solitary",
-      "favorite_food": "Leaves, grasses and other plants.",
-      "type": "Mammal",
-      "common_name": " Central American Tapir, Kabomani Tapir, Mountain Tapir and the Malayan Tapir",
-      "number_of_species": "4",
-      "location": "Central America, South America and Asia",
-      "slogan": "Most closely related to horses and rhinos!",
-      "color": "BrownGreyRedBlackWhite",
-      "skin_type": "Hair",
-      "top_speed": "30 mph",
-      "lifespan": "20 to 30 years",
-      "weight": "150-300kg (330-700lbs)",
-      "height": "Between 29 and 42 inches from the shoulder.",
-      "age_of_sexual_maturity": "3 to 5 years",
-      "age_of_weaning": "Six to eight months."
-    }
-  },
-  {
     "name": "Termite",
     "taxonomy": {
       "kingdom": "Animalia",
@@ -4872,7 +4911,10 @@
       "genus": "Panthera",
       "scientific_name": "Panthera Tigris"
     },
-    "locations": ["Asia", "Eurasia"],
+    "locations": [
+      "Asia",
+      "Eurasia"
+    ],
     "characteristics": {
       "main_prey": "Deer, Cattle, Wild Boar",
       "habitat": "Dense tropical forest",
@@ -4935,7 +4977,10 @@
       "family": "Ramphastidae",
       "genus": "Ramphastos"
     },
-    "locations": ["Central-America", "South-America"],
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
     "characteristics": {
       "main_prey": "Fruit, Eggs, Insects",
       "distinctive_feature": "Small body and enormous colourful beak",
@@ -4970,7 +5015,10 @@
       "genus": "Meleagris",
       "scientific_name": "Meleagris"
     },
-    "locations": ["Central-America", "North-America"],
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Insects, Nuts, Seeds, Berries",
       "wingspan": "4.1-4.7 feet",
@@ -5042,7 +5090,9 @@
       "genus": "Odobenus",
       "scientific_name": "Odobenus rosmarus"
     },
-    "locations": ["Ocean"],
+    "locations": [
+      "Ocean"
+    ],
     "characteristics": {
       "main_prey": "Shellfish, Worms, Snails",
       "name_of_young": "Pup",
@@ -5117,7 +5167,12 @@
       "genus": "Mustela",
       "scientific_name": "Mustela nivalis"
     },
-    "locations": ["Asia", "Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Mice, Lemmings, Voles",
       "name_of_young": "Kitten",
@@ -5195,7 +5250,11 @@
       "genus": "Gulo",
       "scientific_name": "Gulo gulo"
     },
-    "locations": ["Eurasia", "Europe", "North-America"],
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
     "characteristics": {
       "main_prey": "Caribou, Moose, Sheep, Eggs",
       "habitat": "Mountainous regions and dense forest",
@@ -5224,7 +5283,9 @@
       "genus": "Vombatus",
       "scientific_name": "Vombatus Ursinus"
     },
-    "locations": ["Oceania"],
+    "locations": [
+      "Oceania"
+    ],
     "characteristics": {
       "main_prey": "Grass, Shrubs, Roots",
       "habitat": "Woodland and coastal shrub land",
@@ -5292,7 +5353,10 @@
       "genus": "Bos",
       "scientific_name": "Bos grunniens"
     },
-    "locations": ["Asia", "Eurasia"],
+    "locations": [
+      "Asia",
+      "Eurasia"
+    ],
     "characteristics": {
       "main_prey": "Grass, Herbs, Mosses",
       "name_of_young": "Calf",
@@ -5321,7 +5385,9 @@
       "genus": "Equus",
       "scientific_name": "Equus zebra, Equus quagga, Equus grevyi"
     },
-    "locations": ["Africa"],
+    "locations": [
+      "Africa"
+    ],
     "characteristics": {
       "main_prey": "Grasses, Leaves, Buds",
       "name_of_young": "Foal",
