@@ -1,0 +1,5418 @@
+[
+  {
+    "name": "Alligator",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Crocodilia",
+      "family": "Alligatoridae",
+      "genus": "Alligator",
+      "scientific_name": "Alligator mississippiensis"
+    },
+    "locations": [
+      "Asia",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Snakes, Turtles",
+      "name_of_young": "Hatchling",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "1 million/less than 100",
+      "biggest_threat": "Water pollution",
+      "most_distinctive_feature": "Muscular tail half the total body length",
+      "other_name(s)": "Gator",
+      "water_type": "Brackish",
+      "incubation_period": "2 months",
+      "age_of_independence": "1- 2 years",
+      "habitat": "Marsh and swampland",
+      "predators": "Human, Birds, Raccoon",
+      "diet": "Carnivore",
+      "lifestyle": "Diurnal/Nocturnal",
+      "common_name": "Alligator",
+      "number_of_species": "2",
+      "location": "southern USA and China",
+      "average_clutch_size": "35",
+      "slogan": "They have two sets of eyelids!",
+      "group": "Reptile",
+      "color": "BrownGreyYellowBlackGreen",
+      "skin_type": "Scales",
+      "top_speed": "15 mph",
+      "lifespan": "30 - 60 years",
+      "weight": "181kg - 363kg (400lbs - 800lbs)",
+      "length": "2.5cm - 4.5m (8ft - 15ft)",
+      "age_of_sexual_maturity": "10 - 12 years"
+    }
+  },
+  {
+    "name": "Angelfish",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Perciformes",
+      "family": "Pomacanthidae"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Sponges, algae",
+      "group_behavior": "Social",
+      "estimated_population_size": "Unknown",
+      "biggest_threat": "Water pollution",
+      "most_distinctive_feature": "Brightly colored scales",
+      "gestation_period": "1-3 days",
+      "water_type": "Salt",
+      "optimum_ph_level": "6.5 - 7.2",
+      "habitat": "Coral reefs",
+      "predators": "Larger fish, barracudas, sharks",
+      "diet": "Omnivore",
+      "favorite_food": "Fish",
+      "type": "Perciformes",
+      "common_name": "Angelfish",
+      "number_of_species": "90",
+      "slogan": "There are 70 different species!",
+      "color": "YellowBlueBlackWhiteGreen",
+      "skin_type": "Scales",
+      "lifespan": "Up to 15 years",
+      "weight": "Up to 2 pounds",
+      "length": "8 to 12 inches"
+    }
+  },
+  {
+    "name": "Antelope",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Shoots, Seeds",
+      "distinctive_feature": "Long legs and curved antlers",
+      "habitat": "Forest and grasslands",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Renew their horns every year!",
+      "color": "BrownRedTan",
+      "skin_type": "Fur",
+      "top_speed": "43 mph",
+      "lifespan": "10 - 25 years",
+      "weight": "500kg - 900kg (1,100lbs - 2,000lbs)",
+      "height": "1m - 1.5m (3 - 5ft)"
+    }
+  },
+  {
+    "name": "Armadillo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cingulata",
+      "family": "Dasypodidae",
+      "genus": "Dasypus",
+      "scientific_name": "Dasypodidae"
+    },
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Ants, Termites",
+      "distinctive_feature": "Armoured plated skin and can curl into a ball",
+      "habitat": "Forest and grasslands",
+      "predators": "Bear, Wolf, Coyote",
+      "diet": "Omnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Mammal",
+      "location": "United States",
+      "slogan": "Can curl into a hard, protective ball!",
+      "color": "GreyBlackPink",
+      "skin_type": "Boney Plates",
+      "top_speed": "30 mph",
+      "lifespan": "4 - 12 years",
+      "weight": "4kg - 30kg (9lbs - 66lbs)",
+      "length": "36cm - 75cm (14in - 30in)"
+    }
+  },
+  {
+    "name": "Badger",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Taxidiinae",
+      "scientific_name": "Taxidea Taxus"
+    },
+    "locations": [
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Worms, Roots, Fruit",
+      "distinctive_feature": "Flattened body and long claws",
+      "habitat": "Woodland and hedgerows",
+      "predators": "Human, Eagle, Wildcats",
+      "diet": "Omnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Worms",
+      "type": "Mammal",
+      "slogan": "Can reach speeds of 30 km/h!",
+      "color": "BrownBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "18 mph",
+      "lifespan": "4 - 10 years",
+      "weight": "11kg - 14kg (24lbs - 30lbs)",
+      "length": "40cm - 75cm (16in - 29in)"
+    }
+  },
+  {
+    "name": "Bandicoot",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Peramelemorphia",
+      "family": "Peramelidae",
+      "genus": "Perameles",
+      "scientific_name": "Perameles"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Fruit, Seeds",
+      "name_of_young": "Joey",
+      "distinctive_feature": "Pointed snout and long, thin tail",
+      "habitat": "Forest, rainforest and jungle",
+      "predators": "Foxes, Snakes, Wildcats",
+      "diet": "Omnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Mammal",
+      "slogan": "Bandicoot Many species are endangered or extinct!",
+      "color": "BrownGreyBlackWhiteGoldTan",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "3-7 years",
+      "weight": "0.2kg - 1.6kg (0.4lbs - 3.5lbs)",
+      "length": "28cm - 81cm (11in - 32in)"
+    }
+  },
+  {
+    "name": "Bat",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Microchiroptera",
+      "genus": "Emballonuridae",
+      "scientific_name": "Chiroptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Mice, Frogs, Fruit",
+      "distinctive_feature": "Large ears detect prey using echolocation and have strong, flexible wings",
+      "habitat": "Woodland and caves",
+      "predators": "Owls, Eagles, Snakes",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Pack",
+      "favorite_food": "Mice",
+      "type": "Mammal",
+      "slogan": "Detects prey using echolocation!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Fur",
+      "top_speed": "25 mph",
+      "lifespan": "10 - 30 years",
+      "weight": "2g - 1,000g (0.07oz - 35oz)",
+      "length": "3cm - 180cm (1.2in - 71in)"
+    }
+  },
+  {
+    "name": "Bear",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus",
+      "scientific_name": "Ursidae"
+    },
+    "locations": [
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Nectar, Insects",
+      "distinctive_feature": "Large teeth and paws and strong body",
+      "habitat": "Forest and mountainous regions",
+      "predators": "Human, Wolf, Wildcats",
+      "diet": "Omnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Mammal",
+      "slogan": "There are 8 different species!",
+      "color": "BrownBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "35 mph",
+      "lifespan": "15 - 35 years",
+      "weight": "27kg - 450kg (60lbs - 990lbs)",
+      "height": "1.2m - 3.3m (4ft - 11ft)"
+    }
+  },
+  {
+    "name": "Beaver",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Castoridae",
+      "genus": "Castor"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Tree bark, Willow, Water lilly",
+      "distinctive_feature": "Transparent eyelids and big, flat tail",
+      "habitat": "Arid forest and desert",
+      "predators": "Wolf, Bear, Lynx",
+      "diet": "Herbivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Tree bark",
+      "type": "Mammal",
+      "slogan": "Builds a dam from sticks and leaves!",
+      "color": "BrownGrey",
+      "skin_type": "Fur",
+      "top_speed": "34 mph",
+      "lifespan": "15 - 20 years",
+      "weight": "16kg - 27kg (35lbs - 60lbs)",
+      "length": "80cm - 120cm (31in - 47in)"
+    }
+  },
+  {
+    "name": "Beetle",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Endopterygota",
+      "family": "Coleoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Dust, Dung",
+      "habitat": "Most land and freshwater habitats",
+      "predators": "Bats, Frogs, Reptiles",
+      "diet": "Omnivore",
+      "average_litter_size": "200",
+      "favorite_food": "Insects",
+      "common_name": "Beetle",
+      "number_of_species": "350000",
+      "location": "Worldwide",
+      "color": "BrownYellowRedBlueBlackGreen",
+      "skin_type": "Shell"
+    }
+  },
+  {
+    "name": "Bird",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Spiders, Insects, Seeds",
+      "distinctive_feature": "Light, feathered body and beak",
+      "wingspan": "9cm - 300cm (4in - 118in)",
+      "habitat": "Forests and shrub land close to water",
+      "predators": "Foxes, Birds, Wild dogs",
+      "diet": "Omnivore",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "average_clutch_size": "5",
+      "slogan": "Not all birds are able to fly!",
+      "color": "BrownGreyYellowRedBlueBlackWhiteOrangePink",
+      "skin_type": "Feathers",
+      "top_speed": "200 mph",
+      "lifespan": "1 - 100 years",
+      "weight": "0.002kg - 130kg (0.004lbs - 286lbs)",
+      "height": "5cm - 270cm (2in - 106in)"
+    }
+  },
+  {
+    "name": "Bison",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bison",
+      "scientific_name": "Bison Bison"
+    },
+    "locations": [
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Acorns, Berries",
+      "distinctive_feature": "Huge head and a shoulder hump",
+      "habitat": "Grass plains and forest",
+      "predators": "Human, Bear, Wolves",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Largest mammal in North America!",
+      "color": "BrownTan",
+      "skin_type": "Hair",
+      "top_speed": "22 mph",
+      "lifespan": "15 - 20 years",
+      "weight": "1,000kg - 1,300kg (2,200lbs - 2,500lbs)",
+      "length": "2m - 2.7m (6.6ft - 9ft)"
+    }
+  },
+  {
+    "name": "Bonobo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Pan",
+      "scientific_name": "Pan paniscus"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Small invertebrates and mammals",
+      "name_of_young": "Baby / infant",
+      "group_behavior": "Troop",
+      "estimated_population_size": "Between 10,000 and 50,000",
+      "distinctive_feature": "Large body size and opposable thumbs",
+      "gestation_period": "240 days, or 8 months",
+      "litter_size": "1",
+      "habitat": "Lowland jungle and swamp forests",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Troop",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "number_of_species": "1",
+      "slogan": "Shares 97% of the same DNA as humans!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Hair",
+      "top_speed": "25 mph",
+      "lifespan": "Up to 40 years in a zoo or other captive setting.",
+      "weight": "25kg - 50kg (55lbs - 110lbs)",
+      "height": "73cm - 90cm (29in - 35in)",
+      "age_of_sexual_maturity": "12 years",
+      "age_of_weaning": "5 to 6 years"
+    }
+  },
+  {
+    "name": "Buffalo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Syncerus",
+      "scientific_name": "Syncerus caffer"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Shrubs, Leaves",
+      "distinctive_feature": "Shoulder hump and large, curved horns",
+      "habitat": "Woodland and grass pastures",
+      "predators": "Human, Lion, Crocodile",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Has no real natural predators!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Hair",
+      "top_speed": "22 mph",
+      "lifespan": "15 - 22 years",
+      "weight": "600kg - 907kg (1,323lbs - 2,000lbs)",
+      "length": "1.7m - 1.8m (67in - 71in)"
+    }
+  },
+  {
+    "name": "Bullfrog",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Ranidae",
+      "genus": "Lithobates",
+      "scientific_name": "Lithobates catesbeianus"
+    },
+    "locations": [
+      "Central-America",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Spiders, Small Fish",
+      "distinctive_feature": "Powerful legs and cow-like call",
+      "habitat": "Lakes, ponds, rivers and streams",
+      "diet": "Carnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Amphibian",
+      "average_clutch_size": "20000",
+      "slogan": "Has loud cow-like calls!",
+      "color": "BrownGreyYellowBlackGreen",
+      "skin_type": "Permeable",
+      "top_speed": "10 mph",
+      "lifespan": "6 - 10 years",
+      "weight": "300g - 500g (10.5oz - 17.6oz)",
+      "length": "9cm - 15cm (3.5in - 6in)"
+    }
+  },
+  {
+    "name": "Butterfly",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Nectar, Pollen, Honey",
+      "habitat": "Quiet forests and pastures",
+      "diet": "Herbivore",
+      "average_litter_size": "100",
+      "favorite_food": "Nectar",
+      "common_name": "Butterfly",
+      "number_of_species": "12000",
+      "location": "Worldwide",
+      "color": "YellowRedBlueBlackWhiteGreenOrange",
+      "skin_type": "Hair"
+    }
+  },
+  {
+    "name": "Camel",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Camelus",
+      "scientific_name": "Camelus dromedarius"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Thorny and Salty Plants, Grass, Grain",
+      "name_of_young": "Calf",
+      "group_behavior": "Herd",
+      "estimated_population_size": "20 million",
+      "biggest_threat": "Drought",
+      "most_distinctive_feature": "Long, curved neck and large hump",
+      "other_name(s)": "Dromedary Camel, Arabian Camel, One-Humped Camel",
+      "gestation_period": "390 - 410 days",
+      "habitat": "Arid desert and scrubland",
+      "predators": "Lions, Leopards, Humans",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal",
+      "common_name": "Camel",
+      "number_of_species": "1",
+      "location": "Throughout the Middle East",
+      "slogan": "Can survive without water for 10 months!",
+      "group": "Mammal",
+      "color": "BrownBlackTanCream",
+      "skin_type": "Hair",
+      "top_speed": "40 mph",
+      "lifespan": "40 - 50 years",
+      "weight": "300kg - 690kg (660lbs - 1,500lbs)",
+      "length": "2.2m - 3.5m (7.25ft - 11.5ft)",
+      "age_of_sexual_maturity": "3 - 5 years",
+      "age_of_weaning": "4 months"
+    }
+  },
+  {
+    "name": "Capybara",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Caviidae",
+      "genus": "Hydrochoerus",
+      "scientific_name": "Hydrochoerus hydrochaeris"
+    },
+    "locations": [
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grasses, Aquatic Plants, Bark",
+      "name_of_young": "Pup",
+      "group_behavior": "Herd",
+      "estimated_population_size": "Stable",
+      "biggest_threat": "Hunting and habitat loss",
+      "most_distinctive_feature": "Eyes, ears and nostrils on top of the head!",
+      "other_name(s)": "Water Hog",
+      "gestation_period": "150 days",
+      "habitat": "Dense vegetation close to freshwater",
+      "predators": "Jaguar, Caiman, Harpy Eagle",
+      "diet": "Herbivore",
+      "average_litter_size": "5",
+      "lifestyle": "Nocturnal/Crepuscular",
+      "common_name": "Capybara",
+      "number_of_species": "2",
+      "location": "Central and South America",
+      "slogan": "Excellent at both diving and swimming",
+      "group": "Mammal",
+      "color": "BrownGreyYellowRed",
+      "skin_type": "Fur",
+      "top_speed": "22 mph",
+      "lifespan": "8 - 10 years",
+      "weight": "30kg - 70kg (66lbs - 154lbs)",
+      "length": "100cm - 130cm (39in - 51in)",
+      "age_of_sexual_maturity": "17 - 19 months",
+      "age_of_weaning": "16 weeks"
+    }
+  },
+  {
+    "name": "Caterpillar",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Plants, Flowers",
+      "habitat": "Quiet forests and pastures",
+      "predators": "Birds, Wasps, Mammals",
+      "diet": "Herbivore",
+      "favorite_food": "Leaves",
+      "common_name": "Caterpillar",
+      "number_of_species": "21000",
+      "location": "Worldwide",
+      "slogan": "The larvae of a moth or butterfly!",
+      "color": "YellowRedBlueBlackGreenOrange",
+      "skin_type": "Hair"
+    }
+  },
+  {
+    "name": "Centipede",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Chilopoda"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Spiders, Worms",
+      "habitat": "Decomposing matter on forest floor",
+      "diet": "Carnivore",
+      "average_litter_size": "60",
+      "favorite_food": "Insects",
+      "common_name": "Centipede",
+      "number_of_species": "3000",
+      "location": "Worldwide",
+      "slogan": "There are about 3,000 documented species!",
+      "color": "YellowRedBlackOrange",
+      "skin_type": "Shell"
+    }
+  },
+  {
+    "name": "Chameleon",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "scientific_name": "Chamaeleonidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Snails, Leaves",
+      "distinctive_feature": "Exceptional vision and ability to change skin colour",
+      "habitat": "Tropical forests and desert",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Reptile",
+      "average_clutch_size": "20",
+      "slogan": "There are more than 160 different species!",
+      "color": "BrownYellowRedBlackTanGreen",
+      "skin_type": "Scales",
+      "top_speed": "21 mph",
+      "lifespan": "4 - 8 years",
+      "weight": "0.01kg - 2kg (0.02lbs - 4.4lbs)",
+      "length": "2.8cm - 68.5cm (1.1in - 27in)"
+    }
+  },
+  {
+    "name": "Cheetah",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Acinonyx",
+      "scientific_name": "Acinonyx jubatus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia"
+    ],
+    "characteristics": {
+      "main_prey": "Gazelle, Wildebeest, Hare",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary/Pairs",
+      "estimated_population_size": "8,500",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Yellowish fur covered in small black spots",
+      "gestation_period": "90 days",
+      "habitat": "Open grassland",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Diurnal",
+      "common_name": "Cheetah",
+      "number_of_species": "5",
+      "location": "Asia and Africa",
+      "slogan": "The fastest land mammal in the world!",
+      "group": "Mammal",
+      "color": "BrownYellowBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "70 mph",
+      "lifespan": "10 - 12 years",
+      "weight": "40kg - 65kg (88lbs - 140lbs)",
+      "height": "115cm - 136cm (45in - 53in)",
+      "age_of_sexual_maturity": "20 - 24 months",
+      "age_of_weaning": "3 months"
+    }
+  },
+  {
+    "name": "Chicken",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Gallus",
+      "scientific_name": "Gallus gallus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Seeds, Fruit, Insects, Berries",
+      "distinctive_feature": "Sharp, pointed beak and clucking sounds",
+      "wingspan": "45cm - 60cm (17.7in - 23.6in)",
+      "habitat": "Open woodland and sheltered grassland",
+      "predators": "Human, Fox, Raccoon",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Seeds",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "First domesticated more than 10,000 years ago!",
+      "color": "BrownYellowRedBlackWhiteOrange",
+      "skin_type": "Feathers",
+      "top_speed": "6 mph",
+      "lifespan": "2 - 4 years",
+      "weight": "1kg - 3kg (2.2lbs - 6.6lbs)",
+      "length": "30cm - 45cm (11.8in - 17.7in)"
+    }
+  },
+  {
+    "name": "Chimpanzee",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Pan",
+      "scientific_name": "Pan troglodytes"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Fruits, Seeds, Insects",
+      "name_of_young": "Infant",
+      "group_behavior": "Group",
+      "estimated_population_size": "100,000 - 200,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Dexterous hands and feet and complex communication",
+      "other_name(s)": "Common Chimpanzee",
+      "gestation_period": "8 months",
+      "habitat": "Tropical forest and woody savanna",
+      "predators": "Leopards, Snakes, Humans",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal",
+      "common_name": "Chimpanzee",
+      "number_of_species": "2",
+      "location": "Western and Central Africa",
+      "slogan": "Has 32 teeth including fang-like canines!",
+      "group": "Mammal",
+      "color": "BrownBlack",
+      "skin_type": "Hair",
+      "top_speed": "25 mph",
+      "lifespan": "50 - 60 years",
+      "weight": "26kg - 70kg (57lbs - 154lbs)",
+      "height": "1m - 1.7m (3.25ft - 5.5ft)",
+      "age_of_sexual_maturity": "13 - 16 years",
+      "age_of_weaning": "5 - 6 years"
+    }
+  },
+  {
+    "name": "Chinchilla",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Chinchillidae",
+      "genus": "Chinchilla",
+      "scientific_name": "Chinchilla Lanigera"
+    },
+    "locations": [
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Nuts, Seeds",
+      "distinctive_feature": "Dense fur and long back legs",
+      "habitat": "Dry and mountainous regions",
+      "predators": "Owls, Fox, Cougars",
+      "diet": "Herbivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Natively found in the Andes Mountain range!",
+      "color": "BrownGreyBeige",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "10 - 18 years",
+      "weight": "400g - 500g (14oz - 18oz)",
+      "length": "25cm - 35cm (10in - 14in)"
+    }
+  },
+  {
+    "name": "Chipmunk",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae"
+    },
+    "locations": [
+      "Eurasia",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Nuts, Fruit, Seeds, Berries",
+      "distinctive_feature": "Stripes on fur and large front teeth",
+      "habitat": "Forest and thick woodland",
+      "predators": "Human, Hawks, Raccoon",
+      "diet": "Omnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Nuts",
+      "type": "Mammal",
+      "slogan": "There are 25 different species!",
+      "color": "BrownYellowBlackBeige",
+      "skin_type": "Fur",
+      "top_speed": "21 mph",
+      "lifespan": "4 - 8 years",
+      "weight": "57g - 113g (2oz - 4oz)",
+      "height": "10cm - 18cm (4in - 7in)"
+    }
+  },
+  {
+    "name": "Cockroach",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Blattaria",
+      "scientific_name": "Blattaria"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Decaying Organic Matter",
+      "name_of_young": "eggs",
+      "group_behavior": "Solitary/Group",
+      "estimated_population_size": "Billions",
+      "biggest_threat": "Humans, habitat destruction, and animals who are scavengers.",
+      "most_distinctive_feature": "Long antennae and dark body.",
+      "other_name(s)": "Roach",
+      "gestation_period": "28 days",
+      "wingspan": "3 inches",
+      "average_spawn_size": "16-18 eggs",
+      "habitat": "Dark, moist, dirty places.",
+      "predators": "Spiders, Birds, Mammals",
+      "diet": "Omnivore",
+      "average_litter_size": "40",
+      "lifestyle": "Nocturnal",
+      "favorite_food": "Decaying Organic Matter",
+      "common_name": "Cockroach",
+      "origin": "Carboniferous period, some 300-350 million years ago",
+      "number_of_species": "4000",
+      "location": "Worldwide",
+      "slogan": "Dated to be around 300 million years old!",
+      "color": "BrownGreyYellowBlackTanCaramel",
+      "skin_type": "Shell",
+      "lifespan": "1.5 years",
+      "weight": "30 grams",
+      "height": "35-41 mm",
+      "length": "4 cm",
+      "age_of_sexual_maturity": "4-6 months"
+    }
+  },
+  {
+    "name": "Cougar",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Puma",
+      "scientific_name": "Felis Concolor"
+    },
+    "locations": [
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Elk, Beavers",
+      "distinctive_feature": "Powerful forearms and paws and muscular jaw",
+      "habitat": "Forest and mountainous regions",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Deer",
+      "type": "Mammal",
+      "slogan": "Largest feline in North America",
+      "color": "BrownBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "30 mph",
+      "lifespan": "10 - 20 years",
+      "weight": "29kg - 90kg (64lbs - 198lbs)",
+      "length": "1.5m - 2.75m (5ft - 9ft)"
+    }
+  },
+  {
+    "name": "Cow",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bos",
+      "scientific_name": "Bos Taurus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Seeds, Flowers",
+      "distinctive_feature": "Thick leathery skin and complex digestive system",
+      "habitat": "Forest and grassland",
+      "predators": "Human, Bears, Wolves",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "There are nearly 1.5 million worldwide!",
+      "color": "BrownBlackWhite",
+      "skin_type": "Leather",
+      "top_speed": "25 mph",
+      "lifespan": "12 - 20 years",
+      "weight": "400kg - 800kg (881lbs - 1,760lbs)",
+      "length": "1.5m - 1.8m (5ft - 6ft)"
+    }
+  },
+  {
+    "name": "Coyote",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis latrans"
+    },
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rabbit, Mice, Deer",
+      "distinctive_feature": "Pointed ears and nose and a long, bushy tail",
+      "habitat": "Forests, plains and deserts",
+      "predators": "Human, Bears, Wolves",
+      "diet": "Carnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Pack",
+      "favorite_food": "Rabbit",
+      "type": "Mammal",
+      "slogan": "Also known as the Prairie Wolf!",
+      "color": "BrownGreyTan",
+      "skin_type": "Fur",
+      "top_speed": "40 mph",
+      "lifespan": "10 - 15 years",
+      "weight": "7kg - 21kg (15lbs - 46lbs)",
+      "length": "75cm - 90cm (30in - 35in)"
+    }
+  },
+  {
+    "name": "Crab",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Brachyura",
+      "scientific_name": "Brachyura"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Shrimp, Fish, Mussels",
+      "distinctive_feature": "Hard, armoured shell and eight legs",
+      "habitat": "Coral reefs and coastline",
+      "diet": "Carnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Solitary",
+      "favorite_food": "Shrimp",
+      "type": "Arthropod",
+      "slogan": "There are 93 different crab groups",
+      "color": "BrownRedBlueOrange",
+      "skin_type": "Shell",
+      "top_speed": "12 mph",
+      "lifespan": "1 - 100 years",
+      "weight": "100g - 2,000g (3.5oz - 704oz)",
+      "length": "1cm - 400cm (0.4in - 157in)"
+    }
+  },
+  {
+    "name": "Crane",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "scientific_name": "Gruidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Insects. Fish, Grain",
+      "distinctive_feature": "Large body size and long beak",
+      "wingspan": "1.8m - 2.4m (71in - 95in)",
+      "habitat": "Temperate wetlands",
+      "predators": "Fox, Eagle, Wildcats",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Insects",
+      "type": "Bird",
+      "average_clutch_size": "4",
+      "slogan": "Many are critically endangered species!",
+      "color": "BrownGreyRedBlueBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "25 mph",
+      "lifespan": "15 - 30 years",
+      "weight": "3.7kg - 10kg (8.2lbs - 22lbs)",
+      "length": "1m - 1.4m (40in - 55in)"
+    }
+  },
+  {
+    "name": "Cuttlefish",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Cephalopoda",
+      "order": "Decapodiformes",
+      "family": "Sepiida",
+      "scientific_name": "Sepiida"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Crab, Shrimp, Fish",
+      "distinctive_feature": "Long body shape and large eyes",
+      "habitat": "Coastal and deeper waters",
+      "predators": "Fish, Sharks, Cuttlefish",
+      "diet": "Carnivore",
+      "average_litter_size": "200",
+      "favorite_food": "Crab",
+      "common_name": "Cuttlefish",
+      "number_of_species": "120",
+      "location": "Worldwide",
+      "slogan": "Found throughout the world's oceans!",
+      "color": "BrownYellowRedBlueWhiteGreenOrangePink",
+      "skin_type": "Smooth",
+      "weight": "3kg - 10.5kg (6.6lbs - 23lbs)",
+      "length": "15cm - 50cm (5.9in - 20in)"
+    }
+  },
+  {
+    "name": "Deer",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "scientific_name": "Odocoileus virginiana"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Acorns, Fruit, Grass",
+      "distinctive_feature": "Long ears and some male species have antlers",
+      "habitat": "Dense forest and planted areas",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Acorns",
+      "type": "Mammal",
+      "slogan": "There are around 40 different species!",
+      "color": "BrownWhiteTanOrange",
+      "skin_type": "Fur",
+      "top_speed": "43 mph",
+      "lifespan": "10 - 20 years",
+      "weight": "10kg - 450kg (22lbs - 990lbs)",
+      "height": "60cm - 105cm (24in - 206in)"
+    }
+  },
+  {
+    "name": "Dingo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis Lupus Dingo"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Rabbit, Lizards, Rodents",
+      "distinctive_feature": "Pricked ears and a long bushy tail",
+      "habitat": "Desert, wet and dry forests",
+      "predators": "Human, Large reptiles",
+      "diet": "Carnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Pack",
+      "favorite_food": "Rabbit",
+      "type": "Mammal",
+      "slogan": "Natively found on the Australian continent!",
+      "color": "BrownGreyYellowRedBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "30 mph",
+      "lifespan": "7 - 15 years",
+      "weight": "13kg - 20kg (28lbs - 44lbs)",
+      "length": "100cm - 125cm (39in - 49in)"
+    }
+  },
+  {
+    "name": "Dodo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Raphus",
+      "scientific_name": "Raphus cucullatus"
+    },
+    "locations": [
+      "Extinct"
+    ],
+    "characteristics": {
+      "main_prey": "Tambalacoque Fruit",
+      "distinctive_feature": "Hooked beak and unable to fly",
+      "wingspan": "About 20 inches",
+      "incubation_period": "Unknown",
+      "habitat": "Tropical forest",
+      "predators": "Humans, Cats, Dogs",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Flock",
+      "favorite_food": "Tambalacoque Fruit",
+      "type": "Bird",
+      "common_name": "Dodo",
+      "average_clutch_size": "1",
+      "slogan": "Native to the island of Mauritius!",
+      "nesting_location": "Ground",
+      "age_of_molting": "Probably a few weeks or months",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Feathers",
+      "lifespan": "10 - 30 years",
+      "weight": "20kg (44lbs)",
+      "height": "1m (3ft)"
+    }
+  },
+  {
+    "name": "Dolphin",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacean",
+      "family": "Delphinidae"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Squid, Crustaceans",
+      "group_behavior": "Pod",
+      "distinctive_feature": "A beaklike snout and rounded \"melon\" or forehead",
+      "water_type": "Brackish",
+      "habitat": "All of the world's oceans, rivers in Asia and South America",
+      "predators": "Sharks, orcas",
+      "diet": "Carnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Pod",
+      "favorite_food": "Squid",
+      "type": "Mammal",
+      "slogan": "Can reach speeds of up to 25 mph!",
+      "color": "GreyYellowBlackWhitePink",
+      "skin_type": "Smooth",
+      "top_speed": "25 mph",
+      "lifespan": "20 to 45 years",
+      "weight": "100 to 300 kg (220 to 660 lbs)",
+      "length": "2m - 4m (6.5ft - 13ft)"
+    }
+  },
+  {
+    "name": "Donkey",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "scientific_name": "Equus Asinus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Weeds, Vegetables",
+      "distinctive_feature": "Stocky body and hee-haw sounds",
+      "habitat": "Arid forests and deserts",
+      "predators": "Fox, Wolf, Lion",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "First domesticated 5,000 years ago!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "15 - 30 years",
+      "weight": "200kg - 258kg (441lbs - 570lbs)",
+      "height": "90cm - 130cm (35in - 51in)"
+    }
+  },
+  {
+    "name": "Dragonfly",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Odonata",
+      "family": "Anisoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Mosquitoes, Fly, Bee",
+      "habitat": "Wetlands and close to water",
+      "predators": "Birds, Fish, Lizards",
+      "diet": "Carnivore",
+      "average_litter_size": "60",
+      "favorite_food": "Mosquitoes",
+      "common_name": "Dragonfly",
+      "number_of_species": "5000",
+      "location": "Worldwide",
+      "slogan": "It's larvae are carnivorous!",
+      "color": "YellowRedBlueBlackOrange",
+      "skin_type": "Smooth"
+    }
+  },
+  {
+    "name": "Duck",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Frogs, Plants, Shellfish",
+      "distinctive_feature": "Long, broad beak and webbed feet",
+      "wingspan": "60cm - 80cm (24in - 31in)",
+      "habitat": "Rivers, lakes and woodland wetlands",
+      "diet": "Omnivore",
+      "lifestyle": "Pack",
+      "favorite_food": "Insects",
+      "type": "Bird",
+      "average_clutch_size": "5",
+      "slogan": "Rows of tiny plates line their teeth!",
+      "color": "BrownGreyYellowBlackWhiteGreen",
+      "skin_type": "Feathers",
+      "top_speed": "88 mph",
+      "lifespan": "4 - 8 years",
+      "weight": "0.7kg - 1.4kg (1.5lbs - 3lbs)",
+      "length": "30cm - 50cm (12in - 20in)"
+    }
+  },
+  {
+    "name": "Eagle",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Falconiformes",
+      "family": "Accipitridae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Mammals, Reptiles",
+      "distinctive_feature": "Long curved beak and strong, sharp claws",
+      "wingspan": "70cm - 250cm (27.5in - 98in)",
+      "habitat": "Open waters like rivers, lakes and coastal regions",
+      "predators": "Human, Hawk, Raccoon",
+      "diet": "Carnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "Has exceptional eyesight!",
+      "nesting_location": "In trees or on cliffs",
+      "color": "BrownGreyYellowBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "100 mph",
+      "lifespan": "15 - 30 years",
+      "weight": "0.5kg - 7kg (1.1lbs - 15.4lbs)",
+      "height": "40cm - 100cm (15.7in - 39.3in)"
+    }
+  },
+  {
+    "name": "Earwig",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Dermaptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Plants, Flowers, Insects",
+      "distinctive_feature": "Sharp pincers and delicate wings",
+      "habitat": "Grass and woodlands",
+      "predators": "Toads, Birds, Beetles",
+      "diet": "Omnivore",
+      "average_litter_size": "50",
+      "favorite_food": "Plants",
+      "common_name": "Earwig",
+      "number_of_species": "1800",
+      "location": "Worldwide",
+      "slogan": "There are nearly 2,000 different species!",
+      "color": "YellowTan",
+      "skin_type": "Shell",
+      "weight": "2g - 5g (0.07oz - 0.1oz)",
+      "length": "1cm - 3cm (0.4in - 1.2in)"
+    }
+  },
+  {
+    "name": "Eel",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Anguilliformes"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Smaller fish, invertebrates, crustaceans, shrimp, crabs, sea urchins",
+      "group_behavior": "Solitary/Group",
+      "estimated_population_size": "Unknown",
+      "biggest_threat": "Human consumption of freshwater eels",
+      "most_distinctive_feature": "Snakelike appearance",
+      "gestation_period": "Unknown",
+      "water_type": "Salt",
+      "habitat": "Ocean, river, freshwater",
+      "predators": "Larger eels, larger fish, fish-eating birds, and (for freshwater eels) humans",
+      "diet": "Carnivore",
+      "type": "Anguilliform, Actinopterygii, Teleost",
+      "common_name": "Eel",
+      "number_of_species": "800",
+      "color": "GreyBlackMulti-colored",
+      "skin_type": "Smooth",
+      "top_speed": "20 mph",
+      "lifespan": "30-70 years",
+      "weight": "30g (1.1oz)-25kg (55lbs)",
+      "length": "5cm (2.0in)-4m (13ft)"
+    }
+  },
+  {
+    "name": "Elephant",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Fruit, Roots",
+      "distinctive_feature": "Large body size and long trunk",
+      "habitat": "Rainforest and flood plains",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Spends around 22 hours a day eating!",
+      "color": "Grey",
+      "skin_type": "Leather",
+      "top_speed": "25 mph",
+      "lifespan": "55 - 70 years",
+      "weight": "3,000kg - 5,400kg (6,500lbs - 12,000lbs)",
+      "height": "2m - 3.6m (7ft - 12ft)"
+    }
+  },
+  {
+    "name": "Emu",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Casuariiformes",
+      "family": "Casuariidae",
+      "genus": "Dromaius",
+      "scientific_name": "Dromaius novaehollandiae"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Seeds, Insects, Flowers",
+      "distinctive_feature": "Enormous body size and large eyes",
+      "habitat": "Open grasslands with bushes close to water",
+      "predators": "Human, Wild dogs, Birds of prey",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "average_clutch_size": "11",
+      "slogan": "The largest bird in Australia!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Feathers",
+      "top_speed": "25 mph",
+      "lifespan": "12 - 20 years",
+      "weight": "18kg - 60kg (40lbs - 132lbs)",
+      "height": "1.5m - 1.9m (4.9ft - 6.2ft)"
+    }
+  },
+  {
+    "name": "Falcon",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Falconiformes",
+      "family": "Falconidae",
+      "genus": "Falco"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Birds, Rabbits, Bats",
+      "distinctive_feature": "Sharp, pointed beak and aerodynamic body shape",
+      "wingspan": "74 to 120 cm",
+      "incubation_period": "Approximately one month",
+      "habitat": "High areas like mountains and cliffs",
+      "predators": "Human, Eagles, Owls, Wolves",
+      "diet": "Carnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Birds",
+      "type": "Bird",
+      "average_clutch_size": "3",
+      "slogan": "The fastest creatures on the planet!",
+      "nesting_location": "Tree holes, cliffs, and ledges",
+      "age_of_molting": "Varies with each species",
+      "migratory": "1",
+      "color": "BrownGreyYellowBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "200 mph",
+      "lifespan": "12 - 18 years",
+      "weight": "0.7kg - 1.2kg (1.5lbs - 2.6lbs)",
+      "height": "22cm - 40cm (9in - 19in)"
+    }
+  },
+  {
+    "name": "Ferret",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Mustela",
+      "scientific_name": "Mustela furo"
+    },
+    "locations": [
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Mice, Rabbit, Gophers",
+      "distinctive_feature": "Long thin body and large eyes",
+      "habitat": "Forest and grasslands",
+      "diet": "Carnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Mice",
+      "type": "Mammal",
+      "slogan": "Ferrets can be trained to do tricks like dogs!",
+      "color": "BrownGreyBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "7 - 10 years",
+      "weight": "0.7kg - 2kg (1.5lbs - 4lbs)",
+      "length": "40cm - 50cm (18in - 21in)"
+    }
+  },
+  {
+    "name": "Flamingo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Phoenicopteriformes",
+      "family": "Phoenicopteridae",
+      "genus": "Phoenicopterus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Algae, Fish, Insects",
+      "distinctive_feature": "Long, curved beak and sleep standing on one leg",
+      "wingspan": "100cm - 180cm (59in - 71in)",
+      "habitat": "Large lakes and plant less lagoons",
+      "predators": "Human, Eagles, Wild dogs",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Algae",
+      "type": "Bird",
+      "average_clutch_size": "1",
+      "slogan": "Sleeps on just one leg!",
+      "color": "BlueWhiteOrangePink",
+      "skin_type": "Feathers",
+      "top_speed": "31 mph",
+      "lifespan": "15 - 30 years",
+      "weight": "2kg - 4kg (4.4lbs - 8.8lbs)",
+      "height": "100cm - 150cm (39in - 59in)"
+    }
+  },
+  {
+    "name": "Flounder",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Pleuronectiformes",
+      "family": "Paralichthyidae",
+      "genus": "Paralichthys",
+      "scientific_name": "Paralichthys"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Shrimp, crabs, and other fish",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Perhaps some 30 million",
+      "biggest_threat": "Overfishing",
+      "most_distinctive_feature": "The flat body",
+      "other_name(s)": "Flatfish",
+      "gestation_period": "A few weeks",
+      "water_type": "Salt",
+      "optimum_ph_level": "6.5 - 8.0",
+      "habitat": "Coastal waters near docks, bridges, or reefs",
+      "predators": "Sharks, eels, and humans",
+      "diet": "Carnivore",
+      "favorite_food": "Small Fish",
+      "type": "Fish",
+      "common_name": "Flounder",
+      "slogan": "A flat fish found in the Atlantic and Pacific!",
+      "color": "BrownBlueWhiteTanGreenOrange",
+      "skin_type": "Scales",
+      "lifespan": "Three to 10 years on average",
+      "weight": "Up to 22 pounds",
+      "length": "Up to 37 inches"
+    }
+  },
+  {
+    "name": "Fox",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes",
+      "scientific_name": "Vulpes vulpes"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rabbits, Birds, Lizards",
+      "distinctive_feature": "Pointed ears and long bushy tail",
+      "habitat": "Woodland areas and urban parks",
+      "predators": "Human, Bears, Eagles",
+      "diet": "Carnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Rabbit",
+      "type": "Mammal",
+      "slogan": "There are 12 different species in the world!",
+      "color": "BrownRedBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "29 mph",
+      "lifespan": "3 - 11 years",
+      "weight": "5kg - 11kg (11lbs - 24lbs)",
+      "length": "40cm - 83cm (16in - 33in)"
+    }
+  },
+  {
+    "name": "Frog",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fly, Worms, Insects",
+      "distinctive_feature": "Brightly coloured skin and long sticky tongue",
+      "habitat": "Rainforest and swampland",
+      "predators": "Fox, Birds, Snakes",
+      "diet": "Omnivore",
+      "average_litter_size": "2,000",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fly",
+      "type": "Amphibian",
+      "slogan": "There are around 7,000 different species!",
+      "skin_type": "Permeable",
+      "top_speed": "10 mph",
+      "lifespan": "1 - 8 years",
+      "weight": "2g - 3,000g (0.07oz - 128oz)",
+      "length": "0.1cm - 30cm (0.39in - 12in)"
+    }
+  },
+  {
+    "name": "Gecko",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Worms, Small Birds",
+      "habitat": "Rocky deserts and mountainous regions",
+      "diet": "Carnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Reptile",
+      "slogan": "There are thought to be over 2,000 species!",
+      "color": "BrownYellowBlueBlackWhiteTanGreenOrange",
+      "skin_type": "Scales",
+      "top_speed": "30 mph",
+      "lifespan": "2-9 years",
+      "weight": "18g (0.5oz)"
+    }
+  },
+  {
+    "name": "Gerbil",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Muridae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, bird nestlings, other gerbils",
+      "name_of_young": "Pup",
+      "group_behavior": "Flocks",
+      "estimated_population_size": "Unknown, though some species are endangered",
+      "biggest_threat": "Snakes, birds of prey, carnivores, humans",
+      "most_distinctive_feature": "Their ability to jump. Some gerbils can jump as far as 11.5 feet.",
+      "other_name(s)": "Gerbillines",
+      "gestation_period": "Three to four weeks if the female is not nursing, longer if she is.",
+      "litter_size": "One to 13 babies",
+      "habitat": "Deserts and other arid places, though some gerbils are found in pastures, woodlands, scrub forests and mountain valleys.",
+      "predators": "Owls, vultures, snakes, foxes, other carnivores",
+      "diet": "Omnivore",
+      "average_litter_size": "8",
+      "lifestyle": "Solitary",
+      "favorite_food": "Seeds",
+      "type": "Mammal",
+      "common_name": "Gerbil, jird, tateril, doop",
+      "number_of_species": "110",
+      "location": " Asia, Africa and the Middle East",
+      "slogan": "Originally known as the Desert Rat!",
+      "group": "Colony, horde",
+      "color": "BrownGreyRedWhiteOrangePinkOlive",
+      "skin_type": "Fur",
+      "top_speed": "6.7 mph",
+      "lifespan": "Three to four months in the wild to eight years in captivity",
+      "weight": "0.35 to 8 ounces",
+      "length": "6 to 16 inches long, including the tail",
+      "age_of_sexual_maturity": "10 to 16 weeks",
+      "age_of_weaning": "One month"
+    }
+  },
+  {
+    "name": "Gibbon",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hylobatidae",
+      "genus": "Hylobates",
+      "scientific_name": "Hylobatidae"
+    },
+    "locations": [
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Eggs, Insects",
+      "habitat": "Dense forest and jungle",
+      "predators": "Leopards, Snakes, Birds Of Prey",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Troop",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Found in dense jungles and tropical forests!",
+      "color": "BrownGreyYellowBlackWhite",
+      "skin_type": "Hair",
+      "top_speed": "35 mph",
+      "lifespan": "25-40 years",
+      "weight": "6-9kg (13.2-19.8lbs)"
+    }
+  },
+  {
+    "name": "Giraffe",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Giraffidae",
+      "genus": "Giraffa",
+      "scientific_name": "Giraffa camelopardalis"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Fruits, Seeds",
+      "name_of_young": "Calf",
+      "group_behavior": "Herd",
+      "estimated_population_size": "Stable",
+      "biggest_threat": "Hunting and habitat loss",
+      "most_distinctive_feature": "Elongated neck and unique patterned coat",
+      "gestation_period": "457 days",
+      "habitat": "Open woodland and savannah",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal",
+      "common_name": "Giraffe",
+      "number_of_species": "9",
+      "location": "sub-Saharan Africa",
+      "slogan": "Long, black tongue can grow to 18 inches long!",
+      "group": "Mammal",
+      "color": "BrownRedBlackWhiteTan",
+      "skin_type": "Hair",
+      "top_speed": "30 mph",
+      "lifespan": "20 - 25 years",
+      "weight": "550kg - 1,930kg (1,200lbs - 4,200lbs)",
+      "height": "4m - 6m (13ft - 20ft)",
+      "age_of_sexual_maturity": "3.5 - 4.5 years",
+      "age_of_weaning": "13 months"
+    }
+  },
+  {
+    "name": "Goat",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Capra"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Fruit, Leaves",
+      "habitat": "Dry woodland and mountainous regions",
+      "predators": "Human, Wolf, Mountain Lion",
+      "diet": "Herbivore",
+      "average_litter_size": "2",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Most closely related to the Sheep!",
+      "color": "BrownBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "10 mph",
+      "lifespan": "10-15 years",
+      "weight": "54-77kg (120-170lbs)"
+    }
+  },
+  {
+    "name": "Goose",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Seeds, Berries",
+      "distinctive_feature": "Long neck and noisy communication calls",
+      "wingspan": "4.2 to 6.1 feet",
+      "incubation_period": "1 month",
+      "habitat": "Large ponds, rivers and lake shores",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Grass",
+      "type": "Bird",
+      "average_clutch_size": "5",
+      "slogan": "There are 29 different species!",
+      "nesting_location": "Ground",
+      "age_of_molting": "A few months",
+      "migratory": "1",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "55 mph",
+      "lifespan": "12 - 26 years",
+      "weight": "1.5kg - 8kg (3.3lbs - 17lbs)",
+      "length": "60cm - 120cm (23.6in - 50in)"
+    }
+  },
+  {
+    "name": "Gopher",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Geomyidae",
+      "genus": "Geomys",
+      "scientific_name": "Geomys bursarius"
+    },
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Roots, Fruit, Leaves",
+      "habitat": "Woodland and grass prairies",
+      "predators": "Owls, Snakes, Coyotes",
+      "diet": "Omnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Social",
+      "favorite_food": "Roots",
+      "type": "Mammal",
+      "slogan": "They dig large networks of tunnels!",
+      "color": "BrownTan",
+      "skin_type": "Fur",
+      "top_speed": "16 mph",
+      "lifespan": "3-5 years",
+      "weight": "220-1,000g (7.8-35.2oz)"
+    }
+  },
+  {
+    "name": "Gorilla",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Fruit, Flowers",
+      "habitat": "Rainforest and dense jungle",
+      "predators": "Human, Leopard, Crocodile",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Troop",
+      "favorite_food": "Leaves",
+      "type": "Mammal",
+      "slogan": "The biggest of the world's primates!",
+      "color": "GreyBlack",
+      "skin_type": "Hair",
+      "top_speed": "25 mph",
+      "lifespan": "35-50 years",
+      "weight": "100-200kg (220-440lbs)"
+    }
+  },
+  {
+    "name": "Grasshopper",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Orthoptera",
+      "family": "Caelifera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Weeds, Shrubs",
+      "habitat": "Fields and meadows",
+      "predators": "Birds, Rodents, Reptiles, Insects",
+      "diet": "Herbivore",
+      "average_litter_size": "4",
+      "favorite_food": "Grass",
+      "common_name": "Grasshopper",
+      "number_of_species": "11000",
+      "location": "Worldwide",
+      "slogan": "There are 11,000 known species!",
+      "color": "BrownYellowGreen",
+      "skin_type": "Shell"
+    }
+  },
+  {
+    "name": "Grizzly Bear",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus",
+      "scientific_name": "Ursus Arctos Horriblis"
+    },
+    "locations": [
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Salmon, Fruit, Fish",
+      "distinctive_feature": "Strong, powerful shoulders and enormous claws",
+      "habitat": "Forest and mountainous regions",
+      "predators": "Human, Cougars",
+      "diet": "Omnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Solitary",
+      "favorite_food": "Salmon",
+      "type": "Mammal",
+      "slogan": "Less than 10% make it into adulthood",
+      "color": "BlackDark Brown",
+      "skin_type": "Fur",
+      "top_speed": "35 mph",
+      "lifespan": "15 - 25 years",
+      "weight": "181kg - 318kg (400lbs - 700lbs)",
+      "height": "2.1m - 3m (7ft - 10ft)"
+    }
+  },
+  {
+    "name": "Guinea Fowl",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Numididae"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Worms, Berries",
+      "distinctive_feature": "Large body size and bald neck",
+      "wingspan": "59-71 inches",
+      "incubation_period": "4 weeks",
+      "habitat": "Forest, desert and grasslands",
+      "predators": "Large Mammals and Reptiles",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Insects",
+      "type": "Bird",
+      "common_name": "Guinea Fowl",
+      "average_clutch_size": "12",
+      "slogan": "Found in a vairety of African habitats!",
+      "nesting_location": "Covered ground area",
+      "age_of_molting": "About 10 weeks",
+      "color": "BrownGreyYellowRedBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "22 mph",
+      "lifespan": "10 - 20 years",
+      "weight": "0.7kg - 1.6kg (1.5lbs - 3.5lbs)",
+      "length": "40cm - 71cm (16in - 30in)"
+    }
+  },
+  {
+    "name": "Hamster",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Seeds, Nuts, Berries",
+      "habitat": "Dry deserts and sand dunes",
+      "predators": "Owl, Hawk, Snakes",
+      "diet": "Omnivore",
+      "average_litter_size": "8",
+      "lifestyle": "Solitary",
+      "favorite_food": "Seeds",
+      "type": "Mammal",
+      "slogan": "Able to run as quickly backwards as forwards!",
+      "color": "BrownBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "4 mph",
+      "lifespan": "2-3 years",
+      "weight": "100-900g (3.5-32oz)"
+    }
+  },
+  {
+    "name": "Hedgehog",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Erinaceomorpha",
+      "family": "Erinaceidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Worms, Seeds",
+      "habitat": "Dense vegetation and woodland",
+      "predators": "Owl, Dog, Foxes",
+      "diet": "Omnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Mammal",
+      "slogan": "Thought to be one of the oldest mammals on Earth!",
+      "color": "BrownGreyTan",
+      "skin_type": "Spikes",
+      "top_speed": "12 mph",
+      "lifespan": "3-6 years",
+      "weight": "1-2kg (2.2-4.4lbs)"
+    }
+  },
+  {
+    "name": "Heron",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Ciconiiformes",
+      "family": "Ardeidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Insects, Molluscs",
+      "distinctive_feature": "Long thin legs and pointed beak",
+      "wingspan": "Up to 91in",
+      "incubation_period": "A month",
+      "habitat": "Wetland regions",
+      "predators": "Fox, Mink, Raccoon",
+      "diet": "Carnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Bird",
+      "slogan": "Inhabits wetlands around the world!",
+      "nesting_location": "Bushes, cliffs, or trees",
+      "age_of_molting": "2-3 months",
+      "migratory": "1",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "40 mph",
+      "lifespan": "15 - 20 years",
+      "weight": "1.5kg - 3kg (3.3lbs - 6.6lbs)",
+      "height": "85cm - 140cm (34in - 55in)"
+    }
+  },
+  {
+    "name": "Hippopotamus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Hippopotamidae",
+      "genus": "Hippopotamus",
+      "scientific_name": "Hippopotamus amphibius"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Grasses, Grain, Flowers",
+      "name_of_young": "Calf",
+      "group_behavior": "Herd",
+      "estimated_population_size": "150,000",
+      "biggest_threat": "Hunting and habitat loss",
+      "most_distinctive_feature": "Ears, eyes and nostrils on top of the head",
+      "other_name(s)": "Common Hippopotamus, Water Horse",
+      "gestation_period": "240 days",
+      "habitat": "Lakes, rivers and wetlands",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Nocturnal",
+      "common_name": "Hippopotamus",
+      "number_of_species": "1",
+      "location": "Sub-Saharan Africa",
+      "slogan": "Has pink anti-bacterial sweat!",
+      "group": "Mammal",
+      "color": "BrownGreyBlackPink",
+      "skin_type": "Leather",
+      "top_speed": "30 mph",
+      "lifespan": "40 - 50 years",
+      "weight": "1tonne - 4.5tonnes (2,200lbs - 9,900lbs)",
+      "length": "2m - 5m (6.5ft - 16.5ft)",
+      "age_of_sexual_maturity": "6 - 14 years",
+      "age_of_weaning": "18 months"
+    }
+  },
+  {
+    "name": "Horse",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "scientific_name": "Equus caballus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Fruit, Leaves",
+      "habitat": "Small forests and grassland",
+      "predators": "Human, Wolf, Bears",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Has evolved over 50 million years!",
+      "color": "BrownBlackWhite",
+      "skin_type": "Hair",
+      "top_speed": "40 mph",
+      "lifespan": "25-30 years",
+      "weight": "380-550kg (840-1,200lbs)"
+    }
+  },
+  {
+    "name": "Hummingbird",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Apodiformes",
+      "family": "Trochilidae",
+      "genus": "Trochilinae"
+    },
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Nectar, Tree sap, Insects, Spiders",
+      "distinctive_feature": "Long, thin beak and the ability to hover",
+      "wingspan": "Three to five inches",
+      "incubation_period": "15 to 18 days",
+      "habitat": "Rainforest and tropical jungles",
+      "predators": "Hawks, Snakes, Lizards",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Nectar",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "Beat their wings up to 80 times per second!",
+      "nesting_location": "Sheltered trees or shrubbery and fork of branches",
+      "age_of_molting": "Four months for some species",
+      "migratory": "1",
+      "color": "BrownGreyRedWhiteTanGreen",
+      "skin_type": "Feathers",
+      "top_speed": "30 mph",
+      "lifespan": "3 - 5 years",
+      "weight": "2.2g - 20g (0.07oz - 0.7oz)",
+      "height": "5cm - 20cm (2in - 8in)"
+    }
+  },
+  {
+    "name": "Hyena",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Hyaenidae",
+      "genus": "Crocuta",
+      "scientific_name": "Crocuta Crocuta"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Wildebeest, Monkey, Birds",
+      "habitat": "Open savanna plains and grassland",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Pack",
+      "favorite_food": "Wildebeest",
+      "type": "Mammal",
+      "slogan": "There are four different species!",
+      "color": "BrownBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "37 mph",
+      "lifespan": "20-25 years",
+      "weight": "41-86kg (90-190lbs)"
+    }
+  },
+  {
+    "name": "Iguana",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Fruit, Leaves",
+      "habitat": "Lowland tropical rainforest near water",
+      "predators": "Hawk, Eagle, Snakes",
+      "diet": "Omnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Reptile",
+      "slogan": "Uses visual signals to communicate!",
+      "color": "BrownYellowGreen",
+      "skin_type": "Scales",
+      "top_speed": "21 mph",
+      "lifespan": "15-20 years",
+      "weight": "4-8kg (8.8-17.6lbs)"
+    }
+  },
+  {
+    "name": "Jackal",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis Aureus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Antelope, Reptiles, Insects",
+      "habitat": "Grass plains and dry woodland",
+      "predators": "Hyena, Leopard, Eagles",
+      "diet": "Carnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Pack",
+      "favorite_food": "Antelope",
+      "type": "Mammal",
+      "slogan": "Can maintain speeds of 16 km/h!",
+      "color": "BrownGreyWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "20 mph",
+      "lifespan": "8-15 years",
+      "weight": "6.8-11kg (15-24lbs)"
+    }
+  },
+  {
+    "name": "Jaguar",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "scientific_name": "Panthera onca"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Capybara, Tapir",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "15,000",
+      "biggest_threat": "Hunting and habitat loss",
+      "most_distinctive_feature": "Beautiful rosetted fur pattern",
+      "gestation_period": "90 - 105 days",
+      "habitat": "Rainforest, swamp and floodplains",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Crepuscular",
+      "common_name": "Jaguar",
+      "number_of_species": "1",
+      "location": "Central and South America",
+      "slogan": "The largest feline on the American continent!",
+      "group": "Mammal",
+      "color": "BrownYellowBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "50 mph",
+      "lifespan": "12 - 15 years",
+      "weight": "36kg - 160kg (79lbs - 350lbs)",
+      "length": "1.1m - 1.9m (43in - 75in)",
+      "age_of_sexual_maturity": "3 - 4 years",
+      "age_of_weaning": "3 months"
+    }
+  },
+  {
+    "name": "Jellyfish",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Cnidaria",
+      "class": "Scyphozoa",
+      "order": "Semaeostomeae",
+      "family": "Cyaneidae"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Small fish, plants, fish eggs, larvae, other small marine creatures",
+      "group_behavior": "Group",
+      "estimated_population_size": "900 million, as of 1990",
+      "biggest_threat": "Sharks, birds, tuna, and sea anemone",
+      "most_distinctive_feature": "Tentacles hanging from the body that help aid the jellyfish's stinging characteristics",
+      "gestation_period": "Hatches within one day",
+      "habitat": "All oceans on planet earth",
+      "predators": "Sharks, birds, tuna, and sea anemone",
+      "diet": "Carnivore",
+      "average_litter_size": "100",
+      "lifestyle": "Group",
+      "favorite_food": "Small fish, plants, fish eggs, larvae, other small marine creatures",
+      "type": "Cnidaria",
+      "common_name": "Jellyfish",
+      "slogan": "Have tentacles around their mouths!",
+      "color": "YellowRedBlueWhiteGreenOrangePurplePink",
+      "skin_type": "Smooth",
+      "top_speed": "5 mph",
+      "lifespan": "Three to Six months",
+      "weight": "20-400g (0.7-14oz)",
+      "length": "0.5 inches to 16 inches, though they can grow to 7 feet"
+    }
+  },
+  {
+    "name": "Kangaroo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Macropodidae"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Seeds, Flowers",
+      "habitat": "Dry forests, desert and grassland",
+      "predators": "Human, Dingo",
+      "diet": "Omnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Sociable",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Females have a deep pouch on their front!",
+      "color": "BrownGreyTan",
+      "skin_type": "Fur",
+      "top_speed": "35 mph",
+      "lifespan": "4-10 years",
+      "weight": "18-95kg (40-200lbs)"
+    }
+  },
+  {
+    "name": "Kiwi",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Struthioniformes",
+      "family": "Apterygidae",
+      "genus": "Apteryx"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Worms, Spiders, Insects, Fruit",
+      "distinctive_feature": "Round body and long, sharp and straight beaks",
+      "wingspan": "An inch per wing",
+      "incubation_period": "75 to 85 days",
+      "habitat": "Forests and dense woodland",
+      "predators": "Foxes, Dogs, Cats",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Worms",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "Only found in the forests of New Zealand!",
+      "nesting_location": "Burrows in the ground",
+      "age_of_molting": "Shortly after birth",
+      "color": "BrownGreyWhite",
+      "skin_type": "Feathers",
+      "top_speed": "12 mph",
+      "lifespan": "8 - 12 years",
+      "weight": "1.3kg - 3.3kg (2.6lbs - 7.3lbs)",
+      "height": "25cm - 45cm (9.8in - 17in)"
+    }
+  },
+  {
+    "name": "Koala",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Phascolarctidae",
+      "genus": "Phascolarctos",
+      "scientific_name": "Phascolarctos cinereus"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Eucalyptus leaves",
+      "name_of_young": "Joey",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Stable",
+      "biggest_threat": "Habitat loss and disease",
+      "most_distinctive_feature": "Large, wide head and tufted, round ears",
+      "other_name(s)": "Koala Bear",
+      "gestation_period": "35 days",
+      "habitat": "Eucalyptus, inland and coastal forests",
+      "predators": "Birds of Prey, Dingo, Human",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Nocturnal",
+      "common_name": "Koala",
+      "number_of_species": "3",
+      "location": "south-eastern Australia",
+      "slogan": "Spends up to 80% of the time sleeping or resting!",
+      "group": "Mammal",
+      "color": "GreyBlackWhiteGrey-Brown",
+      "skin_type": "Fur",
+      "top_speed": "2 mph",
+      "lifespan": "15 - 20 years",
+      "weight": "4kg - 15kg (8.8lbs - 33lbs)",
+      "height": "60cm - 85cm (24in - 34in)",
+      "age_of_sexual_maturity": "2 years",
+      "age_of_weaning": "6 - 7 months"
+    }
+  },
+  {
+    "name": "Lemming",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Cricetidae",
+      "genus": "Lemmus",
+      "scientific_name": "Lemmus Lemmus"
+    },
+    "locations": [
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Seeds, Grass, Berries",
+      "habitat": "Arctic tundra and woodland areas",
+      "predators": "Owls, Foxes, Wolves",
+      "diet": "Herbivore",
+      "average_litter_size": "7",
+      "lifestyle": "Solitary",
+      "favorite_food": "Seeds",
+      "type": "Mammal",
+      "slogan": "Does not hibernate during the bitter Arctic winter!",
+      "color": "BrownGreyWhite",
+      "skin_type": "Fur",
+      "top_speed": "3 mph",
+      "lifespan": "1-3 years",
+      "weight": "30-112g (1.1-4oz)"
+    }
+  },
+  {
+    "name": "Lemur",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Lemuridae",
+      "scientific_name": "Lemur Catta"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Leaves, Insects",
+      "habitat": "Dry forest and tropical jungle",
+      "predators": "Hawk, Fossa, Wild dogs",
+      "diet": "Omnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Group",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Natively found on the island of Madagascar!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "12 mph",
+      "lifespan": "10-14 years",
+      "weight": "0.03-10kg (0.06-22lbs)"
+    }
+  },
+  {
+    "name": "Leopard",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "scientific_name": "Panthera pardus"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Warthog, Rodents",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Stable",
+      "biggest_threat": "Trophy hunting and habitat loss",
+      "most_distinctive_feature": "Dense patterned fur and long, sharp teeth",
+      "other_name(s)": "Panther",
+      "gestation_period": "90 - 105 days",
+      "habitat": "Rainforest, grassland and mountainous regions",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Nocturnal",
+      "common_name": "Leopard",
+      "number_of_species": "7",
+      "location": "Sub-Saharan Africa and southern Asia",
+      "slogan": "Spends much of the time high in the trees!",
+      "group": "Mammal",
+      "color": "YellowBlackDark BrownGolden",
+      "skin_type": "Fur",
+      "top_speed": "6 mph",
+      "lifespan": "10 - 15 years",
+      "weight": "30kg - 90kg (66lbs - 198lbs)",
+      "length": "100cm - 190cm (40in - 75in)",
+      "age_of_sexual_maturity": "2 - 2.5 years",
+      "age_of_weaning": "3 months"
+    }
+  },
+  {
+    "name": "Lion",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "scientific_name": "Panthera leo"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Antelope, Warthog, Zebra",
+      "name_of_young": "Cub",
+      "group_behavior": "Pride",
+      "estimated_population_size": "23,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Long and thick hairy mane of the male around the face",
+      "other_name(s)": "African Lion",
+      "gestation_period": "110 days",
+      "habitat": "open woodland, scrub, grassland",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Diurnal/Nocturnal",
+      "common_name": "Lion",
+      "number_of_species": "2",
+      "location": "sub-Saharan Africa",
+      "slogan": "Lives in small groups called prides!",
+      "group": "Mammal",
+      "color": "BrownGoldTawnyBlonde",
+      "skin_type": "Fur",
+      "top_speed": "35 mph",
+      "lifespan": "8 - 15 years",
+      "weight": "120kg - 249kg (264lbs - 550lbs)",
+      "length": "1.4m - 2.5m (4.7ft - 8.2ft)",
+      "age_of_sexual_maturity": "2 - 3 years",
+      "age_of_weaning": "6 months"
+    }
+  },
+  {
+    "name": "Lionfish",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Scorpaeniformes",
+      "family": "Scorpaenidae",
+      "genus": "Pterois",
+      "scientific_name": "Pterois volitans"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Shrimp, Crabs",
+      "distinctive_feature": "Striped body markings with long spines",
+      "water_type": "Salt",
+      "optimum_ph_level": "8.1 - 8.4",
+      "habitat": "Tropical reefs and rocky crevices",
+      "predators": "Eels, Frogfish, Scorpion Fish",
+      "diet": "Carnivore",
+      "favorite_food": "Fish",
+      "common_name": "Lionfish",
+      "average_clutch_size": "8000",
+      "slogan": "Females can release up to 15,000 eggs at a time!",
+      "color": "BrownRedBlackWhiteOrange",
+      "skin_type": "Scales",
+      "lifespan": "10 - 18 years",
+      "length": "30cm - 35cm (12in - 14in)"
+    }
+  },
+  {
+    "name": "Lizard",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Lacertidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Birds, Small rodents",
+      "habitat": "Warm forests and deserts worldwide",
+      "diet": "Omnivore",
+      "average_litter_size": "18",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Reptile",
+      "slogan": "There are around 5,000 different species!",
+      "color": "BrownYellowBlackTanGreen",
+      "skin_type": "Scales",
+      "top_speed": "15 mph",
+      "lifespan": "1-30 years",
+      "weight": "0.01-300kg (0.02-661lbs)"
+    }
+  },
+  {
+    "name": "Llama",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Lama",
+      "scientific_name": "Lama Glama"
+    },
+    "locations": [
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Grass, Shoots",
+      "habitat": "Mountainous deserts and grasslands",
+      "predators": "Human, Puma, Coyote",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Leaves",
+      "type": "Mammal",
+      "slogan": "Natively found in the Andes Mountain range!",
+      "color": "BrownBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "28 mph",
+      "lifespan": "15-20 years",
+      "weight": "130-204kg (280-450lbs)"
+    }
+  },
+  {
+    "name": "Lynx",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Lynx",
+      "scientific_name": "Felis lynx"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Hare, Birds, Deer",
+      "habitat": "Secluded forests and mountainous regions",
+      "predators": "Wolf, Coyote, Human, Cougar",
+      "diet": "Carnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Hare",
+      "type": "Mammal",
+      "slogan": "Live in dens in rocks and under ledges!",
+      "color": "BrownYellowBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "50 mph",
+      "lifespan": "12-20 years",
+      "weight": "10-25kg (22-55lbs)"
+    }
+  },
+  {
+    "name": "Macaque",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Macaca",
+      "scientific_name": "Macaca"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Fruits, seeds, leaves, flowers, bark, and insects",
+      "name_of_young": "infant",
+      "group_behavior": "Troop",
+      "estimated_population_size": "varies",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "The long hair around the muzzle",
+      "other_name(s)": "Cynomolgus",
+      "gestation_period": "5-6 months",
+      "litter_size": "1",
+      "habitat": "Plains, mountains, and rainforests",
+      "predators": "Tigers, crocodiles, snakes, leopards, and birds of prey",
+      "diet": "Carnivore",
+      "average_litter_size": "1",
+      "type": "mammal",
+      "common_name": "Macaque",
+      "number_of_species": "20",
+      "location": "Asia and North Africa",
+      "color": "BrownRedBlackWhiteTan",
+      "skin_type": "Hair",
+      "lifespan": "up to 40 years",
+      "weight": "Up to 40 lbs",
+      "length": "Up to 28 inches on all fours",
+      "age_of_sexual_maturity": "3-7 years"
+    }
+  },
+  {
+    "name": "Macaw",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Arini",
+      "scientific_name": "Arini"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Nuts, Seeds, Insects",
+      "distinctive_feature": "Large colourful body and curved beak",
+      "wingspan": "3-4 feet",
+      "incubation_period": "Up to 28 days",
+      "habitat": "Rainforests and tropical jungle",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "slogan": "The largest species of parrot in the world!",
+      "nesting_location": "Tall trees, riverbanks and cliffsides",
+      "age_of_molting": "9-10 months",
+      "migratory": "1",
+      "color": "YellowRedBlueWhiteGreen",
+      "skin_type": "Feathers",
+      "top_speed": "15 mph",
+      "lifespan": "50 - 60 years",
+      "weight": "0.9kg - 2kg (2lbs - 4.4lbs)",
+      "height": "76cm - 100cm (30in - 39in)"
+    }
+  },
+  {
+    "name": "Mole",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Soricomorpha",
+      "family": "Talpidae",
+      "scientific_name": "Talpidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Earthworms. Insects, Mice",
+      "habitat": "Woodland, grassland and farmland",
+      "predators": "Cats, Owls, Foxes",
+      "diet": "Omnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Solitary",
+      "favorite_food": "Earthworms",
+      "type": "Mammal",
+      "slogan": "Primarily hunts and feeds on Earthworms!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "4 mph",
+      "lifespan": "3-6 years",
+      "weight": "250-550g (8.8-19.4oz)"
+    }
+  },
+  {
+    "name": "Mongoose",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Herpestidae",
+      "genus": "Herpestes",
+      "scientific_name": "Helogale Parvula"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Rats, Eggs, Insects",
+      "habitat": "Open forests and grass plains",
+      "diet": "Omnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Gang",
+      "favorite_food": "Rats",
+      "type": "Mammal",
+      "slogan": "Range in size from just 1 to 3 foot!",
+      "color": "BrownGreyTan",
+      "skin_type": "Fur",
+      "top_speed": "20 mph",
+      "lifespan": "10-15 years",
+      "weight": "0.3-5kg (0.7-11lbs)"
+    }
+  },
+  {
+    "name": "Monkey",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cebidae",
+      "scientific_name": "Macaca Fascicularis"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Seeds, Insects",
+      "habitat": "Tropical forests, grasslands and mountainous plains",
+      "predators": "Birds, Snakes, Wildcats",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Troop",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "There are around 260 known species!",
+      "color": "BrownGreyYellowBlackWhiteTan",
+      "skin_type": "Hair",
+      "top_speed": "35 mph",
+      "lifespan": "10-30 years",
+      "weight": "0.1-30kg (0.22-60lbs)"
+    }
+  },
+  {
+    "name": "Moose",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Alces",
+      "scientific_name": "Alces alces"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Twigs, Pondweed",
+      "habitat": "Forest areas close to the Arctic tundra",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Renews it's enormous antlers every year!",
+      "color": "BrownGreyTan",
+      "skin_type": "Hair",
+      "top_speed": "20 mph",
+      "lifespan": "10-16 years",
+      "weight": "270-720kg (600-1,580lbs)"
+    }
+  },
+  {
+    "name": "Moth",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "scientific_name": "Gynnidomorpha Alisman"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Nectar, Fruits, Natural Fabrics",
+      "habitat": "Quiet forests and pastures",
+      "predators": "Birds, Bats, Lizards, Spiders",
+      "diet": "Herbivore",
+      "average_litter_size": "100",
+      "favorite_food": "Nectar",
+      "common_name": "Moth",
+      "number_of_species": "9000",
+      "slogan": "There are 250,000 different species!",
+      "color": "BrownYellowRedBlackWhiteOrange",
+      "skin_type": "Hair"
+    }
+  },
+  {
+    "name": "Mouse",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Muridae",
+      "genus": "Mus"
+    },
+    "locations": [
+      "Africa",
+      "Antarctica",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Seeds, Grasses",
+      "habitat": "Open fields and woodland areas",
+      "predators": "Bird, Cat, Fox, Reptiles",
+      "diet": "Herbivore",
+      "average_litter_size": "6",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Found on every continent on Earth!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Fur",
+      "top_speed": "8 mph",
+      "lifespan": "2-5 years",
+      "weight": "100-200g (0.2-0.4lbs)"
+    }
+  },
+  {
+    "name": "Mule",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "scientific_name": "Equus mulus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Weeds, Vegetables",
+      "predators": "Fox, Wolf, Lion",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "The offspring of a horse and donkey parents!",
+      "color": "BrownGreyBlack",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "15-20 years",
+      "weight": "350-450kg (771-992lbs)"
+    }
+  },
+  {
+    "name": "Newt",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandridae"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Worms, Insects, Water snails",
+      "habitat": "Temperate forests and river banks",
+      "diet": "Omnivore",
+      "average_litter_size": "100",
+      "lifestyle": "Solitary",
+      "favorite_food": "Worms",
+      "type": "Amphibian",
+      "slogan": "Able to regrow lost or damaged limbs!",
+      "color": "BrownGreyYellowRedBlackGreenOrange",
+      "skin_type": "Scales",
+      "top_speed": "30 mph",
+      "lifespan": "2-15 years",
+      "weight": "10-50g (0.3-1.8oz)"
+    }
+  },
+  {
+    "name": "Nightingale",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Luscinia"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Nuts, Seeds, Insects",
+      "distinctive_feature": "Small body size with no markings and thin beak",
+      "wingspan": "8 to 10 inches",
+      "incubation_period": "13 or 14 days",
+      "habitat": "Open forests and thickets",
+      "predators": "Rats, Cats, Lizards",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "average_clutch_size": "3",
+      "slogan": "Named more than 1,000 years ago!",
+      "nesting_location": "Trees",
+      "age_of_molting": "11 to 13 days",
+      "migratory": "1",
+      "color": "BrownTan",
+      "skin_type": "Feathers",
+      "top_speed": "18 mph",
+      "lifespan": "1 - 3 years",
+      "weight": "15g - 22g (0.5oz - 0.7oz)",
+      "length": "14cm - 16.5cm (5.5in - 6.5in)"
+    }
+  },
+  {
+    "name": "Ocelot",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Leopardus",
+      "scientific_name": "Leopardus pardalis"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rodents, Lizards, Deer",
+      "name_of_young": "Kitten",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "800,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Rosettes, spots and stripes on fur",
+      "other_name(s)": "Painted Leopard",
+      "gestation_period": "79 - 85 days",
+      "habitat": "Tropical jungle, grassland and marshes",
+      "predators": "Jaguar, Puma, Harpy Eagle",
+      "diet": "Carnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Nocturnal/Crepuscular",
+      "common_name": "Ocelot",
+      "number_of_species": "1",
+      "location": "South America",
+      "slogan": "Also known as the Painted Leopard!",
+      "group": "Mammal",
+      "color": "GreyYellowRedBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "38 mph",
+      "lifespan": "8 - 12 years",
+      "weight": "11.5kg - 16kg (25lbs - 35lbs)",
+      "length": "55cm - 100cm (22in - 40in)",
+      "age_of_sexual_maturity": "2 - 3 years",
+      "age_of_weaning": "6 weeks"
+    }
+  },
+  {
+    "name": "Octopus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Cephalopoda",
+      "order": "Octopoda",
+      "family": "Octopodidae",
+      "scientific_name": "Octopus Vulgaris"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Crabs, Fish, Scallops",
+      "habitat": "Tropical and temperate waters worldwide",
+      "predators": "Eels, Sharks, Dolphins",
+      "diet": "Omnivore",
+      "average_litter_size": "80",
+      "lifestyle": "Solitary",
+      "favorite_food": "Crabs",
+      "type": "Mollusca",
+      "slogan": "There are around 300 different species!",
+      "color": "BrownRedBlueTanOrangePurple",
+      "skin_type": "Smooth",
+      "top_speed": "27 mph",
+      "lifespan": "2-15 years",
+      "weight": "5-75kg (11-165lbs)"
+    }
+  },
+  {
+    "name": "Opossum",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Didelphimorphia",
+      "family": "Didelphidae",
+      "genus": "Didelphis",
+      "scientific_name": "Didelphis Virginiana"
+    },
+    "locations": [
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Insects, Frogs",
+      "habitat": "Forest and farmland close to water",
+      "predators": "Fox, Cat, Birds of Prey",
+      "diet": "Omnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Thought to be immune to certain snake venom!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "2-7 years",
+      "weight": "0.5-6kg (1.1-13lbs)"
+    }
+  },
+  {
+    "name": "Ostrich",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Struthioniformes",
+      "family": "Struthionidae",
+      "genus": "Struthio",
+      "scientific_name": "Struthio camelus"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Roots, Seeds, Flowers",
+      "distinctive_feature": "Small wings and long neck and legs",
+      "wingspan": "1.5m - 2m (4.9ft - 6.5ft)",
+      "habitat": "Desert and savanna areas",
+      "diet": "Omnivore",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Bird",
+      "average_clutch_size": "10",
+      "slogan": "The largest bird in the world!",
+      "nesting_location": "Ground",
+      "color": "BrownGreyBlackWhitePink",
+      "skin_type": "Feathers",
+      "top_speed": "42 mph",
+      "lifespan": "50 - 70 years",
+      "weight": "63kg - 130kg (140lbs - 290lbs)",
+      "height": "1.8m - 2.7m (6ft - 9ft)"
+    }
+  },
+  {
+    "name": "Otter",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Lutra",
+      "scientific_name": "Lutra Canadensis"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Crabs, Frogs",
+      "habitat": "River banks, lakes and streams",
+      "predators": "Birds, Fox, Wolves",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Mammal",
+      "slogan": "There are 13 different species worldwide",
+      "color": "BrownWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "7 mph",
+      "lifespan": "15-25 years",
+      "weight": "5-15kg (10-30lbs)"
+    }
+  },
+  {
+    "name": "Owl",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Strigiformes"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, rodents, rabbits, hares, and fish",
+      "name_of_young": "Hatchlings",
+      "group_behavior": "GroupFamily units",
+      "estimated_population_size": "Unknown",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "The massive front-facing eyes",
+      "other_name(s)": "Hooters",
+      "gestation_period": "1-2 months",
+      "litter_size": "Up to 12 eggs",
+      "habitat": "Grasslands, forests, swamps, and others",
+      "predators": "Birds of prey, cats, and humans",
+      "diet": "Carnivore",
+      "type": "Bird",
+      "common_name": "Owl",
+      "location": "Worldwide",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "40 mph",
+      "lifespan": "Up to 25 years",
+      "weight": "Up to 4kg (9lbs)",
+      "height": "13-71cm (5-28in)",
+      "length": "25-182cm (10-72in)",
+      "age_of_sexual_maturity": "1-2 years"
+    }
+  },
+  {
+    "name": "Oyster",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Bivalvia",
+      "order": "Ostreoida",
+      "family": "Ostreidae",
+      "scientific_name": "Ostreidae"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Algae and other food particles",
+      "group_behavior": "Colony",
+      "estimated_population_size": "Unknown",
+      "biggest_threat": "Crabs, seabirds, humans, starfishes",
+      "most_distinctive_feature": "Shells",
+      "gestation_period": "7-10 days",
+      "water_type": "Brackish",
+      "habitat": "Reefs and rocky shores",
+      "predators": "Crabs, seabirds, humans, starfishes",
+      "diet": "Omnivore",
+      "average_litter_size": "1,000,000",
+      "favorite_food": "Algae and other food particles",
+      "type": "Marine creatures",
+      "common_name": "Oyster",
+      "number_of_species": "200",
+      "location": "Worldwide",
+      "slogan": "Can process up to 10 litres of water an hour!",
+      "color": "GreyWhiteSilver",
+      "skin_type": "Shell",
+      "lifespan": "20 years in captivity",
+      "weight": "50 grams (medium-sized oyster)",
+      "length": "62 to 64 mm"
+    }
+  },
+  {
+    "name": "Panther",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "scientific_name": "Panthera pardus, Panthera onca"
+    },
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Tapir, Wild Boar",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Not Known",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Bright emerald green eyes",
+      "other_name(s)": "Black Panther, Black Leopard, Black Jaguar",
+      "gestation_period": "90 - 105 days",
+      "habitat": "Forest, swampland and grasslands",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Nocturnal",
+      "common_name": "Panther",
+      "number_of_species": "31",
+      "location": "Asia, Africa, America",
+      "slogan": "Prefers to hunt at night than during the day!",
+      "group": "Mammal",
+      "color": "BlackDark Brown",
+      "skin_type": "Fur",
+      "top_speed": "71 mph",
+      "lifespan": "12 - 15 years",
+      "weight": "36kg - 160kg (79lbs - 350lbs)",
+      "length": "1.1m - 1.9m (43in - 75in)",
+      "age_of_sexual_maturity": "3 - 4 years",
+      "age_of_weaning": "3 months"
+    }
+  },
+  {
+    "name": "Parrot",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Nuts, Seeds, Insects",
+      "distinctive_feature": "Large colourful body and curved beak",
+      "wingspan": "15cm - 140cm (5.9in - 56in)",
+      "habitat": "Rainforests and tropical jungle",
+      "predators": "Human, Monkeys, Large Birds",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "Can live for up to 100 years!",
+      "color": "YellowRedBlueWhiteGreen",
+      "skin_type": "Feathers",
+      "top_speed": "15 mph",
+      "lifespan": "40 - 80 years",
+      "weight": "10g - 4,000g (0.02lbs - 5.9lbs)",
+      "height": "8cm - 100cm (3.5in - 39in)"
+    }
+  },
+  {
+    "name": "Peacock",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Pavo"
+    },
+    "locations": [
+      "Africa",
+      "Asia"
+    ],
+    "characteristics": {
+      "main_prey": "Grains, Seeds, Insects",
+      "distinctive_feature": "Long tail feathers and colourful tail of males",
+      "wingspan": "3-10 ft",
+      "incubation_period": "27-30 days",
+      "habitat": "Desert and savanna areas",
+      "predators": "Dogs, Raccoon, Tiger, Wild cats",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Grains",
+      "type": "Bird",
+      "average_clutch_size": "6",
+      "slogan": "Most commonly found on the Indian mainland!",
+      "nesting_location": "Ground",
+      "age_of_molting": "3 years",
+      "color": "BrownGreyBlueGreen",
+      "skin_type": "Feathers",
+      "top_speed": "10 mph",
+      "lifespan": "12 - 20 years",
+      "weight": "2.7kg - 6kg (6lbs - 13.2lbs)",
+      "length": "86cm - 107cm (34in - 42in)"
+    }
+  },
+  {
+    "name": "Pelican",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Pelecanidae",
+      "genus": "Pelecanus"
+    },
+    "locations": [
+      "Least Concern"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Crabs, Turtles",
+      "distinctive_feature": "Pouch hanging from underside of beak and keen eyesight",
+      "wingspan": "183cm - 350cm (72in - 138in)",
+      "habitat": "Arid islands and coastal waters",
+      "predators": "Human, Cat, Coyote",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Fish",
+      "type": "Bird",
+      "average_clutch_size": "6",
+      "slogan": "Can have a wingspan of up to 3 meters!",
+      "nesting_location": "Ground or tree, depending on the species",
+      "color": "GreyBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "40 mph",
+      "lifespan": "16 - 23 years",
+      "weight": "2.7kg - 15kg (6lbs - 33lbs)",
+      "height": "106cm - 183cm (42in - 72in)"
+    }
+  },
+  {
+    "name": "Penguin",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Sphenisciformes",
+      "family": "Spheniscidae",
+      "scientific_name": "Aptenodytes Forsteri"
+    },
+    "locations": [
+      "Antarctica",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Crabs, Squid",
+      "distinctive_feature": "Short, sharp beak and slight webbed feet",
+      "wingspan": "60cm - 130cm (23.6in - 21in)",
+      "habitat": "Cold seas and rocky land",
+      "predators": "Leopard Seals, Sharks, Killer Whale",
+      "diet": "Omnivore",
+      "lifestyle": "Group",
+      "favorite_food": "Fish",
+      "type": "Bird",
+      "average_clutch_size": "1",
+      "slogan": "Spends 75% of it's time hunting for food!",
+      "color": "GreyYellowBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "40 mph",
+      "lifespan": "20 - 30 years",
+      "weight": "1kg - 35kg (2.2lbs - 75lbs)",
+      "height": "40cm - 110cm (15.7in - 43in)"
+    }
+  },
+  {
+    "name": "Pheasant",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Phasianus",
+      "scientific_name": "Phasianus Colchicus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Berries, Seeds",
+      "distinctive_feature": "Brightly coloured feathers and long tail of the male",
+      "wingspan": "71cm - 86cm (28in - 34in)",
+      "habitat": "Grasslands, fields and wetlands",
+      "predators": "Fox, Dog, Human",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Bird",
+      "average_clutch_size": "10",
+      "slogan": "Females lay between 8 and 12 eggs per clutch!",
+      "color": "BrownYellowRedBlackTanGreenOrange",
+      "skin_type": "Feathers",
+      "top_speed": "18 mph",
+      "lifespan": "7 - 10 years",
+      "weight": "0.9kg - 1.5kg (1.9lbs - 3.3lbs)",
+      "length": "53cm - 84cm (21in - 33in)"
+    }
+  },
+  {
+    "name": "Pig",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Suidae",
+      "genus": "Sus",
+      "scientific_name": "Sus scrofa scrofa"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Roots, Seeds, Leaves",
+      "habitat": "Forests and grassland",
+      "diet": "Omnivore",
+      "average_litter_size": "7",
+      "lifestyle": "Herd",
+      "favorite_food": "Roots",
+      "type": "Mammal",
+      "slogan": "Thought to have been domesticated in 9,000 BC!",
+      "color": "BrownGreyBlackWhitePink",
+      "skin_type": "Hair",
+      "top_speed": "11 mph",
+      "lifespan": "8-15 years",
+      "weight": "30-350kg (66-770lbs)"
+    }
+  },
+  {
+    "name": "Piranha",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Characiformes",
+      "family": "Characidae"
+    },
+    "locations": [
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, carrion, fish, crustaceans, worms",
+      "group_behavior": "School",
+      "estimated_population_size": "Unknown",
+      "biggest_threat": "Other animals",
+      "most_distinctive_feature": "Strong bony jaws with finely serrated teeth",
+      "distinctive_feature": "Rounded head and a single row and triangular teeth",
+      "other_name(s)": "Caribe or piraya",
+      "gestation_period": "4 to 6 weeks",
+      "water_type": "Fresh",
+      "optimum_ph_level": "6.5 and 7.8",
+      "habitat": "Rivers, floodplains, lakes and reservoirs",
+      "predators": "Dolphins, crocodiles, birds, turtles, humans",
+      "diet": "Omnivore",
+      "favorite_food": "Fish",
+      "type": "Characids",
+      "common_name": "Piranha",
+      "average_clutch_size": "5000",
+      "slogan": "Generally found in fast-flowing streams!",
+      "color": "GreyRedBlackMulti-colored",
+      "skin_type": "Scales",
+      "top_speed": "-3 mph",
+      "lifespan": "10 years",
+      "weight": "Up to 3 to 7 pounds",
+      "length": "6 to 8 inches average"
+    }
+  },
+  {
+    "name": "Platypus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Monotremata",
+      "family": "Ornithorhynchidae",
+      "genus": "Ornithorhynchus",
+      "scientific_name": "Ornithorhynchus anatinus"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Insect larvae, tadpoles, small fish",
+      "name_of_young": "Baby Platypus",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "300,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Bill that looks like the beak of a duck",
+      "other_name(s)": "Duck-Billed Platypus",
+      "gestation_period": "2 - 3 weeks",
+      "habitat": "Freshwater rivers and streams",
+      "predators": "Birds of prey, dogs, crocodiles",
+      "diet": "Carnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Nocturnal",
+      "common_name": "Platypus",
+      "number_of_species": "1",
+      "location": "Eastern Australia and Tasmania",
+      "slogan": "One of the only mammals to lay eggs!",
+      "group": "Mammal",
+      "color": "Dark Brown",
+      "skin_type": "Fur",
+      "top_speed": "22 mph",
+      "lifespan": "9 - 12 years",
+      "weight": "0.7kg - 2.4kg (1.5lbs - 5.3lbs)",
+      "height": "39cm - 60cm (15.4in - 23.6in)",
+      "age_of_sexual_maturity": "2 years",
+      "age_of_weaning": "5 months"
+    }
+  },
+  {
+    "name": "Possum",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Phalangeriformes",
+      "genus": "Phalangeridae",
+      "scientific_name": "Phalangeriforme"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Leaves, Flowers",
+      "habitat": "Bushland and rainforest",
+      "predators": "Fox, Cat, Birds of Prey",
+      "diet": "Omnivore",
+      "average_litter_size": "2",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Mammal",
+      "slogan": "There are 69 species on the Australian continent!",
+      "color": "BrownGreyBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "5-8 years",
+      "weight": "0.1-14.5kg (0.22-32lbs)"
+    }
+  },
+  {
+    "name": "Puffin",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Alcidae",
+      "genus": "Fratercula",
+      "scientific_name": "Fratercula arctica"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Sandeel, Herring, Sprat",
+      "name_of_young": "Chick",
+      "group_behavior": "Colony",
+      "estimated_population_size": "Decreasing",
+      "biggest_threat": "Hunting and Pollution",
+      "most_distinctive_feature": "Brightly coloured, triangular bill",
+      "other_name(s)": "Atlantic Puffin, Tufted Puffin, Horned Puffin, Rhinoceros Auklet",
+      "wingspan": "47cm - 63cm (18.5in - 24.8in)",
+      "incubation_period": "45 days",
+      "age_of_fledgling": "2 months",
+      "habitat": "Sea and coastal regions",
+      "predators": "Gulls, Skuas, Foxes",
+      "diet": "Carnivore",
+      "lifestyle": "Diurnal",
+      "common_name": "Puffin",
+      "number_of_species": "4",
+      "location": "Northern Hemisphere",
+      "average_clutch_size": "1",
+      "slogan": "Can remain in the water for up to 2 minutes!",
+      "group": "Bird",
+      "color": "GreyBlackWhite",
+      "skin_type": "Feathers",
+      "top_speed": "55 mph",
+      "lifespan": "15 - 30 years",
+      "weight": "368.5g - 481.9g (13oz - 17oz)",
+      "height": "28cm - 32cm (11in - 12.6in)",
+      "age_of_sexual_maturity": "4 - 5 years"
+    }
+  },
+  {
+    "name": "Puma",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Puma",
+      "scientific_name": "Felis concolor"
+    },
+    "locations": [
+      "Central-America",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rats, Deer, Sheep",
+      "name_of_young": "Cub",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "50,000",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Has a solid-coloured coat of fur",
+      "other_name(s)": "Cougar, Mountain Lion",
+      "gestation_period": "3 months",
+      "habitat": "mountain forest and jungle",
+      "diet": "Carnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Crepuscular",
+      "common_name": "Puma",
+      "number_of_species": "7",
+      "location": "North and South America",
+      "slogan": "Has longer back legs than front legs!",
+      "group": "Mammal",
+      "color": "BrownGreyYellowRed",
+      "skin_type": "Fur",
+      "top_speed": "30 mph",
+      "lifespan": "10 - 15 years",
+      "weight": "67kg - 105kg (148lbs - 231.5lbs)",
+      "height": "1.1m - 2m (43in - 78.7in)",
+      "age_of_sexual_maturity": "2 - 3 years",
+      "age_of_weaning": "2 months"
+    }
+  },
+  {
+    "name": "Rabbit",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Oryctolagus",
+      "scientific_name": "Oryctolagus cuniculus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Clover, Grass, Crunchy vegetables",
+      "habitat": "Forest thickets, meadows and woodland",
+      "predators": "Foxes, wolves, bobcats, eagles, owls, coyotes",
+      "diet": "Herbivore",
+      "average_litter_size": "6",
+      "lifestyle": "Group",
+      "favorite_food": "Clover",
+      "type": "Mammal",
+      "slogan": "There are more than 50 different species!",
+      "color": "BrownGreyBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "2.4 mph",
+      "lifespan": "4-9 years",
+      "weight": "0.5-3kg (1.1-6.6lbs)"
+    }
+  },
+  {
+    "name": "Raccoon",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Procyonidae",
+      "genus": "Procyon",
+      "scientific_name": "Procyon lotor"
+    },
+    "locations": [
+      "Central-America",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Nuts, Berries, Corn",
+      "habitat": "Woodland areas close to water",
+      "predators": "Bobcat, Foxes, Wolves, Mountain Lions",
+      "diet": "Omnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Mammal",
+      "slogan": "Known to wash their food before eating it!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "12-16 years",
+      "weight": "3.5-9kg (7.7-19.8lbs)"
+    }
+  },
+  {
+    "name": "Rat",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Muridae",
+      "genus": "Rattus",
+      "scientific_name": "Rattus rattus"
+    },
+    "locations": [
+      "Africa",
+      "Antarctica",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Eggs, Nuts, Potatoes, Corn",
+      "habitat": "Underground close to human settlements",
+      "predators": "Owls, Snakes, Raccoon, Cats",
+      "diet": "Omnivore",
+      "average_litter_size": "8",
+      "lifestyle": "Solitary",
+      "favorite_food": "Eggs",
+      "type": "Mammal",
+      "slogan": "Omnivores that eat anything!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "8 mph",
+      "lifespan": "2-5 years",
+      "weight": "200-900g (0.4-2lbs)"
+    }
+  },
+  {
+    "name": "Reindeer",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rangifer",
+      "scientific_name": "Rangifer Tarandus"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Herbs, Berries",
+      "habitat": "Forests close to the Arctic tundra",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Also known as the Caribou",
+      "color": "BrownGreyWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "50 mph",
+      "lifespan": "12-15 years",
+      "weight": "60-320kg (132-705lbs)"
+    }
+  },
+  {
+    "name": "Robin",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Worms, Insects, Fruit, Berries",
+      "distinctive_feature": "Small body size and bright red chest of males",
+      "wingspan": "Up to 16 inches",
+      "incubation_period": "Two weeks",
+      "habitat": "Woodland, farmland and hedgerows",
+      "predators": "Cats, Dogs, Raccoon, Foxes",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Worms",
+      "type": "Bird",
+      "average_clutch_size": "4",
+      "slogan": "There are more than 45 species in Australia alone!",
+      "nesting_location": "Trees or shrubs",
+      "age_of_molting": "Two weeks",
+      "migratory": "1",
+      "color": "BrownWhiteOrange",
+      "skin_type": "Feathers",
+      "top_speed": "18 mph",
+      "lifespan": "1 - 3 years",
+      "weight": "16g - 22g (0.5oz - 0.7oz)",
+      "length": "12.5cm - 14cm (5in - 5.5in)"
+    }
+  },
+  {
+    "name": "Salamander",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Caudata",
+      "family": "Salamandroidea",
+      "scientific_name": "Caudata"
+    },
+    "locations": [
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Mice, Insects",
+      "habitat": "Rainforest, streams and wetlands",
+      "predators": "Fish, Snakes, Birds",
+      "diet": "Carnivore",
+      "average_litter_size": "300",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Amphibian",
+      "slogan": "There are more than 700 different species!",
+      "color": "BrownYellowRedBlackWhiteGreen",
+      "skin_type": "Permeable Scales",
+      "top_speed": "30 mph",
+      "lifespan": "5-20 years",
+      "weight": "0.1-65kg (0.2-143lbs)"
+    }
+  },
+  {
+    "name": "Scorpion",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Arachnida",
+      "order": "Scorpiones",
+      "family": "Scorpionoidea",
+      "scientific_name": "Scorpiones"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Spiders, Small rodents",
+      "habitat": "Dry desert, grassland, savanna and tropical jungles",
+      "diet": "Carnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Arachnida",
+      "slogan": "There are around 2,000 known species!",
+      "color": "BrownYellowRedBlackWhite",
+      "skin_type": "Shell",
+      "top_speed": "12 mph",
+      "lifespan": "4-25 years",
+      "weight": "10-100g (0.4-3.5oz)"
+    }
+  },
+  {
+    "name": "Seahorse",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Syngnathiformes",
+      "family": "Syngnathidae",
+      "genus": "Hippocampus",
+      "scientific_name": "Hippocampus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Tiny Fish, Brine Shrimp, Plankton",
+      "distinctive_feature": "Long snout and brooding pouch on the male",
+      "water_type": "Brackish",
+      "optimum_ph_level": "7.9 - 8.4",
+      "habitat": "Shallow tropical waters and coral reefs",
+      "predators": "Fish, Crabs, Rays",
+      "diet": "Omnivore",
+      "favorite_food": "Tiny Fish",
+      "common_name": "Seahorse",
+      "average_clutch_size": "250",
+      "slogan": "Males give birth to up to 1,000 offspring!",
+      "skin_type": "Skin",
+      "lifespan": "2 - 6 years",
+      "length": "2.5cm - 35cm (0.9in - 12in)"
+    }
+  },
+  {
+    "name": "Seal",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Pinnipedia",
+      "scientific_name": "Phoca vitulina"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Crabs, Squid",
+      "habitat": "Coastal waters and rocky shores",
+      "predators": "Human, Sharks, Killer Whale",
+      "diet": "Carnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Fish",
+      "type": "Mammal",
+      "slogan": "There are 30 different species worldwide!",
+      "color": "BrownBlackWhiteTan",
+      "skin_type": "Smooth",
+      "top_speed": "27 mph",
+      "lifespan": "15-25 years",
+      "weight": "105-3,000kg (230-6,000lbs)"
+    }
+  },
+  {
+    "name": "Shark",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Sea lion, seals, humans, small fishes, and invertebrates",
+      "biggest_threat": "Killer whales, sperm whales and humans",
+      "gestation_period": "Two years",
+      "diet": "Carnivore",
+      "favorite_food": "Sea lion, seals, humans, small fishes, and invertebrates",
+      "type": "Fish",
+      "common_name": "Shark",
+      "location": "USA and Australian waters mostly",
+      "color": "GreyYellowBlackWhiteCream",
+      "skin_type": "Rough",
+      "lifespan": "20-30 years",
+      "weight": "1500 to 4000 pounds",
+      "length": "5.8 to 7 feet"
+    }
+  },
+  {
+    "name": "Sheep",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Ovis",
+      "scientific_name": "Ovis aries"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Weeds, Flowers",
+      "group_behavior": "Flock",
+      "habitat": "Grass plains and mountainous regions",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Flock",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Around 35 million in the English countryside!",
+      "color": "BrownYellowBlackWhite",
+      "skin_type": "Wool",
+      "top_speed": "25 mph",
+      "lifespan": "5-10 years",
+      "weight": "40-130kg (88-298lbs)"
+    }
+  },
+  {
+    "name": "Skunk",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mephitidae"
+    },
+    "locations": [
+      "Asia",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Rodents, Rabbits",
+      "habitat": "Open woodland and dense shrub",
+      "predators": "Owls, Coyote, Wild cats",
+      "diet": "Omnivore",
+      "average_litter_size": "6",
+      "lifestyle": "Solitary",
+      "favorite_food": "Insects",
+      "type": "Mammal",
+      "slogan": "Also known as the Polecat!",
+      "color": "GreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "10 mph",
+      "lifespan": "5-8 years",
+      "weight": "0.5-6.3kg (1.1-14lbs)"
+    }
+  },
+  {
+    "name": "Sloth",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Pilosa",
+      "family": "Bradypodidae",
+      "genus": "Bradypus",
+      "scientific_name": "Choloepus Hoffmani"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Buds, Fruit",
+      "habitat": "Tall trees in tropical rainforest",
+      "predators": "Eagles, Snakes, Jaguar",
+      "diet": "Omnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Solitary",
+      "favorite_food": "Leaves",
+      "type": "Mammal",
+      "slogan": "It's body temperature is between 30 - 34 degrees!",
+      "color": "BrownGreyWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "25-40 years",
+      "weight": "4.5-6kg (10-13lbs)"
+    }
+  },
+  {
+    "name": "Snail",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Gastropoda",
+      "order": "Achatinoidea",
+      "scientific_name": "Achatinoidea"
+    },
+    "locations": [
+      "Africa",
+      "Antarctica",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Ocean",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Leaves, Fruits, Stems",
+      "distinctive_feature": "Armoured shell with long, thin eye stems",
+      "habitat": "Well-vegetated areas",
+      "predators": "Rodents, Frogs, Birds",
+      "diet": "Herbivore",
+      "average_litter_size": "200",
+      "favorite_food": "Leaves",
+      "common_name": "Snail",
+      "number_of_species": "1000",
+      "location": "Worldwide",
+      "slogan": "There are nearly 1,000 different species!",
+      "color": "YellowTan",
+      "skin_type": "Shell",
+      "weight": "0.01kg - 18kg (0.02lbs - 40lbs)",
+      "length": "0.5cm - 80cm (0.2in - 32in)"
+    }
+  },
+  {
+    "name": "Sparrow",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Passeridae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Seeds, Berries",
+      "estimated_population_size": "1.6 billion",
+      "distinctive_feature": "Small body size and rounded head",
+      "wingspan": "8.3 inches",
+      "incubation_period": "10 to 14 days",
+      "habitat": "Countryside and woodland",
+      "predators": "Cats, Snakes, Hawks",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "type": "Bird",
+      "average_clutch_size": "4",
+      "slogan": "There are 140 different species!",
+      "nesting_location": "On or around buildings",
+      "age_of_molting": "82 days",
+      "color": "BrownGreyYellowBlueBlackWhiteTan",
+      "skin_type": "Feathers",
+      "top_speed": "25 mph",
+      "lifespan": "4 - 7 years",
+      "weight": "13.4g - 42g (0.5oz - 1.5oz)",
+      "height": "11.4cm - 18cm (4.5in - 7in)"
+    }
+  },
+  {
+    "name": "Squid",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Cephalopoda",
+      "order": "Teuthida",
+      "family": "Oegopsina",
+      "scientific_name": "Teuthida"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Fish, Crabs, Shrimp",
+      "habitat": "Cooler and temperate waters",
+      "predators": "Human, Seal, Whales",
+      "diet": "Carnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fish",
+      "type": "Cephalopod",
+      "slogan": "Some species are known to have 10 arms!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Smooth",
+      "top_speed": "18 mph",
+      "lifespan": "5-30 years",
+      "weight": "0.3-500kg (0.6-1,102lbs)"
+    }
+  },
+  {
+    "name": "Squirrel",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Sciuridae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Seeds, Insects",
+      "habitat": "Woodland and dense forests",
+      "predators": "Snakes, Coyote, Weasels",
+      "diet": "Omnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Mammal",
+      "slogan": "Small rodents found in woodlands worldwide!",
+      "color": "BrownGreyRedBlackTan",
+      "skin_type": "Fur",
+      "top_speed": "16 mph",
+      "lifespan": "2-8 years",
+      "weight": "250-1,000g (0.5-2.2lbs)"
+    }
+  },
+  {
+    "name": "Stingray",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Chondrichthyes",
+      "order": "Myliobatiformes"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Snails, clams, and squids",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Not known",
+      "biggest_threat": "Sea lions, seals, sharks, and other large fish",
+      "distinctive_feature": "Flattened body shape and venom filled tail",
+      "gestation_period": "Three months",
+      "habitat": "Black and Mediterranean Seas",
+      "predators": "Sea lions, seals, sharks, and other large fish",
+      "diet": "Carnivore",
+      "average_litter_size": "8",
+      "lifestyle": "Solitary",
+      "favorite_food": "Snails, clams, and squid",
+      "type": "Fish",
+      "common_name": "Stingray",
+      "number_of_species": "200",
+      "slogan": "It's stinger is razor-sharp or serrated!",
+      "color": "BrownGrey",
+      "skin_type": "Scales",
+      "top_speed": "30 mph",
+      "lifespan": "15 - 25 years",
+      "weight": "25kg - 97kg (55lbs - 214lbs)",
+      "length": "50cm - 200cm (19.6in - 79in)"
+    }
+  },
+  {
+    "name": "Stoat",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Mustela",
+      "scientific_name": "Mustela Erminea"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rabbits, Mice, Insects",
+      "habitat": "Moorland and woodlands",
+      "predators": "Fox, Snake, Wild Cats",
+      "diet": "Carnivore",
+      "average_litter_size": "8",
+      "lifestyle": "Solitary",
+      "favorite_food": "Rabbit",
+      "type": "Mammal",
+      "slogan": "Average adults weigh about 200 grams!",
+      "color": "BrownBlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "20 mph",
+      "lifespan": "4-6 years",
+      "weight": "200-500g (7-17.6oz)"
+    }
+  },
+  {
+    "name": "Swan",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "genus": "Cygnus",
+      "scientific_name": "Cygnus atratus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Aquatic Plants, Insects, Small Fish",
+      "distinctive_feature": "Large, powerful wings and webbed feet",
+      "wingspan": "200cm - 350cm (79in - 138in)",
+      "habitat": "Large, shallow wetlands and open water",
+      "predators": "Human, Wolf, Raccoon",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Aquatic Plants",
+      "type": "Bird",
+      "average_clutch_size": "5",
+      "slogan": "Populations have been affected by pollution!",
+      "color": "GreyBlackWhiteOrange",
+      "skin_type": "Feathers",
+      "top_speed": "50 mph",
+      "lifespan": "8 - 12 years",
+      "weight": "10kg - 15kg (22lbs - 33lbs)",
+      "length": "91cm - 150cm (36in - 60in)"
+    }
+  },
+  {
+    "name": "Termite",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Isoptera",
+      "scientific_name": "Isoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Organic plant matter, Wood, Grass",
+      "habitat": "Forests and areas with high humidity",
+      "predators": "Birds, Reptiles, Mammals",
+      "diet": "Herbivore",
+      "average_litter_size": "1,000",
+      "favorite_food": "Organic plant matter",
+      "common_name": "Termite",
+      "number_of_species": "2800",
+      "location": "Tropical Regions",
+      "slogan": "Their mounds can be up to 9 meters tall!",
+      "color": "BrownRedBlackWhite",
+      "skin_type": "Shell"
+    }
+  },
+  {
+    "name": "Tiger",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera",
+      "scientific_name": "Panthera Tigris"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Cattle, Wild Boar",
+      "habitat": "Dense tropical forest",
+      "predators": "Human",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Deer",
+      "type": "Mammal",
+      "slogan": "The largest feline in the world!",
+      "color": "BlackWhiteOrange",
+      "skin_type": "Fur",
+      "top_speed": "60 mph",
+      "lifespan": "18-25 years",
+      "weight": "267-300kg (589-660lbs)"
+    }
+  },
+  {
+    "name": "Tortoise",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Weeds, Leafy greens",
+      "habitat": "Sandy soil close to water",
+      "diet": "Herbivore",
+      "average_litter_size": "5",
+      "lifestyle": "Solitary",
+      "favorite_food": "Grass",
+      "type": "Reptile",
+      "slogan": "Can live until they are more than 150 years old!",
+      "color": "BrownGreyYellowBlackGreen",
+      "skin_type": "Scales",
+      "top_speed": "0.3 mph",
+      "lifespan": "30-150 years",
+      "weight": "0.1-300kg (0.2-661lbs)"
+    }
+  },
+  {
+    "name": "Toucan",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Ramphastidae",
+      "genus": "Ramphastos"
+    },
+    "locations": [
+      "Central-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Fruit, Eggs, Insects",
+      "distinctive_feature": "Small body and enormous colourful beak",
+      "wingspan": "43-60 inches",
+      "incubation_period": "17-18 days",
+      "habitat": "Lowland rainforest and tropical forest borders",
+      "predators": "Human, Weasels, Large Birds",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Fruit",
+      "type": "Bird",
+      "average_clutch_size": "3",
+      "slogan": "There are more than 40 different species!",
+      "nesting_location": "Hollows of trees",
+      "age_of_molting": "1 year",
+      "color": "YellowBlackWhiteOrange",
+      "skin_type": "Feathers",
+      "top_speed": "39 mph",
+      "lifespan": "12 - 20 years",
+      "weight": "130g - 680g (4.6oz - 24oz)",
+      "height": "29cm - 63cm (11.5in - 29in)"
+    }
+  },
+  {
+    "name": "Turkey",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Meleagris",
+      "scientific_name": "Meleagris"
+    },
+    "locations": [
+      "Central-America",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Insects, Nuts, Seeds, Berries",
+      "wingspan": "4.1-4.7 feet",
+      "incubation_period": "25-31 days",
+      "habitat": "Forest, shrubland and grassy plains",
+      "predators": "Fox, Snake, Raccoon",
+      "diet": "Omnivore",
+      "lifestyle": "Flock",
+      "favorite_food": "Insects",
+      "type": "Bird",
+      "slogan": "Closely related to pheasants and chickens!",
+      "nesting_location": "Wooded areas on the ground",
+      "age_of_molting": "20 weeks",
+      "color": "BrownYellowRedBlueBlackWhiteGreen",
+      "skin_type": "Feathers",
+      "top_speed": "6 mph",
+      "lifespan": "1-10 years",
+      "weight": "3-11kg (6.6-24lbs)"
+    }
+  },
+  {
+    "name": "Vulture",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "genus": "Cathartes",
+      "scientific_name": "Cathartes aura"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Rats, Small and large animal carcasses",
+      "distinctive_feature": "Large wings and sharp, curved beak",
+      "wingspan": "130cm - 183cm (51in - 72in)",
+      "habitat": "Deserts, savannah and grassland near water",
+      "predators": "Hawks, Snakes, Wild cats",
+      "diet": "Carnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Rats",
+      "type": "Bird",
+      "average_clutch_size": "2",
+      "slogan": "There are 30 different species worldwide!",
+      "color": "BrownGreyBlackWhiteTan",
+      "skin_type": "Feathers",
+      "top_speed": "30 mph",
+      "lifespan": "20 - 30 years",
+      "weight": "0.85kg - 2.2kg (1.9lbs - 5lbs)",
+      "height": "64cm - 81cm (25in - 32in)"
+    }
+  },
+  {
+    "name": "Walrus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Odobenidae",
+      "genus": "Odobenus",
+      "scientific_name": "Odobenus rosmarus"
+    },
+    "locations": [
+      "Ocean"
+    ],
+    "characteristics": {
+      "main_prey": "Shellfish, Worms, Snails",
+      "name_of_young": "Pup",
+      "group_behavior": "Herd",
+      "estimated_population_size": "200,000 - 250,000",
+      "biggest_threat": "Hunting and habitat loss",
+      "most_distinctive_feature": "Long tusks that can grow up to 1m long",
+      "other_name(s)": "Atlantic Walrus, Pacific Walrus",
+      "gestation_period": "15 months",
+      "habitat": "Ice floes and rocky, remote coastlines",
+      "predators": "Humans, Killer Whales, Polar Bears",
+      "diet": "Carnivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal",
+      "common_name": "Walrus",
+      "number_of_species": "2",
+      "location": "Arctic Circle",
+      "slogan": "Inhabits the freezing waters of the Arctic Circle!",
+      "group": "Mammal",
+      "color": "BrownGrey",
+      "skin_type": "Hair",
+      "top_speed": "22 mph",
+      "lifespan": "40 - 50 years",
+      "weight": "400kg - 1,700kg (880lbs - 3,740lbs)",
+      "length": "2.25m - 3.5m (7.5ft - 11.5ft)",
+      "age_of_sexual_maturity": "6 - 10 years",
+      "age_of_weaning": "2 years"
+    }
+  },
+  {
+    "name": "Wasp",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hymenoptera",
+      "scientific_name": "Hymenoptera"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "Oceania",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Nectar, Insects, Caterpillars, Fruits",
+      "habitat": "Meadows, forests and rock faces",
+      "predators": "Birds, Reptiles, Mammals",
+      "diet": "Omnivore",
+      "average_litter_size": "400",
+      "favorite_food": "Nectar",
+      "common_name": "Wasp",
+      "number_of_species": "75000",
+      "location": "Worldwide",
+      "slogan": "There are around 75,000 recognised species!",
+      "color": "YellowBlack",
+      "skin_type": "Shell"
+    }
+  },
+  {
+    "name": "Weasel",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Mustela",
+      "scientific_name": "Mustela nivalis"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Mice, Lemmings, Voles",
+      "name_of_young": "Kitten",
+      "group_behavior": "Solitary",
+      "estimated_population_size": "Stable",
+      "biggest_threat": "Lack of prey species",
+      "most_distinctive_feature": "Brown back and head with white underside",
+      "other_name(s)": "Common Weasel, European Weasel, Least Weasel",
+      "gestation_period": "5 weeks",
+      "habitat": "Forest and open woodland",
+      "predators": "Hawks, Foxes, Snakes",
+      "diet": "Carnivore",
+      "average_litter_size": "5",
+      "lifestyle": "Diurnal/Nocturnal",
+      "common_name": "Weasel",
+      "number_of_species": "10",
+      "location": "Northern Hemisphere",
+      "slogan": "The smallest carnivorous mammal in the world!",
+      "group": "Mammal",
+      "color": "BlackWhiteTan",
+      "skin_type": "Fur",
+      "top_speed": "15 mph",
+      "lifespan": "1 - 3 years",
+      "weight": "120g-198g (4.2oz - 7oz)",
+      "length": "22cm - 38cm (8.6in - 15in)",
+      "age_of_sexual_maturity": "1 - 2 years",
+      "age_of_weaning": "8 weeks"
+    }
+  },
+  {
+    "name": "Wolf",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis",
+      "scientific_name": "Canis lupus"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Deer, Elk, Moose",
+      "habitat": "Grass plains and woodland",
+      "predators": "Human",
+      "diet": "Carnivore",
+      "average_litter_size": "4",
+      "lifestyle": "Pack",
+      "favorite_food": "Deer",
+      "type": "Mammal",
+      "slogan": "Thought to date back more than 300,000 years!",
+      "color": "BrownGreyBlackWhite",
+      "skin_type": "Fur",
+      "top_speed": "46 mph",
+      "lifespan": "10-12 years",
+      "weight": "80-150lbs"
+    }
+  },
+  {
+    "name": "Wolverine",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Gulo",
+      "scientific_name": "Gulo gulo"
+    },
+    "locations": [
+      "Eurasia",
+      "Europe",
+      "North-America"
+    ],
+    "characteristics": {
+      "main_prey": "Caribou, Moose, Sheep, Eggs",
+      "habitat": "Mountainous regions and dense forest",
+      "predators": "Human, Wolves, Bears",
+      "diet": "Carnivore",
+      "average_litter_size": "3",
+      "lifestyle": "Solitary",
+      "favorite_food": "Caribou",
+      "type": "Mammal",
+      "slogan": "Releases a strong smelling musk in defence!",
+      "color": "BrownBlackWhiteSandy",
+      "skin_type": "Fur",
+      "top_speed": "30 mph",
+      "lifespan": "10-15 years",
+      "weight": "10-31kg (22-70lbs)"
+    }
+  },
+  {
+    "name": "Wombat",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Vombatidae",
+      "genus": "Vombatus",
+      "scientific_name": "Vombatus Ursinus"
+    },
+    "locations": [
+      "Oceania"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Shrubs, Roots",
+      "habitat": "Woodland and coastal shrub land",
+      "predators": "Dingo, Fox, Wild dogs",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Solitary",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "Spends most of the day underground!",
+      "color": "BrownGreyTan",
+      "skin_type": "Fur",
+      "top_speed": "25 mph",
+      "lifespan": "20-26 years",
+      "weight": "20-35kg (44-77lbs)"
+    }
+  },
+  {
+    "name": "Woodpecker",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Picidae"
+    },
+    "locations": [
+      "Africa",
+      "Asia",
+      "Central-America",
+      "Eurasia",
+      "Europe",
+      "North-America",
+      "South-America"
+    ],
+    "characteristics": {
+      "main_prey": "Seeds, Fruit, Insects",
+      "wingspan": "Up to 30 inches",
+      "incubation_period": "11 days to two weeks",
+      "habitat": "Dense forest and woodland",
+      "predators": "Rat, Snakes, Wild cats",
+      "diet": "Omnivore",
+      "lifestyle": "Solitary",
+      "favorite_food": "Seeds",
+      "type": "Bird",
+      "average_clutch_size": "4",
+      "slogan": "There are 200 different species!",
+      "nesting_location": "Holes in the trunks of trees",
+      "age_of_molting": "late summer within the first year",
+      "color": "BrownGreyRedBlackWhiteTanGreen",
+      "skin_type": "Feathers",
+      "top_speed": "15 mph",
+      "lifespan": "6-11 years",
+      "weight": "7-600g (0.2-21oz)"
+    }
+  },
+  {
+    "name": "Yak",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bos",
+      "scientific_name": "Bos grunniens"
+    },
+    "locations": [
+      "Asia",
+      "Eurasia"
+    ],
+    "characteristics": {
+      "main_prey": "Grass, Herbs, Mosses",
+      "name_of_young": "Calf",
+      "habitat": "Alpine meadows and open hills",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Herd",
+      "favorite_food": "Grass",
+      "type": "Mammal",
+      "slogan": "There are only a few left in the wild!",
+      "color": "BrownBlackWhite",
+      "skin_type": "Hair",
+      "top_speed": "25 mph",
+      "lifespan": "15-20 years",
+      "weight": "300-1,000kg (661-2,200lbs)"
+    }
+  },
+  {
+    "name": "Zebra",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "scientific_name": "Equus zebra, Equus quagga, Equus grevyi"
+    },
+    "locations": [
+      "Africa"
+    ],
+    "characteristics": {
+      "main_prey": "Grasses, Leaves, Buds",
+      "name_of_young": "Foal",
+      "group_behavior": "Herd",
+      "estimated_population_size": "Declining",
+      "biggest_threat": "Habitat loss",
+      "most_distinctive_feature": "Long, slender legs and one toe on each foot",
+      "other_name(s)": "Mountain Zebra, Common Zebra, Plains Zebra, Burchells Zebra, Grevys Zebra",
+      "gestation_period": "10 - 12 months",
+      "habitat": "Open grassland and plains",
+      "diet": "Herbivore",
+      "average_litter_size": "1",
+      "lifestyle": "Diurnal",
+      "common_name": "Zebra",
+      "number_of_species": "3",
+      "location": "Eastern and Southern Africa",
+      "slogan": "Stripe patterns are unique to each individual!",
+      "group": "Mammal",
+      "color": "BrownBlackWhite",
+      "skin_type": "Hair",
+      "lifespan": "20 - 30 years",
+      "weight": "220kg - 405kg (485lbs - 893lbs)",
+      "length": "2m - 2.75m (6.6ft - 9ft)",
+      "age_of_sexual_maturity": "3 - 4 years",
+      "age_of_weaning": "11 months"
+    }
+  }
+]
