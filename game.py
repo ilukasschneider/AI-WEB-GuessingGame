@@ -1,267 +1,215 @@
 import json
 import os
 import random
-import time
-import random
-
-# utils imports
-from utils import compare_traits
-from utils import uncover_card
-from utils import load_game_stats, save_game_stats
-
-# Streamlit-specific imports
 import streamlit as st
-import streamlit_shadcn_ui as ui
 from streamlit_space import space
-from streamlit_js_eval import streamlit_js_eval
-
-# API-specific imports
+from utils import compare_traits, uncover_card, load_game_stats, save_game_stats
 from dotenv import load_dotenv
 from openai import OpenAI
 
-
 # ------------- GLOBAL VARIABLES ------------- #
 
-#Todo:
-# improve interaction with Chatgpt
-# dialog window when trying to replay - sort of done
-# fix the index out of range that happenes only sometimes (?) -> when user is too fast
-# fix the bug where when the user wins, he need to press the button twice to reload page - done
-
-# loads the .env file -> API-KEYS
 load_dotenv()
 
-#load the stats
+api_key = "your_api_key_here"  # Insert your OpenAI API key here
+client = OpenAI(api_key="api_key")
+model = "gpt-4o-mini"
 load_game_stats()
 
-
-# number of allowed guesses
 guessCount = 6
+total_rounds = 5
 
-# Parsed animal data
-animal_data = json.load(open(r'betterAnimalDB/animals.json', 'r'))
-# List of all animal names for the guessing input
+animal_data = json.load(open('betterAnimalDB/animals.json', 'r'))
 animal_names = sorted([animal['name'] for animal in animal_data])
 
-# ------------ SESSIONSTATE-VARIABLES -------------- #
+score_mapping = {1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 1}
 
+# ------------ SESSIONSTATE VARIABLES -------------- #
 
-# solution of the game
+if 'current_round' not in st.session_state:
+    st.session_state['current_round'] = 1
+if 'total_score' not in st.session_state:
+    st.session_state['total_score'] = 0
 if 'winner' not in st.session_state:
-    st.session_state['winner'] = animal_names[random.randint(0, len(animal_names) - 1)]
-# count how many clues already have been used
+    st.session_state['winner'] = random.choice(animal_names)
 if 'counter' not in st.session_state:
     st.session_state['counter'] = 0
-
-# if 'traits' not in st.session_state:
-#     st.session_state['traits'] = []
-
 if 'user_guess' not in st.session_state:
     st.session_state['user_guess'] = ''
-
 if 'user_guess_history' not in st.session_state:
     st.session_state['user_guess_history'] = []
-
 if 'game_over' not in st.session_state:
     st.session_state['game_over'] = False
-
-# if 'hint_requested' not in st.session_state:
-#     st.session_state['hint_requested'] = False
-
-if 'user_input' not in st.session_state:
-    st.session_state['user_input'] = None
-
 if 'clue_cards' not in st.session_state:
     st.session_state['clue_cards'] = []
-
 if 'clue_comments' not in st.session_state:
     st.session_state['clue_comments'] = []
-
 if 'won' not in st.session_state:
     st.session_state['won'] = False
-
+if 'initial_clue' not in st.session_state:
+    st.session_state['initial_clue'] = None
+if 'chat_response' not in st.session_state:
+    st.session_state['chat_response'] = ""
+if 'question_submitted' not in st.session_state:
+    st.session_state['question_submitted'] = False
 
 # ------------- HELPER FUNCTIONS ------------- #
 
+def get_initial_clue(animal_name):
+    animal = next((a for a in animal_data if a['name'] == animal_name), None)
+    if animal and 'characteristics' in animal:
+        characteristic_keys = list(animal['characteristics'].keys())
+        if characteristic_keys:
+            random_key = random.choice(characteristic_keys)
+            return random_key, animal['characteristics'][random_key]
+    return None, None
 
-# returns a generated comment for a clue via openai-api
-def generateClueComment(clueNumber, guess, correctAnswer):
-    client = OpenAI(api_key=os.getenv("OPEN-AI-KEY"))
-    model = "gpt-4o-mini"
-    question = f"The guess was number {clueNumber} and the guess was {guess} and the correct answer was {correctAnswer}. Write a short comment for the user about the guess. Maybe a fun fact about the animal of choice. keep it really short. DO NOT GIVE ANY HINT ABOUT THE CORRECT ANSWERS {correctAnswer} "
+def calculate_score(guesses_used):
+    return score_mapping.get(guesses_used, 0)
 
-    chat_completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "user", "content": question},
-        ],
-    )
+def prepare_next_round():
+    st.session_state['current_round'] += 1
+    st.session_state['counter'] = 0
+    st.session_state['user_guess_history'] = []
+    st.session_state['clue_cards'] = []
+    st.session_state['game_over'] = False
+    st.session_state['winner'] = random.choice(animal_names)
+    st.session_state['initial_clue'] = None
+    st.session_state['chat_response'] = ""
+    st.session_state['question_submitted'] = False
 
-    return(chat_completion.choices[0].message.content)
+def handle_user_question(question):
+    animal = next((a for a in animal_data if a['name'] == st.session_state['winner']), None)
+    if animal:
+        characteristic = question.lower().strip("?").replace("how many", "").replace("are they", "").strip()
+        characteristics = animal.get('characteristics', {})
 
+        if characteristic in characteristics:
+            response = characteristics[characteristic]
+        else:
+            try:
+                question_for_openai = f"What do you know about {animal['name']} in terms of {characteristic}?"
+                chat_completion = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": question_for_openai}],
+                )
+                response = chat_completion.choices[0].message.content
+            except Exception as e:
+                response = f"Error retrieving data: {e}"
 
-# returns a hint generated by ChatGPT
-def generateHint():
-    client = OpenAI(api_key=os.getenv("OPEN-AI-KEY"))
-    model = "gpt-4o-mini"
-    prompt = (f"We are playing an animal guessing game, the correct answer is {st.session_state['winner']}. The user guessed {st.session_state['user_guess']} . Give a hint to the solution without naming the solution {st.session_state['winner']}. You can e.g. tell them about their skin or colour or the first letter of the animal but remember it is very important that your answer does not include the word {st.session_state['winner']}.")
+        first_sentence = response.split('.')[0]
+        scientific_name = first_sentence[first_sentence.find('('):first_sentence.find(')') + 1]
 
-    chat_completion = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "user", "content": prompt},
-        ],
-    )
-    answer = chat_completion.choices[0].message.content
+        response = response.replace(animal['name'], "This animal" + " " + scientific_name)
+        response = response.replace(animal['name'].lower(), "this animal")
 
-    for word in answer.split(" "):
-        yield word + " "
-        time.sleep(0.1)
-
-
-# returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
-def streamAndSafeClueComment(clueNumber):
-    # appends the GPT-generated comment to the gobal clueComments array
-    if st.session_state['clue_comments']:
-        st.session_state['clue_comments'].append(generateClueComment(clueNumber, f"{st.session_state['user_guess']}", f"{st.session_state['winner']}"))
+        st.session_state['chat_response'] = response
     else:
-        st.session_state['clue_comments'] = [generateClueComment(clueNumber, f"{st.session_state['user_guess']}", f"{st.session_state['winner']}")]
-    # this is how this text streaming is done in streamlit
-    for word in st.session_state['clue_comments'][clueNumber].split(" "):
-        yield word + " "
-        # change time of text writing effect
-        time.sleep(0.05)
-
-
-# try to use for text input
-def show_prompt():
-    code = """
-    let userResponse = prompt("Please enter your question about the animal:");
-    if (userResponse) {
-        Streamlit.setComponentValue(userResponse); // Send the response back to Streamlit
-    }
-    """
-    result = streamlit_js_eval(code)
-    return result
-
+        st.session_state['chat_response'] = "We don't have the data"
 
 # ------------- RENDERING THE GAME ------------- #
-st.write(f"for dev correct guess: {st.session_state['winner']}")
-st.title("Animal Guessing Game")
 
-# Check if the game is over - won or lost
+st.write(f"(Dev) Correct answer: {st.session_state['winner']}")
+st.title("Animal Guessing Game")
+st.write(f"Round: {st.session_state['current_round']}/{total_rounds}")
+
+if not st.session_state['initial_clue']:
+    st.session_state['initial_clue'] = get_initial_clue(st.session_state['winner'])
+
+if st.session_state['initial_clue'][0]:
+    clue_key, clue_value = st.session_state['initial_clue']
+    st.subheader(f"Clue 1: {clue_key.replace('_', ' ').capitalize()} - {clue_value}")
+
 if st.session_state['game_over']:
+    score = calculate_score(st.session_state['counter'] + 1)
 
     if st.session_state['user_guess'] == st.session_state['winner']:
-        st.write("Congratulations! You won the game!")
-        save_game_stats(True)
+        st.write(f"Congratulations! {st.session_state['winner']} is the right answer. You won the game!")
     else:
-        st.write("Game over! You lost!")
-        save_game_stats(False)
-    if st.button("Try again"):
-        # Reload the page
-        streamlit_js_eval(js_expressions="parent.window.location.reload()")
+        st.write(f"Game over! You lost! The answer is: {st.session_state['winner']}")
+    
+    st.write(f"Your score this round: {score} points")
+    
+    if not st.session_state.get('score_displayed', False):
+        st.session_state['total_score'] += score
+        st.session_state['score_displayed'] = True
+    
+    st.write(f"Total score: {st.session_state['total_score']} points")
+
+    if st.session_state['current_round'] < total_rounds:
+        if st.button("Next Round"):
+            prepare_next_round()
+            st.session_state['score_displayed'] = False
+    else:
+        st.write("Game Over! Thanks for playing.")
+        if st.button("Restart Game"):
+            st.session_state.clear()
 
 else:
-    # Create a placeholder for the selectbox -> important to let it disappear after the game is over
     selectbox_placeholder = st.empty()
 
-    # ------------ User still has guesses left
     if st.session_state['counter'] < guessCount:
-        # Dropdown for the user to select an animal name for guessing
-        st.session_state['user_guess'] = selectbox_placeholder.selectbox(
-            "What animal do you think this is?",
-            [''] + animal_names
-        )
+        guesses_left = guessCount - st.session_state['counter']
+        
+        if st.session_state['counter'] == guessCount - 1 and not st.session_state['question_submitted']:
+            st.info("You have 1 guess left.")
+            st.subheader("Last Clue: Ask about the animal")
+            user_question = st.text_input("E.g., 'Tell me about penguins'")
+            if st.button("Submit Question"):
+                handle_user_question(user_question)
+                st.write(st.session_state['chat_response'])
+                st.session_state['question_submitted'] = True
 
-        # ------------ User selected an animal name
-        if st.session_state['user_guess']:
+        if st.session_state['question_submitted'] or st.session_state['counter'] < guessCount - 1:
+            st.session_state['user_guess'] = selectbox_placeholder.selectbox(
+                "What animal do you think this is?",
+                [''] + animal_names
+            )
 
-            # ------------ Guess was correct
-            if st.session_state['user_guess'] == st.session_state['winner']:
-                save_game_stats(True)
-                # hides selectbox
-                selectbox_placeholder.empty()
-                st.write("Congratulations! You won the game!")
-                st.session_state['game_over'] = True
-                st.session_state['won'] = True
-                #st.session_state.clear()
+            if st.session_state['user_guess']:
+                if st.session_state['user_guess'] == st.session_state['winner']:
+                    save_game_stats(True)
+                    selectbox_placeholder.empty()
+                    st.write(f"Congratulations! {st.session_state['winner']} is the right answer. You won the game!")
+                    score = calculate_score(st.session_state['counter'] + 1)
+                    st.write(f"Your score this round: {score} points")
+                    st.session_state['game_over'] = True
+                    st.session_state['won'] = True
+                    if st.button("Next Round"):
+                        st.session_state['total_score'] += score
+                        prepare_next_round()
+                        st.session_state['score_displayed'] = False
+                else:
+                    st.session_state['counter'] += 1
 
-                # if st.button("Play again"):
-                #     st.session_state.clear()
-                #     streamlit_js_eval(js_expressions="parent.window.location.reload()")
-            else:
-                # counter ++
-                st.session_state['counter'] += 1
-                # calculate guesses left
-                guesses_left = guessCount - st.session_state['counter']
-
-                # ------------ User still guesses left
-                if guesses_left > 0:
-                    # ------------ User has more than 1 guess left
                     if guesses_left > 1:
                         st.info(f"You have {guesses_left} guesses left.")
-                    # ------------ User has only 1 guess left -> special hint
                     else:
-                        st.info("This is your last guess! Use it well")
-                        # Generate a hint
-                        st.text("Here is a little hint for your last guess:")
-                        # with st.chat_message("ai"):
-                        #     st.write(generateHint())
-                #  ------------ User has no more guesses left
-                else:
-                    # hides selectbox
-                    selectbox_placeholder.empty()
-                    st.session_state['game_over'] = True
-                    save_game_stats(False)
-                    st.write("Game over! You lost!")
-                    if st.button("Try again"):
-                        streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                        selectbox_placeholder.empty()
+                        st.session_state['game_over'] = True
+                        save_game_stats(False)
+                        st.write(f"Game over! You lost! The answer is: {st.session_state['winner']}")
+                        st.write(f"Your score this round: 0 points")
+                        if st.button("Next Round"):
+                            prepare_next_round()
+                            st.session_state['score_displayed'] = False
 
-                # RENDERING CLUES ------------
-                # get shared traits via util function and store values in clue_cards variable
-                shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
-                st.session_state['clue_cards'].append(shared)
-                # appends user guess to array for history
-                st.session_state['user_guess_history'].append(st.session_state['user_guess'])
-                # renders clue cards in reversed order based on the guesses made
-                for clue in reversed(range(st.session_state['counter'])):
-                    with st.container(border=True):
-                        st.title(f"Clue {clue+1}")
-                        st.header(f"Your guess was: :red[{st.session_state['user_guess_history'][clue]}]")
-                        space()
-                        space()
-                        st.write("Shared traits are: ")
-                        space()
-                        # using util function to render cards based on shared traits
-                        uncover_card(st.session_state['clue_cards'][clue])
-                        space()
-                        space()
-                        # Get a cute comment by ChatGPT
-                        # with st.chat_message("ai"):
-                        #     if len(st.session_state['clue_comments']) <= clue:
-                        #         st.write_stream(streamAndSafeClueComment(clue))
-                        #     else:
-                        #         st.write(st.session_state['clue_comments'][clue])
-                        space()
-                        space()
+                    shared = compare_traits(st.session_state['winner'], st.session_state['user_guess'])
+                    st.session_state['clue_cards'].append(shared)
+                    st.session_state['user_guess_history'].append(st.session_state['user_guess'])
 
-    # ------------ User has no more guesses left
-    else:
-        selectbox_placeholder.empty()
-        st.session_state['game_over'] = True
-        save_game_stats(False)
-        st.write("Game over! You lost!")
-        if st.button("Try again"):
-            streamlit_js_eval(js_expressions="parent.window.location.reload()")
+                    for clue in reversed(range(st.session_state['counter'])):
+                        with st.container():
+                            st.title(f"Clue {clue + 2}")
+                            st.header(f"Your guess was: :red[{st.session_state['user_guess_history'][clue]}]")
+                            space()
+                            st.write("Shared traits are: ")
+                            space()
+                            uncover_card(st.session_state['clue_cards'][clue])
+                            space()
 
-
-if st.session_state['won']:
-    if st.button("Play again"):
-        #st.session_state.clear()
-        streamlit_js_eval(js_expressions="parent.window.location.reload()")
-
-if st.sidebar.button("give up current quiz and count as loss"):
+if st.sidebar.button("Give up current quiz and count as loss"):
     save_game_stats(False)
-    # reload the page
-    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+    st.session_state.clear()
+    st.session_state['current_round'] = 1
+    st.session_state['total_score'] = 0
