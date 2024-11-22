@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 API_URL = 'https://api.api-ninjas.com/v1/animals'
-API_KEY = os.getenv("ANIMAL-KEY")  # Replace this with your actual API key
+API_KEY = os.getenv("ANIMAL-KEY")
 
 
 with open('animal_names.txt', 'r') as file:

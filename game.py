@@ -14,6 +14,7 @@ import streamlit as st
 import streamlit_shadcn_ui as ui
 from streamlit_space import space
 from streamlit_js_eval import streamlit_js_eval
+from streamlit_extras.stylable_container import stylable_container
 
 # API-specific imports
 from dotenv import load_dotenv
@@ -80,6 +81,8 @@ if 'clue_comments' not in st.session_state:
 if 'won' not in st.session_state:
     st.session_state['won'] = False
 
+if 'sharedNumberTraitsHistory' not in st.session_state:
+    st.session_state['sharedNumberTraitsHistory'] = []
 
 # ------------- HELPER FUNCTIONS ------------- #
 
@@ -224,9 +227,28 @@ else:
                 st.session_state['clue_cards'].append(shared)
                 # appends user guess to array for history
                 st.session_state['user_guess_history'].append(st.session_state['user_guess'])
+                # appends number of shared traits for coloring the border of the clue card correctly
+                st.session_state['sharedNumberTraitsHistory'].append(len(shared))
                 # renders clue cards in reversed order based on the guesses made
                 for clue in reversed(range(st.session_state['counter'])):
-                    with st.container(border=True):
+                    print(st.session_state['sharedNumberTraitsHistory'])
+                    borderColor = "rgba(255, 255, 255, 1)"
+                    # changing boarder color of clue based on number of shared traits
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 0: borderColor = "rgba(255, 0, 0, 1)"  # red
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 1: borderColor = "rgba(255, 165, 0, 1)"  # orange
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 2: borderColor = "rgba(255, 255, 0, 1)"  # yellow
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 3: borderColor = "rgba(0, 255, 0, 1)"  # green
+
+                    with stylable_container(
+                            key=f"container_with_border_{clue}",
+                            css_styles=f"""
+                                {{
+                                    border: 1px solid {borderColor};
+                                    border-radius: 0.5rem;
+                                    padding: calc(1em - 1px)
+                                }}
+                                """,
+                        ):
                         st.title(f"Clue {clue+1}")
                         st.header(f"Your guess was: :red[{st.session_state['user_guess_history'][clue]}]")
                         space()
