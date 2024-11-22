@@ -11,7 +11,7 @@ The project follows a straightforward architecture:
    - Data with animal information was fetched from the [**Animals API**](https://api-ninjas.com/api/animals).
    - Key components:
      - `game.py`: Contains the main game logic.
-     - `game_stats.py`: Responsible for visualizing game statistics.
+     - `stats.py`: Responsible for visualizing game statistics.
      - `utils.py`: Includes utility functions, such as calculating user scores.
      - `betterAnimalDB/animals.json`: DB for animal data.
 
