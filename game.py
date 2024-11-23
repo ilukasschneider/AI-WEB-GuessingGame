@@ -40,7 +40,7 @@ load_game_stats()
 guessCount = 6
 
 # Parsed animal data
-animal_data = json.load(open(r'betterAnimalDB/animals.json', 'r'))
+animal_data = json.load(open(r'animals.json', 'r'))
 # List of all animal names for the guessing input
 animal_names = sorted([animal['name'] for animal in animal_data])
 
@@ -157,10 +157,10 @@ if st.session_state['game_over']:
 
     if st.session_state['user_guess'] == st.session_state['winner']:
         st.write("Congratulations! You won the game!")
-        save_game_stats(True)
+        save_game_stats(st.session_state['counter'], True, st.session_state['sharedNumberTraitsHistory'])
     else:
         st.write("Game over! You lost!")
-        save_game_stats(False)
+        save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
     if st.button("Try again"):
         # Reload the page
         streamlit_js_eval(js_expressions="parent.window.location.reload()")
@@ -182,7 +182,7 @@ else:
 
             # ------------ Guess was correct
             if st.session_state['user_guess'] == st.session_state['winner']:
-                save_game_stats(True)
+                save_game_stats(st.session_state['counter'], True, st.session_state['sharedNumberTraitsHistory'])
                 # hides selectbox
                 selectbox_placeholder.empty()
                 st.write("Congratulations! You won the game!")
@@ -216,7 +216,7 @@ else:
                     # hides selectbox
                     selectbox_placeholder.empty()
                     st.session_state['game_over'] = True
-                    save_game_stats(False)
+                    save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
                     st.write("Game over! You lost!")
                     if st.button("Try again"):
                         streamlit_js_eval(js_expressions="parent.window.location.reload()")
@@ -234,10 +234,14 @@ else:
                     print(st.session_state['sharedNumberTraitsHistory'])
                     borderColor = "rgba(255, 255, 255, 1)"
                     # changing boarder color of clue based on number of shared traits
-                    if st.session_state['sharedNumberTraitsHistory'][clue] == 0: borderColor = "rgba(255, 0, 0, 1)"  # red
-                    if st.session_state['sharedNumberTraitsHistory'][clue] == 1: borderColor = "rgba(255, 165, 0, 1)"  # orange
-                    if st.session_state['sharedNumberTraitsHistory'][clue] == 2: borderColor = "rgba(255, 255, 0, 1)"  # yellow
-                    if st.session_state['sharedNumberTraitsHistory'][clue] == 3: borderColor = "rgba(0, 255, 0, 1)"  # green
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 0:
+                        borderColor = "rgba(255, 0, 0, 1)"  # red
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 1:
+                        borderColor = "rgba(255, 165, 0, 1)"  # orange
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 2:
+                        borderColor = "rgba(255, 255, 0, 1)"  # yellow
+                    if st.session_state['sharedNumberTraitsHistory'][clue] == 3:
+                        borderColor = "rgba(0, 255, 0, 1)"  # green
 
                     with stylable_container(
                             key=f"container_with_border_{clue}",
@@ -272,7 +276,7 @@ else:
     else:
         selectbox_placeholder.empty()
         st.session_state['game_over'] = True
-        save_game_stats(False)
+        save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
         st.write("Game over! You lost!")
         if st.button("Try again"):
             streamlit_js_eval(js_expressions="parent.window.location.reload()")
@@ -283,7 +287,9 @@ if st.session_state['won']:
         #st.session_state.clear()
         streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
-if st.sidebar.button("give up current quiz and count as loss"):
-    save_game_stats(False)
-    # reload the page
-    streamlit_js_eval(js_expressions="parent.window.location.reload()")
+# you may only give up if you made at least one guess
+if st.session_state['counter'] >= 1:
+    if st.sidebar.button("give up current quiz and count as loss"):
+        save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
+        # reload the page
+        streamlit_js_eval(js_expressions="parent.window.location.reload()")

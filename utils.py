@@ -5,7 +5,7 @@ from streamlit_space import space
 import random
 import os
 
-animals = json.load(open(r'betterAnimalDB/animals.json', 'r'))
+animals = json.load(open(r'animals.json', 'r'))
 
 # Define the file path for storing game stats
 stats_file = 'game_stats.json'
@@ -26,14 +26,12 @@ def load_game_stats():
         return default_stats  # Return the default values
 
 # Function to save game stats to a file
-def save_game_stats(is_won):
-    print("in funciton", is_won)
+def save_game_stats(clue_number, is_won, guess_evaluation):
     stats = load_game_stats()  # Load current stats
-    if is_won:
-        stats['games'].append(True)  # Increment games won
-    else:
-        stats['games'].append(False) # Increment games lost
-        # Save updated stats back to the file
+
+    stats['games'].append([clue_number, is_won, guess_evaluation])
+
+    # Save updated stats back to the file
     with open(stats_file, 'w') as file:
         json.dump(stats, file)
 

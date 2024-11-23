@@ -2,6 +2,6 @@ streamlit
 streamlit_space
 streamlit_shadcn_ui
 python-dotenv
-altair
 openai
 streamlit_js_eval
+plotly
