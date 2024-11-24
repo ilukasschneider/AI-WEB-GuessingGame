@@ -25,9 +25,7 @@ from openai import OpenAI
 
 #Todo:
 # improve interaction with Chatgpt
-# dialog window when trying to replay - sort of done
 # fix the index out of range that happenes only sometimes (?) -> when user is too fast
-# fix the bug where when the user wins, he need to press the button twice to reload page - done
 
 # loads the .env file -> API-KEYS
 load_dotenv()
@@ -85,7 +83,9 @@ if 'sharedNumberTraitsHistory' not in st.session_state:
     st.session_state['sharedNumberTraitsHistory'] = []
 
 # ------------- HELPER FUNCTIONS ------------- #
-
+# getter of guessCount, needed for stats page
+def get_guessCount():
+    return guessCount
 
 # returns a generated comment for a clue via openai-api
 def generateClueComment(clueNumber, guess, correctAnswer):
@@ -157,9 +157,11 @@ if st.session_state['game_over']:
 
     if st.session_state['user_guess'] == st.session_state['winner']:
         st.write("Congratulations! You won the game!")
+        st.write(f"You are rewarded {guessCount - st.session_state['counter']} points.")
         save_game_stats(st.session_state['counter'], True, st.session_state['sharedNumberTraitsHistory'])
     else:
         st.write("Game over! You lost!")
+        st.write("You are rewarded 0 points.")
         save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
     if st.button("Try again"):
         # Reload the page
@@ -186,6 +188,7 @@ else:
                 # hides selectbox
                 selectbox_placeholder.empty()
                 st.write("Congratulations! You won the game!")
+                st.write(f"You are rewarded {guessCount - st.session_state['counter']} points.")
                 st.session_state['game_over'] = True
                 st.session_state['won'] = True
                 #st.session_state.clear()
@@ -218,6 +221,7 @@ else:
                     st.session_state['game_over'] = True
                     save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
                     st.write("Game over! You lost!")
+                    st.write("You are rewarded 0 points.")
                     if st.button("Try again"):
                         streamlit_js_eval(js_expressions="parent.window.location.reload()")
 
@@ -278,6 +282,7 @@ else:
         st.session_state['game_over'] = True
         save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
         st.write("Game over! You lost!")
+        st.write("You are rewarded 0 points.")
         if st.button("Try again"):
             streamlit_js_eval(js_expressions="parent.window.location.reload()")
 

@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from utils import load_game_stats, delete_stats
+from game import get_guessCount
 import plotly.graph_objects as go
 
 from streamlit_js_eval import streamlit_js_eval
@@ -27,7 +28,7 @@ data = {
     "Good Guesses": list(game[2].count(4) + game[2].count(3) for game in games),
     "Average Guesses": list(game[2].count(2) + game[2].count(1) for game in games),
     "Bad Guesses": list(game[2].count(0) for game in games),
-    "Quality": list(sum(game[2])/len(game[2]) for game in games)
+    "Points": list(get_guessCount()-game[0] for game in games)
 }
 df = pd.DataFrame(data)
 
@@ -97,6 +98,17 @@ if total_games > 0:
 
     # Display the Plotly chart in Streamlit
     st.plotly_chart(fig)
+
+    # plot the points per game
+
+    st.write("## Points per Game")
+    fig2 = go.Figure()
+    fig2.add_trace(go.Bar(x=df.index, y=df["Points"], name="Points", marker=dict(color='green')))
+
+    fig2.add_trace(go.Scatter(x=df.index, y=[df["Points"].mean()] * len(df), line=dict(color='red', dash='dash')))
+
+    fig2.update_layout(barmode='stack', title="Points per Game", xaxis_title="Game Index", yaxis_title="Points")
+    st.plotly_chart(fig2)
 
 
 
