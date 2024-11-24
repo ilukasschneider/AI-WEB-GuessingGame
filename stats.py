@@ -60,7 +60,9 @@ if total_games > 0:
 
     # Summary table for each game
     st.write("## Game-by-Game Summary")
-    st.dataframe(df)
+    
+
+    st.markdown(df.style.hide(axis="index").to_html(), unsafe_allow_html=True)
 
     st.session_state.detailed_view = False
 
