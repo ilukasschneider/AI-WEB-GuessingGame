@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 .env
 game_stats.json
+.streamlit/secrets.toml
