@@ -272,11 +272,11 @@ else:
                         space()
                         space()
                         # Get a cute comment by ChatGPT
-                        with st.chat_message("ai"):
-                            if len(st.session_state['clue_comments']) <= clue:
-                                 st.write_stream(streamAndSafeClueComment(clue))
-                            else:
-                                 st.write(st.session_state['clue_comments'][clue])
+                        # with st.chat_message("ai"):
+                        #     if len(st.session_state['clue_comments']) <= clue:
+                        #          st.write_stream(streamAndSafeClueComment(clue))
+                        #     else:
+                        #          st.write(st.session_state['clue_comments'][clue])
                         space()
                         space()
 
