@@ -41,6 +41,7 @@ def delete_stats():
     os.remove(stats_file)
     load_game_stats()
 
+
 def get_traits(animal1, animal2):
 
     trait1, trait2 = None, None
@@ -63,6 +64,7 @@ def get_traits(animal1, animal2):
 
     return trait1, trait2
 
+
 def compare_traits(animal1, animal2):
     traits1, traits2 = get_traits(animal1, animal2)
 
@@ -82,6 +84,7 @@ def compare_traits(animal1, animal2):
         shared['Location'] = ", ".join(common_locations)
 
     return shared
+
 
 def uncover_card(shared_traits):
     if shared_traits:
