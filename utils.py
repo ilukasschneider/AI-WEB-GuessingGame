@@ -5,6 +5,9 @@ from streamlit_space import space
 import random
 import os
 
+# number of allowed guesses
+GUESS_COUNT = 6
+
 animals = json.load(open(r'animals.json', 'r'))
 
 # Define the file path for storing game stats
@@ -13,13 +16,11 @@ stats_file = 'game_stats.json'
 # Function to load or create game stats from a file
 def load_game_stats():
     if os.path.exists(stats_file):
-        print("if")
         # If the file exists, load it
         with open(stats_file, 'r') as file:
             return json.load(file)
     else:
         # If the file does not exist, create it with default values
-        print("else")
         default_stats = {'games': [] }
         with open(stats_file, 'w') as file:
             json.dump(default_stats, file)

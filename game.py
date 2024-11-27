@@ -8,6 +8,7 @@ import random
 from utils import compare_traits
 from utils import uncover_card
 from utils import save_game_stats
+from utils import GUESS_COUNT
 
 # Streamlit-specific imports
 import streamlit as st
@@ -24,10 +25,9 @@ from openai import OpenAI
 # Open-AI Api key
 API_KEY = st.secrets["OPEN-AI-KEY"]
 
-USE_CHATGPT = False
+USE_CHATGPT = True
 
-# number of allowed guesses
-GUESS_COUNT = 6
+
 
 # ------------ SESSIONSTATE-VARIABLES -------------- #
 def init_session_state(animal_names):
@@ -208,7 +208,6 @@ def render_clues():
     st.session_state['sharedNumberTraitsHistory'].append(len(shared))
     # renders clue cards in reversed order based on the guesses made
     for clue in reversed(range(st.session_state['counter'])):
-        print(st.session_state['sharedNumberTraitsHistory'])
         borderColor = "rgba(255, 255, 255, 1)"
         # changing boarder color of clue based on number of shared traits
         if st.session_state['sharedNumberTraitsHistory'][clue] == 0:
@@ -291,7 +290,6 @@ def render_game(animal_names):
 
 
 def render_play_again_button():
-    print("Play again")
     if st.session_state['won'] or st.session_state["game_over"]:
         if st.button("Play again"):
             streamlit_js_eval(js_expressions="parent.window.location.reload()")
