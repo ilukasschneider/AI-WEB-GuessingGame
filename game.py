@@ -69,7 +69,7 @@ def generateClueComment(clueNumber, guess, correctAnswer):
 
     client = OpenAI(api_key=API_KEY)
     model = "gpt-4o-mini"
-    question = f"The guess was number {clueNumber} and the guess was {guess} and the correct answer was {correctAnswer}. Write a short comment for the user about the guess. Maybe a fun fact about the animal of choice. keep it really short. DO NOT GIVE ANY HINT ABOUT THE CORRECT ANSWERS {correctAnswer} "
+    question = f"User's guess {clueNumber}: '{guess}'. Correct answer: '{correctAnswer}'. Write a very short comment to the user about their guess, maybe include a fun fact about '{guess}'. Keep it concise and do not give any hints about '{correctAnswer}'. Use emojis."
 
     chat_completion = client.chat.completions.create(
         model=model,
@@ -98,7 +98,7 @@ def generateHint():
 
     for word in answer.split(" "):
         yield word + " "
-        # time.sleep(0.1)  ################# cool effect but creates bug if player is too fast
+        time.sleep(0.2)
 
 
 # returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
@@ -111,8 +111,6 @@ def streamAndSafeClueComment(clueNumber):
     # this is how this text streaming is done in streamlit
     for word in st.session_state['clue_comments'][clueNumber].split(" "):
         yield word + " "
-        # change time of text writing effect
-        # time.sleep(0.05) ################# cool effect but creates bug if player is too fast
 
 
 # try to use for text input
@@ -184,9 +182,9 @@ def render_clue_container(clue, borderColor):
                 """,
         ):
         st.title(f"Clue {clue+1}")
-        st.header(f"Your guess was: :red[{st.session_state['user_guess_history'][clue]}]")
+        st.header(f"your guess was :red[{st.session_state['user_guess_history'][clue]}]")
         space(lines=2)
-        st.write("Shared traits are: ")
+        st.header("shared traits are ")
         space()
         # using util function to render cards based on shared traits
         uncover_card(st.session_state['clue_cards'][clue])
@@ -254,7 +252,7 @@ def render_next_guess(selectbox_placeholder, animal_names):
     # Dropdown for the user to select an animal name for guessing
     st.session_state['user_guess'] = selectbox_placeholder.selectbox(
         "What animal do you think this is?",
-        [''] + animal_names
+         animal_names
     )
 
     # ------------ User selected an animal name
@@ -280,7 +278,8 @@ def render_next_round(animal_names):
 
 
 def render_game(animal_names):
-    render_dev_solution()
+    st.image("logo.png")
+    space(lines=2)
 
     # Check if the game is over - won or lost
     if st.session_state['game_over']:
@@ -306,7 +305,7 @@ def render_give_up_button():
 def render_game_rules_expander():
     st.sidebar.divider()
     with st.sidebar.expander("Game Rules", expanded=False):
-        st.write("**Welcome to the Animal Guessing Game!**")
+        st.write("**Welcome to the Animal Clues!**")
 
         st.write("### How to Play:")
         st.write(f"1. **Objective**: Guess the correct animal within {GUESS_COUNT} attempts.")
