@@ -1,4 +1,4 @@
-# AI-WEB-GuessingGame
+# 🐸🐻🦊 AI-WEB-GuessingGame
 
 Welcome to the **AI-WEB-GuessingGame** repository! This project is an interactive web-based guessing game centered on identifying animals. It is developed using **Python** and **Streamlit** as part of a university course.
 
