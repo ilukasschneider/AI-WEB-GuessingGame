@@ -37,7 +37,16 @@ To run the project locally, make sure you have the following installed:
      pip install streamlit
      ```
 
-3. **Other Dependencies**:
+3. **Set Up OpenAI API Key**
+   - Create a folder named `.streamlit` in your project's root directory.
+   - Inside the `.streamlit` folder, create a file called `secrets.toml`.
+   - Add your OpenAI API key to the `secrets.toml` file in the following format:
+     ```toml
+     AI_KEY = "your-api-key-here"
+     ```
+   - Replace `"your-api-key-here"` with your actual OpenAI API key.
+
+4. **Other Dependencies**:
    - Additional libraries are listed in the `requirements.txt` file.
    - Install them using:
      ```bash
