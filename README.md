@@ -53,7 +53,7 @@ To run the project locally, make sure you have the following installed:
      pip install -r requirements.txt
      ```
 
-## Run the project:
+## 🛫 Run the project:
    ```bash
    streamlit run app.py
    ```
