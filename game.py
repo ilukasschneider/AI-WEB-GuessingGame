@@ -252,7 +252,7 @@ def render_next_guess(selectbox_placeholder, animal_names):
     # Dropdown for the user to select an animal name for guessing
     st.session_state['user_guess'] = selectbox_placeholder.selectbox(
         "What animal do you think this is?",
-         animal_names
+        [""]+animal_names
     )
 
     # ------------ User selected an animal name
