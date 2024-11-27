@@ -69,7 +69,7 @@ def generateClueComment(clueNumber, guess, correctAnswer):
 
     client = OpenAI(api_key=API_KEY)
     model = "gpt-4o-mini"
-    question = f"User's guess {clueNumber}: '{guess}'. Correct answer: '{correctAnswer}'. Write a very short comment to the user about their guess, maybe include a fun fact about '{guess}'. Keep it concise and do not give any hints about '{correctAnswer}'. Use emojis."
+    question = f"User's guess {clueNumber}: '{guess}'. Correct answer: '{correctAnswer}'. Write a very short comment to the user about their guess, maybe include a fun fact about '{guess}'. Keep it concise and do not give any hints about '{correctAnswer}'. Use emojis. roast the user a little bit in a funny sarcastic way because the user got the guess wrong - if possible make the roast relate to the current guess {guess}."
 
     chat_completion = client.chat.completions.create(
         model=model,
@@ -111,7 +111,6 @@ def streamAndSafeClueComment(clueNumber):
     # this is how this text streaming is done in streamlit
     for word in st.session_state['clue_comments'][clueNumber].split(" "):
         yield word + " "
-        time.sleep(0.05)
 
 
 # try to use for text input
