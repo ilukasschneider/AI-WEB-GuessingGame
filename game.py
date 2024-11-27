@@ -98,7 +98,7 @@ def generateHint():
 
     for word in answer.split(" "):
         yield word + " "
-        time.sleep(0.2)
+        time.sleep(0.05)
 
 
 # returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
@@ -111,6 +111,7 @@ def streamAndSafeClueComment(clueNumber):
     # this is how this text streaming is done in streamlit
     for word in st.session_state['clue_comments'][clueNumber].split(" "):
         yield word + " "
+        time.sleep(0.05)
 
 
 # try to use for text input
@@ -146,9 +147,11 @@ def render_game_over(selectbox_placeholder):
     selectbox_placeholder.empty()
     st.session_state['game_over'] = True
     save_game_stats(st.session_state['counter'], False, st.session_state['sharedNumberTraitsHistory'])
-    st.write("Game over! You lost!")
+    st.title("Game over! You lost!")
+    space()
+    st.write(f"The correct answer was :green[{st.session_state['winner']}].")
     st.write("You are rewarded 0 points.")
-
+    st.divider()
 
 def render_correct_guess(selectbox_placeholder):
     save_game_stats(st.session_state['counter'], True, st.session_state['sharedNumberTraitsHistory'])
