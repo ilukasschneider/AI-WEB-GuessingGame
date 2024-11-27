@@ -42,9 +42,9 @@ To run the project locally, make sure you have the following installed:
    - Inside the `.streamlit` folder, create a file called `secrets.toml`.
    - Add your OpenAI API key to the `secrets.toml` file in the following format:
      ```toml
-     AI_KEY = "your-api-key-here"
+     OPEN-AI-KEY = "your-api-key-here"
      ```
-   - Replace `"your-api-key-here"` with your actual OpenAI API key.
+   - Replace `your-api-key-here` with your actual OpenAI API key.
 
 4. **Other Dependencies**:
    - Additional libraries are listed in the `requirements.txt` file.
