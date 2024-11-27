@@ -23,6 +23,7 @@ The project follows a straightforward architecture:
 
 3. **Deployment**:
    - The app can be run locally or accessed via **Streamlit Cloud** (link provided in the repository description).
+   - **Important:** The statistics feature is currently functional only when the application is started locally.
 
 ## ⚙️ Requirements
 
