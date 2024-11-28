@@ -55,7 +55,7 @@ def init_session_state(animal_names):
         st.session_state['clue_cards'] = []
 
     if 'clue_comments' not in st.session_state:
-        st.session_state['clue_comments'] = []
+        st.session_state['clue_comments'] = {}
 
     if 'won' not in st.session_state:
         st.session_state['won'] = False
@@ -104,12 +104,13 @@ def generateHint():
 # returns a generated comment-stream (!) for a clue via openai-api and also saves the comment inside clueComments array
 def streamAndSafeClueComment(clueNumber):
     # appends the GPT-generated comment to the gobal clueComments array
+    clue_comment = generateClueComment(clueNumber, f"{st.session_state['user_guess_history'][clueNumber]}", f"{st.session_state['winner']}")
     if st.session_state['clue_comments']:
-        st.session_state['clue_comments'].append(generateClueComment(clueNumber, f"{st.session_state['user_guess']}", f"{st.session_state['winner']}"))
+        st.session_state['clue_comments'][clueNumber] = clue_comment
     else:
-        st.session_state['clue_comments'] = [generateClueComment(clueNumber, f"{st.session_state['user_guess']}", f"{st.session_state['winner']}")]
+        st.session_state['clue_comments'] = {clueNumber: clue_comment}
     # this is how this text streaming is done in streamlit
-    for word in st.session_state['clue_comments'][clueNumber].split(" "):
+    for word in clue_comment.split(" "):
         yield word + " "
 
 
@@ -166,7 +167,7 @@ def render_correct_guess(selectbox_placeholder):
 def render_ai_comment(clue):
     # Get a cute comment by ChatGPT
     with st.chat_message("ai"):
-        if len(st.session_state['clue_comments']) <= clue:
+        if clue not in st.session_state['clue_comments']:
             st.write_stream(streamAndSafeClueComment(clue))
         else:
             st.write(st.session_state['clue_comments'][clue])
@@ -208,6 +209,8 @@ def render_clues():
     st.session_state['sharedNumberTraitsHistory'].append(len(shared))
     # renders clue cards in reversed order based on the guesses made
     for clue in reversed(range(st.session_state['counter'])):
+        if clue > len(st.session_state['sharedNumberTraitsHistory']) - 1:
+            continue
         borderColor = "rgba(255, 255, 255, 1)"
         # changing boarder color of clue based on number of shared traits
         if st.session_state['sharedNumberTraitsHistory'][clue] == 0:
